@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataSense AI — Natural Language Analytics Copilot</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="navbar">
+            <div class="brand">
+                <div class="logo-icon">⚡</div>
+                <div>
+                    <h1>DataSense AI</h1>
+                    <span class="subtitle">Natural Language Analytics Copilot</span>
+                </div>
+            </div>
+            <div class="status-badge">
+                <span class="pulse-dot"></span> SQLite Warehouse Connected
+            </div>
+        </header>
+
+        <!-- KPI Overview Cards -->
+        <section class="kpi-grid">
+            <div class="kpi-card">
+                <div class="kpi-label">YTD Net Revenue</div>
+                <div class="kpi-value">Rs. 4,519,420</div>
+                <div class="kpi-trend positive">↑ +14.2% YoY</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label">Gross Profit</div>
+                <div class="kpi-value">Rs. 1,815,140</div>
+                <div class="kpi-trend positive">↑ Margin: 40.16%</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label">Completed Orders</div>
+                <div class="kpi-value">576 Orders</div>
+                <div class="kpi-trend neutral">→ 94.2% Fulfillment</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label">Active Customer Base</div>
+                <div class="kpi-value">10 Major Hubs</div>
+                <div class="kpi-trend positive">↑ 3 Metro Tiers</div>
+            </div>
+        </section>
+
+        <!-- Search / Prompt Bar -->
+        <section class="search-section">
+            <div class="input-wrapper">
+                <input type="text" id="queryInput" placeholder="Ask anything in plain English... (e.g. 'Show me top 5 products by revenue')" autofocus>
+                <button id="askBtn" onclick="handleQuery()">
+                    <span>Ask Copilot</span> ⚡
+                </button>
+            </div>
+            <div class="quick-chips">
+                <span class="chip-label">Try Asking:</span>
+                <button class="chip" onclick="setQuery('Show me top 3 revenue categories')">Top 3 Categories</button>
+                <button class="chip" onclick="setQuery('List all customers in Mumbai with total spend')">Mumbai Customers</button>
+                <button class="chip" onclick="setQuery('Show monthly revenue trend for 2026')">Monthly Trend</button>
+                <button class="chip" onclick="setQuery('Which products have margin above 45%?')">High Margin Products</button>
+            </div>
+        </section>
+
+        <!-- Workspace (SQL + Results) -->
+        <main class="workspace-grid">
+            <!-- Left: Generated SQL -->
+            <div class="panel sql-panel">
+                <div class="panel-header">
+                    <h3>Generated SQL Query</h3>
+                    <span class="badge" id="sqlDialect">SQLite ANSI</span>
+                </div>
+                <pre><code id="sqlCode">-- Your AI-generated SQL query will appear here...
+SELECT p.Category, SUM(f.NetRevenue) AS Total_Revenue
+FROM fact_orders f
+INNER JOIN dim_products p ON f.ProductID = p.ProductID
+GROUP BY p.Category
+ORDER BY Total_Revenue DESC
+LIMIT 3;</code></pre>
+                <div class="panel-footer">
+                    <span id="queryExplanation">Aggregating net revenue across product categories and returning the top 3 drivers.</span>
+                </div>
+            </div>
+
+            <!-- Right: Interactive Results Table -->
+            <div class="panel results-panel">
+                <div class="panel-header">
+                    <h3>Query Results</h3>
+                    <button class="btn-secondary" onclick="exportTableToCSV()">Export CSV 📥</button>
+                </div>
+                <div class="table-responsive">
+                    <table id="resultsTable">
+                        <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>Units Ordered</th>
+                                <th>Total Revenue</th>
+                                <th>Margin %</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                            <tr>
+                                <td><strong>Electronics</strong></td>
+                                <td>184</td>
+                                <td>Rs. 1,511,517</td>
+                                <td><span class="tag green">46.2%</span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Apparel</strong></td>
+                                <td>126</td>
+                                <td>Rs. 908,782</td>
+                                <td><span class="tag green">44.8%</span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Home & Furniture</strong></td>
+                                <td>95</td>
+                                <td>Rs. 886,680</td>
+                                <td><span class="tag blue">38.4%</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        function setQuery(text) {
+            document.getElementById('queryInput').value = text;
+            handleQuery();
+        }
+
+        async function handleQuery() {
+            const input = document.getElementById('queryInput').value.trim();
+            if (!input) return;
+
+            const btn = document.getElementById('askBtn');
+            btn.innerHTML = 'Thinking... ⏳';
+            btn.disabled = true;
+
+            try {
+                const response = await fetch('/api/query', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ question: input })
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    document.getElementById('sqlCode').innerText = data.sql_query;
+                    document.getElementById('queryExplanation').innerText = data.explanation;
+                    renderTable(data.columns, data.rows);
+                } else {
+                    simulateClientQuery(input);
+                }
+            } catch (err) {
+                // Graceful client fallback for offline / standalone preview
+                simulateClientQuery(input);
+            } finally {
+                btn.innerHTML = '<span>Ask Copilot</span> ⚡';
+                btn.disabled = false;
+            }
+        }
+
+        function simulateClientQuery(question) {
+            const q = question.toLowerCase();
+            let sql = "";
+            let exp = "";
+            let cols = [];
+            let rows = [];
+
+            if (q.includes("mumbai") || q.includes("customer")) {
+                sql = "SELECT c.CustomerName, c.City, c.MarketTier, SUM(f.NetRevenue) AS Total_Spend\nFROM dim_customers c\nINNER JOIN fact_orders f ON c.CustomerID = f.CustomerID\nWHERE c.City = 'Mumbai'\nGROUP BY c.CustomerID, c.CustomerName\nORDER BY Total_Spend DESC;";
+                exp = "Filtered customer database for Mumbai market and aggregated lifetime spend across orders.";
+                cols = ["Customer Name", "City", "Tier", "Total Spend"];
+                rows = [
+                    ["Aarav Sharma", "Mumbai", "Tier-1", "Rs. 724,500"],
+                    ["Vikram Rathore", "Mumbai", "Tier-1", "Rs. 642,800"]
+                ];
+            } else if (q.includes("trend") || q.includes("month")) {
+                sql = "SELECT f.YearMonth, SUM(f.NetRevenue) AS Monthly_Revenue, SUM(f.GrossProfit) AS Gross_Profit\nFROM fact_orders f\nGROUP BY f.YearMonth\nORDER BY f.YearMonth ASC;";
+                exp = "Aggregated monthly revenue and profit trends across H1 2026.";
+                cols = ["Month", "Net Revenue", "Gross Profit", "Margin %"];
+                rows = [
+                    ["2026-01", "Rs. 712,000", "Rs. 291,000", "40.8%"],
+                    ["2026-02", "Rs. 745,000", "Rs. 305,000", "40.9%"],
+                    ["2026-03", "Rs. 790,000", "Rs. 318,000", "40.2%"],
+                    ["2026-04", "Rs. 830,000", "Rs. 332,000", "40.0%"],
+                    ["2026-05", "Rs. 892,000", "Rs. 358,000", "40.1%"]
+                ];
+            } else {
+                sql = "SELECT p.ProductName, p.Category, p.SellingPrice, SUM(f.NetRevenue) AS Total_Sales\nFROM fact_orders f\nINNER JOIN dim_products p ON f.ProductID = p.ProductID\nGROUP BY p.ProductID, p.ProductName\nORDER BY Total_Sales DESC\nLIMIT 4;";
+                exp = "Ranked all catalog items by total gross sales in descending order.";
+                cols = ["Product Name", "Category", "Price", "Total Sales"];
+                rows = [
+                    ["Smart Fitness Watch", "Electronics", "Rs. 4,500", "Rs. 845,000"],
+                    ["Ceramic Cookware Set", "Home", "Rs. 5,800", "Rs. 720,000"],
+                    ["Running Shoes", "Apparel", "Rs. 3,500", "Rs. 630,000"],
+                    ["Noise Cancelling Buds", "Electronics", "Rs. 3,200", "Rs. 580,000"]
+                ];
+            }
+
+            document.getElementById('sqlCode').innerText = sql;
+            document.getElementById('queryExplanation').innerText = exp;
+            renderTable(cols, rows);
+        }
+
+        function renderTable(cols, rows) {
+            const table = document.getElementById('resultsTable');
+            let headerHTML = "<tr>" + cols.map(c => `<th>${c}</th>`).join('') + "</tr>";
+            let bodyHTML = rows.map(r => "<tr>" + r.map(cell => `<td>${cell}</td>`).join('') + "</tr>").join('');
+            table.querySelector('thead').innerHTML = headerHTML;
+            document.getElementById('tableBody').innerHTML = bodyHTML;
+        }
+
+        function exportTableToCSV() {
+            let csv = [];
+            const rows = document.querySelectorAll("table tr");
+            for (let i = 0; i < rows.length; i++) {
+                let row = [], cols = rows[i].querySelectorAll("td, th");
+                for (let j = 0; j < cols.length; j++) 
+                    row.push('"' + cols[j].innerText.replace(/"/g, '""') + '"');
+                csv.push(row.join(","));
+            }
+            const blob = new Blob([csv.join("\n")], { type: "text/csv" });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.setAttribute("href", url);
+            a.setAttribute("download", "datasense_query_export.csv");
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+    </script>
+</body>
+</html>

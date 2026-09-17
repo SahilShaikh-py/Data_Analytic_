@@ -1,0 +1,11 @@
+CustomerID,CustomerName,City,MarketTier,AcquisitionChannel
+101,Aarav Sharma,Mumbai,Tier-1,Organic Search
+102,Neha Verma,Delhi,Tier-1,Instagram Ads
+103,Rohan Gupta,Bangalore,Tier-1,Google Ads
+104,Priya Nair,Pune,Tier-2,Referral
+105,Vikram Rathore,Mumbai,Tier-1,Direct App
+106,Sneha Rao,Hyderabad,Tier-2,Instagram Ads
+107,Karan Johar,Delhi,Tier-1,Google Ads
+108,Divya Sen,Kolkata,Tier-2,Organic Search
+109,Amit Patel,Ahmedabad,Tier-2,Referral
+110,Pooja Hegde,Bangalore,Tier-1,Direct App

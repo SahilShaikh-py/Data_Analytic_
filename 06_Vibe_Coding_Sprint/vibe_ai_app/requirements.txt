@@ -1,0 +1,4 @@
+# Minimal production dependencies for Render / Railway cloud deployments
+google-generativeai>=0.7.0
+pandas>=2.0.0
+pytest>=8.0.0
