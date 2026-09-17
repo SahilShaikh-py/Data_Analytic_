@@ -1,0 +1,351 @@
+OrderID,OrderDate,ShipDate,ShipMode,CustomerID,CustomerName,City,State,Region,Country,ProductID,Quantity,UnitPrice,Discount,SalesAmount,CostAmount,Profit,PaymentMethod,ReturnStatus,ManagerEmail
+ORD-20240247,2024-01-02,2024-01-04,First Class,CUST-1090,Emily Taylor,Bengaluru,KA,South,India,PRD-106,8,316.82,0.0,2534.56,1920.0,614.56,UPI,Delivered,south.manager@ysm.com
+ORD-20240081,2024-01-02,2024-01-07,First Class,CUST-1057,Valued Customer,Mumbai,MH,West,India,PRD-112,8,337.37,0.15,2294.12,2240.0,54.12,Net Banking,In Transit,west.manager@ysm.com
+ORD-20240173,2024-01-02,2024-01-06,Same Day,CUST-1040,Valued Customer,Mumbai,MH,West,India,PRD-106,9,299.64,0.1,2427.08,2160.0,267.08,UPI,Returned,west.manager@ysm.com
+ORD-20240233,2024-01-03,2024-01-09,First Class,CUST-1075,Aarav Jones,Chicago,IL,US-Central,USA,PRD-112,5,408.49,0.15,1736.08,1400.0,336.08,UPI,In Transit,us.manager@ysm.com
+ORD-20240082,2024-01-03,2024-01-08,Same Day,CUST-1085,Priya Patel,Ahmedabad,GJ,West,India,PRD-112,10,362.64,0.15,3082.44,2800.0,282.44,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240097,2024-01-04,2024-01-05,First Class,CUST-1074,Ananya Jones,Singapore,SG,Asia-Pac,Singapore,PRD-106,10,320.77,0.2,2566.16,2400.0,166.16,Credit Card,In Transit,apac.manager@ysm.com
+ORD-20240189,2024-01-04,2024-01-06,Standard Class,CUST-1018,Rohan Patel,London,LDN,Europe,UK,PRD-103,10,1186.16,0.1,10675.44,8000.0,2675.44,Cash on Delivery,Returned,europe.manager@ysm.com
+ORD-20240334,2024-01-06,2024-01-10,Second Class,CUST-1039,Pooja Taylor,Mumbai,MH,West,India,PRD-110,7,232.29,0.05,1544.73,1050.0,494.73,Cash on Delivery,Returned,west.manager@ysm.com
+ORD-20240210,2024-01-07,2024-01-13,Same Day,CUST-1087,Vikram Iyer,Berlin,BER,Europe,Germany,PRD-106,3,379.19,0.1,1023.81,720.0,303.81,UPI,Delivered,europe.manager@ysm.com
+ORD-20240273,2024-01-07,2024-01-13,Same Day,CUST-1096,Valued Customer,Mumbai,MH,West,India,PRD-113,7,660.98,0.15,3932.83,3150.0,782.83,Net Banking,Returned,west.manager@ysm.com
+ORD-20240266,2024-01-08,2024-01-13,Second Class,CUST-1013,Kavita Johnson,Chennai,TN,South,India,PRD-102,5,1412.01,0.05,6707.05,4750.0,1957.05,Net Banking,Delivered,south.manager@ysm.com
+ORD-20240301,2024-01-10,2024-01-16,Second Class,CUST-1020,Rohan Wilson,Mumbai,LDN,Europe,UK,PRD-105,4,100.15,0.15,340.51,280.0,60.51,UPI,Returned,europe.manager@ysm.com
+ORD-20240327,2024-01-12,2024-01-17,Second Class,CUST-1019,Fatima Khan,New York,NY,US-East,USA,PRD-103,8,1250.19,0.05,9501.44,6400.0,3101.44,UPI,Returned,us.manager@ysm.com
+ORD-20240053,2024-01-12,2024-01-13,Second Class,CUST-1096,Valued Customer,Mumbai,MH,West,India,PRD-102,5,1490.46,0.1,6707.07,4750.0,1957.07,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240063,2024-01-14,2024-01-19,First Class,CUST-1048,Valued Customer,Mumbai,MH,West,India,PRD-115,10,50.48,0.05,479.56,350.0,129.56,Net Banking,Delivered,west.manager@ysm.com
+ORD-20240280,2024-01-14,2024-01-16,Same Day,CUST-1050,Valued Customer,Mumbai,MH,West,India,PRD-106,6,346.04,0.05,1972.43,1440.0,532.43,UPI,Delivered,west.manager@ysm.com
+ORD-20240322,2024-01-15,2024-01-16,Second Class,CUST-1018,Rohan Patel,London,LDN,Europe,UK,PRD-113,3,653.43,0.0,1960.29,1350.0,610.29,Cash on Delivery,Delivered,europe.manager@ysm.com
+ORD-20240085,2024-01-17,2024-01-23,First Class,CUST-1069,Rahul Khan,Mumbai,MH,West,India,PRD-105,2,93.27,0.0,186.54,140.0,46.54,Credit Card,Delivered,west.manager@ysm.com
+ORD-20240108,2024-01-19,2024-01-23,Same Day,CUST-1087,Vikram Iyer,Berlin,BER,Europe,Germany,PRD-105,9,103.98,0.0,935.82,630.0,305.82,Credit Card,Delivered,europe.manager@ysm.com
+ORD-20240343,2024-01-19,2024-01-23,First Class,CUST-1019,Fatima Khan,New York,NY,US-East,USA,PRD-103,8,1012.34,0.15,6883.91,6400.0,483.91,Credit Card,Delivered,us.manager@ysm.com
+ORD-20240344,2024-01-21,2024-01-25,First Class,CUST-1022,Michael Iyer,Chennai,TN,South,India,PRD-104,9,95.73,0.15,732.33,540.0,192.33,Cash on Delivery,Delivered,south.manager@ysm.com
+ORD-20240176,2024-01-21,2024-01-25,Second Class,CUST-1028,Priya Singh,London,LDN,Europe,UK,PRD-101,7,1121.62,0.0,7851.34,5950.0,1901.34,UPI,Delivered,europe.manager@ysm.com
+ORD-20240246,2024-01-22,2024-01-25,First Class,CUST-1010,Emily Johnson,Kolkata,WB,East,India,PRD-112,8,391.34,0.05,2974.18,2240.0,734.18,Credit Card,In Transit,east.manager@ysm.com
+ORD-20240036,2024-01-22,2024-01-25,Second Class,CUST-1042,Valued Customer,Mumbai,MH,West,India,PRD-107,4,505.68,0.05,1921.58,1520.0,401.58,Credit Card,Returned,west.manager@ysm.com
+ORD-20240338,2024-01-22,2024-01-27,Second Class,CUST-1051,Valued Customer,Mumbai,MH,West,India,PRD-114,9,143.45,0.15,1097.39,990.0,107.39,UPI,Delivered,west.manager@ysm.com
+ORD-20240308,2024-01-22,2024-01-28,Same Day,CUST-1076,Rahul Wilson,San Francisco,CA,US-West,USA,PRD-103,1,1210.31,0.0,1210.31,800.0,410.31,UPI,Delivered,us.manager@ysm.com
+ORD-20240002,2024-01-22,2024-01-28,Standard Class,CUST-1071,Rahul Brown,Chicago,IL,US-Central,USA,PRD-107,5,494.5,0.05,2348.88,1900.0,448.88,UPI,Delivered,us.manager@ysm.com
+ORD-20240109,2024-01-23,2024-01-29,Standard Class,CUST-1051,Valued Customer,Mumbai,MH,West,India,PRD-108,1,100.0,0.0,100.0,75.0,25.0,Net Banking,In Transit,west.manager@ysm.com
+ORD-20240095,2024-01-24,2024-01-27,First Class,CUST-1025,Fatima Wilson,Berlin,BER,Europe,Germany,PRD-104,4,85.45,0.0,341.8,240.0,101.8,Debit Card,Returned,europe.manager@ysm.com
+ORD-20240297,2024-01-25,2024-01-28,Same Day,CUST-1040,Valued Customer,Mumbai,MH,West,India,PRD-107,10,578.3,0.0,5783.0,3800.0,1983.0,Net Banking,Delivered,west.manager@ysm.com
+ORD-20240018,2024-01-26,2024-01-29,Second Class,CUST-1054,Valued Customer,Mumbai,MH,West,India,PRD-101,2,1226.02,0.0,2452.04,1700.0,752.04,Debit Card,Returned,west.manager@ysm.com
+ORD-20240197,2024-01-27,2024-02-01,Second Class,CUST-1090,Emily Taylor,Bengaluru,KA,South,India,PRD-109,1,82.11,0.15,69.79,65.0,4.79,Net Banking,Delivered,south.manager@ysm.com
+ORD-20240201,2024-01-28,2024-02-01,Second Class,CUST-1097,Valued Customer,Mumbai,MH,West,India,PRD-113,10,578.91,0.15,4920.74,4500.0,420.74,Debit Card,Delivered,west.manager@ysm.com
+ORD-20240133,2024-01-28,2024-01-29,First Class,CUST-1008,John Iyer,Chennai,TN,South,India,PRD-112,5,348.29,0.0,1741.45,1400.0,341.45,Debit Card,Delivered,south.manager@ysm.com
+ORD-20240145,2024-01-28,2024-01-31,Standard Class,CUST-1005,Kavita Sharma,Chennai,TN,South,India,PRD-104,9,83.25,0.15,636.86,540.0,96.86,Net Banking,Returned,south.manager@ysm.com
+ORD-20240049,2024-01-31,2024-02-03,Second Class,CUST-1088,Fatima Brown,Delhi,DL,North,India,PRD-105,10,106.1,0.1,954.9,700.0,254.9,Credit Card,Delivered,north.manager@ysm.com
+ORD-20240304,2024-02-02,2024-02-08,Second Class,CUST-1059,Fatima Sharma,Singapore,SG,Asia-Pac,Singapore,PRD-102,5,1461.47,0.1,6576.62,4750.0,1826.62,Debit Card,Delivered,apac.manager@ysm.com
+ORD-20240321,2024-02-03,2024-02-06,Same Day,CUST-1066,Priya Smith,Delhi,DL,North,India,PRD-102,9,1368.8,0.1,11087.28,8550.0,2537.28,Cash on Delivery,Returned,north.manager@ysm.com
+ORD-20240198,2024-02-06,2024-02-08,Same Day,CUST-1092,Valued Customer,Mumbai,MH,West,India,PRD-103,6,1149.67,0.15,5863.32,4800.0,1063.32,Debit Card,Returned,west.manager@ysm.com
+ORD-20240021,2024-02-06,2024-02-09,Standard Class,CUST-1031,Aarav Singh,San Francisco,CA,US-West,USA,PRD-114,9,173.56,0.0,1562.04,990.0,572.04,Credit Card,Returned,us.manager@ysm.com
+ORD-20240181,2024-02-06,2024-02-07,Second Class,CUST-1078,Ananya Deshmukh,Dubai,DXB,Asia-Pac,UAE,PRD-106,1,334.93,0.15,284.69,240.0,44.69,Net Banking,Delivered,apac.manager@ysm.com
+ORD-20240034,2024-02-10,2024-02-11,First Class,CUST-1044,Valued Customer,Mumbai,MH,West,India,PRD-105,7,93.74,0.15,557.75,490.0,67.75,Credit Card,In Transit,west.manager@ysm.com
+ORD-20240039,2024-02-13,2024-02-17,Same Day,CUST-1100,Pooja Khan,London,LDN,Europe,UK,PRD-105,3,105.67,0.05,301.16,210.0,91.16,Cash on Delivery,Delivered,europe.manager@ysm.com
+ORD-20240045,2024-02-13,2024-02-14,Standard Class,CUST-1057,Valued Customer,Mumbai,MH,West,India,PRD-109,10,84.32,0.05,801.04,650.0,151.04,UPI,Delivered,west.manager@ysm.com
+ORD-20240177,2024-02-13,2024-02-19,Same Day,CUST-1077,Vikram Johnson,Chennai,TN,South,India,PRD-109,3,97.12,0.0,291.36,195.0,96.36,Debit Card,Delivered,south.manager@ysm.com
+ORD-20240243,2024-02-14,2024-02-16,Second Class,CUST-1028,Priya Singh,London,LDN,Europe,UK,PRD-101,9,1123.1,0.1,9097.11,7650.0,1447.11,Credit Card,Delivered,europe.manager@ysm.com
+ORD-20240116,2024-02-14,2024-02-18,Same Day,CUST-1069,Rahul Khan,Mumbai,MH,West,India,PRD-107,10,483.21,0.2,3865.68,3800.0,65.68,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240311,2024-02-16,2024-02-18,Standard Class,CUST-1059,Fatima Sharma,Singapore,SG,Asia-Pac,Singapore,PRD-106,6,362.23,0.1,1956.04,1440.0,516.04,Net Banking,Returned,apac.manager@ysm.com
+ORD-20240006,2024-02-16,2024-02-22,First Class,CUST-1070,Pooja Taylor,Delhi,DL,North,India,PRD-102,1,1493.72,0.0,1493.72,950.0,543.72,UPI,Returned,north.manager@ysm.com
+ORD-20240001,2024-02-18,2024-02-23,Second Class,CUST-1071,Rahul Brown,Chicago,IL,US-Central,USA,PRD-110,5,208.37,0.1,937.66,750.0,187.66,Debit Card,Returned,us.manager@ysm.com
+ORD-20240193,2024-02-18,2024-02-23,First Class,CUST-1059,Fatima Sharma,Singapore,SG,Asia-Pac,Singapore,PRD-114,9,169.96,0.2,1223.71,990.0,233.71,Debit Card,Delivered,apac.manager@ysm.com
+ORD-20240348,2024-02-18,2024-02-21,Standard Class,CUST-1035,Ananya Davis,Chennai,TN,South,India,PRD-112,2,367.84,0.15,625.33,560.0,65.33,UPI,Delivered,south.manager@ysm.com
+ORD-20240267,2024-02-20,2024-02-22,Same Day,CUST-1098,Sneha Williams,Dubai,DXB,Asia-Pac,UAE,PRD-103,10,1077.27,0.05,10234.07,8000.0,2234.07,Cash on Delivery,Returned,apac.manager@ysm.com
+ORD-20240122,2024-02-22,2024-02-26,Standard Class,CUST-1040,Valued Customer,Mumbai,MH,West,India,PRD-103,2,1064.28,0.1,1915.7,1600.0,315.7,Net Banking,Delivered,west.manager@ysm.com
+ORD-20240349,2024-02-24,2024-02-27,Second Class,CUST-1024,David Gupta,Bengaluru,KA,South,India,PRD-106,8,290.77,0.15,1977.24,1920.0,57.24,Cash on Delivery,Returned,south.manager@ysm.com
+ORD-20240268,2024-02-24,2024-02-26,First Class,CUST-1012,Valued Customer,Dubai,DXB,Asia-Pac,UAE,PRD-111,7,350.35,0.05,2329.83,1540.0,789.83,Net Banking,Delivered,apac.manager@ysm.com
+ORD-20240262,2024-02-25,2024-02-26,Standard Class,CUST-1041,Valued Customer,Mumbai,MH,West,India,PRD-103,5,1110.11,0.0,5550.55,4000.0,1550.55,Credit Card,Delivered,west.manager@ysm.com
+ORD-20240286,2024-02-26,2024-03-02,Same Day,CUST-1015,Ananya Patel,Dubai,DXB,Asia-Pac,UAE,PRD-101,9,1244.43,0.2,8959.9,7650.0,1309.9,Cash on Delivery,Delivered,apac.manager@ysm.com
+ORD-20240345,2024-02-27,2024-03-04,Second Class,CUST-1021,Priya Khan,Singapore,SG,Asia-Pac,Singapore,PRD-107,2,474.8,0.05,902.12,760.0,142.12,UPI,Delivered,apac.manager@ysm.com
+ORD-20240310,2024-02-27,2024-03-03,Standard Class,CUST-1026,Sarah Taylor,Chandigarh,CH,North,India,PRD-103,10,1127.03,0.2,9016.24,8000.0,1016.24,UPI,Delivered,north.manager@ysm.com
+ORD-20240042,2024-02-27,2024-03-04,Same Day,CUST-1046,Valued Customer,Mumbai,MH,West,India,PRD-113,6,616.24,0.05,3512.57,2700.0,812.57,UPI,Delivered,west.manager@ysm.com
+ORD-20240271,2024-02-29,2024-03-04,First Class,CUST-1010,Emily Johnson,Kolkata,WB,East,India,PRD-111,5,304.21,0.15,1292.89,1100.0,192.89,Debit Card,Delivered,east.manager@ysm.com
+ORD-20240185,2024-03-02,2024-03-08,Second Class,CUST-1080,Fatima Reddy,Mumbai,MH,West,India,PRD-104,4,79.72,0.0,318.88,240.0,78.88,Net Banking,Delivered,west.manager@ysm.com
+ORD-20240089,2024-03-03,2024-03-09,First Class,CUST-1049,Valued Customer,Mumbai,MH,West,India,PRD-114,7,146.49,0.2,820.34,770.0,50.34,Debit Card,Returned,west.manager@ysm.com
+ORD-20240232,2024-03-03,2024-03-04,Same Day,CUST-1066,Priya Smith,Delhi,DL,North,India,PRD-114,3,172.97,0.15,441.07,330.0,111.07,UPI,Delivered,north.manager@ysm.com
+ORD-20240230,2024-03-05,2024-03-09,First Class,CUST-1098,Sneha Williams,Dubai,DXB,Asia-Pac,UAE,PRD-107,4,512.19,0.2,1639.01,1520.0,119.01,Credit Card,Returned,apac.manager@ysm.com
+ORD-20240203,2024-03-06,2024-03-07,Standard Class,CUST-1064,Fatima Miller,Chennai,TN,South,India,PRD-115,2,45.93,0.15,78.08,70.0,8.08,Cash on Delivery,Delivered,south.manager@ysm.com
+ORD-20240016,2024-03-07,2024-03-09,Standard Class,CUST-1007,Rohan Sharma,Berlin,BER,Europe,Germany,PRD-107,8,486.72,0.05,3699.07,3040.0,659.07,Credit Card,Delivered,europe.manager@ysm.com
+ORD-20240115,2024-03-07,2024-03-08,Same Day,CUST-1083,John Kapoor,London,LDN,Europe,UK,PRD-111,1,343.49,0.0,343.49,220.0,123.49,Cash on Delivery,Delivered,europe.manager@ysm.com
+ORD-20240118,2024-03-08,2024-03-09,Same Day,CUST-1045,Valued Customer,Mumbai,MH,West,India,PRD-114,5,136.28,0.15,579.19,550.0,29.19,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240339,2024-03-08,2024-03-09,First Class,CUST-1008,John Iyer,Chennai,TN,South,India,PRD-102,7,1409.9,0.05,9375.83,6650.0,2725.83,UPI,Delivered,south.manager@ysm.com
+ORD-20240325,2024-03-09,2024-03-12,Second Class,CUST-1020,Rohan Wilson,Mumbai,LDN,Europe,UK,PRD-108,6,110.62,0.1,597.35,450.0,147.35,Debit Card,Delivered,europe.manager@ysm.com
+ORD-20240009,2024-03-09,2024-03-12,Standard Class,CUST-1014,Rahul Verma,Chennai,TN,South,India,PRD-109,8,90.62,0.2,579.97,520.0,59.97,UPI,Delivered,south.manager@ysm.com
+ORD-20240099,2024-03-10,2024-03-14,Second Class,CUST-1073,John Khan,Ahmedabad,GJ,West,India,PRD-102,9,1378.34,0.1,11164.55,8550.0,2614.55,Cash on Delivery,In Transit,west.manager@ysm.com
+ORD-20240029,2024-03-10,2024-03-13,Standard Class,CUST-1061,Amit Williams,Bengaluru,KA,South,India,PRD-114,4,145.21,0.05,551.8,440.0,111.8,UPI,Delivered,south.manager@ysm.com
+ORD-20240138,2024-03-11,2024-03-17,Same Day,CUST-1027,Vikram Davis,Mumbai,MH,West,India,PRD-103,10,1235.25,0.15,10499.62,8000.0,2499.62,Net Banking,Delivered,west.manager@ysm.com
+ORD-20240048,2024-03-13,2024-03-19,Standard Class,CUST-1080,Fatima Reddy,Mumbai,MH,West,India,PRD-102,9,1283.11,0.0,11547.99,8550.0,2997.99,UPI,Delivered,west.manager@ysm.com
+ORD-20240315,2024-03-15,2024-03-18,Same Day,CUST-1013,Kavita Johnson,Chennai,TN,South,India,PRD-104,5,89.18,0.0,445.9,300.0,145.9,Net Banking,Delivered,south.manager@ysm.com
+ORD-20240060,2024-03-15,2024-03-21,Second Class,CUST-1084,Rohan Davis,Kolkata,WB,East,India,PRD-112,9,371.56,0.2,2675.23,2520.0,155.23,Credit Card,Delivered,east.manager@ysm.com
+ORD-20240129,2024-03-16,2024-03-22,Second Class,CUST-1022,Michael Iyer,Chennai,TN,South,India,PRD-115,5,48.34,0.15,205.44,175.0,30.44,Net Banking,Delivered,south.manager@ysm.com
+ORD-20240056,2024-03-18,2024-03-21,Same Day,CUST-1066,Priya Smith,Delhi,DL,North,India,PRD-105,2,102.39,0.15,174.06,140.0,34.06,Net Banking,Returned,north.manager@ysm.com
+ORD-20240223,2024-03-18,2024-03-20,Standard Class,CUST-1038,Sneha Johnson,Chennai,TN,South,India,PRD-104,9,79.04,0.05,675.79,540.0,135.79,Cash on Delivery,Delivered,south.manager@ysm.com
+ORD-20240151,2024-03-18,2024-03-24,Same Day,CUST-1068,Alex Patel,Mumbai,MH,West,India,PRD-103,3,1078.33,0.1,2911.49,2400.0,511.49,Debit Card,Delivered,west.manager@ysm.com
+ORD-20240153,2024-03-19,2024-03-23,Same Day,CUST-1059,Fatima Sharma,Singapore,SG,Asia-Pac,Singapore,PRD-109,4,98.03,0.15,333.3,260.0,73.3,Debit Card,Delivered,apac.manager@ysm.com
+ORD-20240007,2024-03-19,2024-03-25,Standard Class,CUST-1046,Valued Customer,Mumbai,MH,West,India,PRD-104,4,75.02,0.1,270.07,240.0,30.07,Net Banking,In Transit,west.manager@ysm.com
+ORD-20240054,2024-03-21,2024-03-22,First Class,CUST-1081,Rohan Singh,Berlin,BER,Europe,Germany,PRD-101,6,1252.67,0.1,6764.42,5100.0,1664.42,Debit Card,Delivered,europe.manager@ysm.com
+ORD-20240112,2024-03-21,2024-03-24,Standard Class,CUST-1095,Valued Customer,Mumbai,MH,West,India,PRD-111,10,265.34,0.2,2122.72,2200.0,-77.28,Net Banking,Delivered,west.manager@ysm.com
+ORD-20240307,2024-03-22,2024-03-25,Second Class,CUST-1054,Valued Customer,Mumbai,MH,West,India,PRD-108,5,90.87,0.2,363.48,375.0,-11.52,Debit Card,Returned,west.manager@ysm.com
+ORD-20240166,2024-03-23,2024-03-24,First Class,CUST-1076,Rahul Wilson,San Francisco,CA,US-West,USA,PRD-115,7,52.88,0.15,314.64,245.0,69.64,UPI,Delivered,us.manager@ysm.com
+ORD-20240242,2024-03-24,2024-03-30,Same Day,CUST-1084,Rohan Davis,Kolkata,WB,East,India,PRD-108,7,111.86,0.05,743.87,525.0,218.87,Net Banking,Delivered,east.manager@ysm.com
+ORD-20240066,2024-03-24,2024-03-26,Second Class,CUST-1090,Emily Taylor,Bengaluru,KA,South,India,PRD-104,1,72.77,0.1,65.49,60.0,5.49,Cash on Delivery,Delivered,south.manager@ysm.com
+ORD-20240187,2024-03-25,2024-03-29,Second Class,CUST-1045,Valued Customer,Mumbai,MH,West,India,PRD-110,1,235.54,0.05,223.76,150.0,73.76,Credit Card,In Transit,west.manager@ysm.com
+ORD-20240072,2024-03-26,2024-03-30,First Class,CUST-1001,Sneha Sharma,Kolkata,WB,East,India,PRD-106,1,346.86,0.2,277.49,240.0,37.49,Debit Card,Delivered,east.manager@ysm.com
+ORD-20240346,2024-03-27,2024-04-02,First Class,CUST-1083,John Kapoor,London,LDN,Europe,UK,PRD-103,10,1140.24,0.05,10832.28,8000.0,2832.28,Net Banking,Delivered,europe.manager@ysm.com
+ORD-20240275,2024-03-27,2024-03-28,First Class,CUST-1050,Valued Customer,Mumbai,MH,West,India,PRD-107,6,604.23,0.05,3444.11,2280.0,1164.11,Net Banking,In Transit,west.manager@ysm.com
+ORD-20240292,2024-03-27,2024-03-28,First Class,CUST-1078,Ananya Deshmukh,Dubai,DXB,Asia-Pac,UAE,PRD-114,7,133.64,0.2,748.38,770.0,-21.62,Net Banking,Delivered,apac.manager@ysm.com
+ORD-20240328,2024-03-27,2024-03-28,Same Day,CUST-1001,Sneha Sharma,Kolkata,WB,East,India,PRD-103,10,1157.76,0.1,10419.84,8000.0,2419.84,Debit Card,Delivered,east.manager@ysm.com
+ORD-20240204,2024-03-28,2024-03-31,Second Class,CUST-1096,Valued Customer,Mumbai,MH,West,India,PRD-107,10,590.73,0.05,5611.93,3800.0,1811.93,Net Banking,Delivered,west.manager@ysm.com
+ORD-20240229,2024-03-30,2024-04-05,Second Class,CUST-1005,Kavita Sharma,Chennai,TN,South,India,PRD-111,2,278.19,0.0,556.38,440.0,116.38,UPI,Delivered,south.manager@ysm.com
+ORD-20240098,2024-03-30,2024-04-01,First Class,CUST-1092,Valued Customer,Mumbai,MH,West,India,PRD-112,8,429.39,0.15,2919.85,2240.0,679.85,Credit Card,Returned,west.manager@ysm.com
+ORD-20240023,2024-04-01,2024-04-06,Same Day,CUST-1021,Priya Khan,Singapore,SG,Asia-Pac,Singapore,PRD-109,10,97.4,0.1,876.6,650.0,226.6,Cash on Delivery,Returned,apac.manager@ysm.com
+ORD-20240248,2024-04-01,2024-04-05,Second Class,CUST-1031,Aarav Singh,San Francisco,CA,US-West,USA,PRD-110,5,181.71,0.15,772.27,750.0,22.27,Credit Card,Delivered,us.manager@ysm.com
+ORD-20240222,2024-04-01,2024-04-04,Standard Class,CUST-1020,Rohan Wilson,Mumbai,LDN,Europe,UK,PRD-103,5,995.0,0.0,4975.0,4000.0,975.0,Debit Card,Delivered,europe.manager@ysm.com
+ORD-20240168,2024-04-01,2024-04-07,Same Day,CUST-1059,Fatima Sharma,Singapore,SG,Asia-Pac,Singapore,PRD-108,9,93.25,0.15,713.36,675.0,38.36,Debit Card,Delivered,apac.manager@ysm.com
+ORD-20240086,2024-04-01,2024-04-03,First Class,CUST-1090,Emily Taylor,Bengaluru,KA,South,India,PRD-110,10,216.67,0.2,1733.36,1500.0,233.36,Net Banking,Delivered,south.manager@ysm.com
+ORD-20240093,2024-04-02,2024-04-07,Second Class,CUST-1033,Neha Jones,Berlin,BER,Europe,Germany,PRD-114,4,163.18,0.0,652.72,440.0,212.72,Credit Card,Delivered,europe.manager@ysm.com
+ORD-20240152,2024-04-02,2024-04-07,Standard Class,CUST-1008,John Iyer,Chennai,TN,South,India,PRD-111,2,294.17,0.05,558.92,440.0,118.92,Net Banking,In Transit,south.manager@ysm.com
+ORD-20240264,2024-04-04,2024-04-10,First Class,CUST-1049,Valued Customer,Mumbai,MH,West,India,PRD-115,3,42.41,0.1,114.51,105.0,9.51,Net Banking,Delivered,west.manager@ysm.com
+ORD-20240140,2024-04-05,2024-04-09,Standard Class,CUST-1052,Valued Customer,Mumbai,MH,West,India,PRD-101,4,1216.5,0.2,3892.8,3400.0,492.8,UPI,Delivered,west.manager@ysm.com
+ORD-20240162,2024-04-08,2024-04-09,Standard Class,CUST-1035,Ananya Davis,Chennai,TN,South,India,PRD-108,1,108.58,0.2,86.86,75.0,11.86,Debit Card,Delivered,south.manager@ysm.com
+ORD-20240111,2024-04-08,2024-04-11,First Class,CUST-1037,Aarav Anderson,New York,NY,US-East,USA,PRD-109,8,91.84,0.0,734.72,520.0,214.72,UPI,Delivered,us.manager@ysm.com
+ORD-20240237,2024-04-09,2024-04-14,Second Class,CUST-1099,Pooja Kapoor,Chandigarh,CH,North,India,PRD-107,5,574.76,0.05,2730.11,1900.0,830.11,Credit Card,Delivered,north.manager@ysm.com
+ORD-20240040,2024-04-11,2024-04-15,Same Day,CUST-1092,Valued Customer,Mumbai,MH,West,India,PRD-107,4,555.14,0.2,1776.45,1520.0,256.45,Net Banking,Returned,west.manager@ysm.com
+ORD-20240300,2024-04-12,2024-04-16,Same Day,CUST-1076,Rahul Wilson,San Francisco,CA,US-West,USA,PRD-111,9,286.11,0.15,2188.74,1980.0,208.74,Net Banking,Delivered,us.manager@ysm.com
+ORD-20240113,2024-04-15,2024-04-20,First Class,CUST-1089,Rahul Gupta,Delhi,DL,North,India,PRD-101,5,1206.78,0.05,5732.2,4250.0,1482.2,UPI,Delivered,north.manager@ysm.com
+ORD-20240215,2024-04-16,2024-04-22,Standard Class,CUST-1053,Valued Customer,Mumbai,MH,West,India,PRD-111,6,318.6,0.0,1911.6,1320.0,591.6,Net Banking,Returned,west.manager@ysm.com
+ORD-20240196,2024-04-17,2024-04-21,First Class,CUST-1082,Vikram Iyer,Chicago,IL,US-Central,USA,PRD-110,8,200.06,0.0,1600.48,1200.0,400.48,Credit Card,Returned,us.manager@ysm.com
+ORD-20240090,2024-04-17,2024-04-22,Standard Class,CUST-1028,Priya Singh,London,LDN,Europe,UK,PRD-110,9,186.56,0.0,1679.04,1350.0,329.04,Cash on Delivery,Returned,europe.manager@ysm.com
+ORD-20240180,2024-04-18,2024-04-24,Same Day,CUST-1080,Fatima Reddy,Mumbai,MH,West,India,PRD-101,9,1339.63,0.05,11453.84,7650.0,3803.84,Net Banking,Delivered,west.manager@ysm.com
+ORD-20240313,2024-04-19,2024-04-22,Same Day,CUST-1009,Valued Customer,Ahmedabad,GJ,West,India,PRD-115,10,47.72,0.0,477.2,350.0,127.2,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240119,2024-04-24,2024-04-26,First Class,CUST-1036,Emily Deshmukh,Singapore,MH,Asia-Pac,Singapore,PRD-101,7,1330.37,0.05,8846.96,5950.0,2896.96,UPI,In Transit,apac.manager@ysm.com
+ORD-20240035,2024-04-26,2024-05-02,Standard Class,CUST-1042,Valued Customer,Mumbai,MH,West,India,PRD-101,7,1235.52,0.0,8648.64,5950.0,2698.64,UPI,Delivered,west.manager@ysm.com
+ORD-20240064,2024-04-28,2024-05-04,Standard Class,CUST-1046,Valued Customer,Mumbai,MH,West,India,PRD-107,8,510.61,0.05,3880.64,3040.0,840.64,Net Banking,In Transit,west.manager@ysm.com
+ORD-20240022,2024-04-28,2024-05-03,Same Day,CUST-1018,Rohan Patel,London,LDN,Europe,UK,PRD-114,9,140.34,0.05,1199.91,990.0,209.91,Net Banking,Returned,europe.manager@ysm.com
+ORD-20240336,2024-04-30,2024-05-04,First Class,CUST-1059,Fatima Sharma,Singapore,SG,Asia-Pac,Singapore,PRD-103,10,1278.96,0.0,12789.6,8000.0,4789.6,Credit Card,Delivered,apac.manager@ysm.com
+ORD-20240191,2024-05-02,2024-05-04,Standard Class,CUST-1094,Valued Customer,Mumbai,MH,West,India,PRD-110,8,215.78,0.2,1380.99,1200.0,180.99,Credit Card,Returned,west.manager@ysm.com
+ORD-20240182,2024-05-04,2024-05-10,Second Class,CUST-1086,Rohan Verma,Chandigarh,CH,North,India,PRD-111,1,265.26,0.1,238.73,220.0,18.73,Credit Card,Delivered,north.manager@ysm.com
+ORD-20240114,2024-05-05,2024-05-07,Standard Class,CUST-1006,Fatima Brown,New York,NY,US-East,USA,PRD-103,6,1059.64,0.2,5086.27,4800.0,286.27,Cash on Delivery,Delivered,us.manager@ysm.com
+ORD-20240306,2024-05-05,2024-05-08,Same Day,CUST-1046,Valued Customer,Mumbai,MH,West,India,PRD-112,7,390.36,0.15,2322.64,1960.0,362.64,Credit Card,Delivered,west.manager@ysm.com
+ORD-20240167,2024-05-12,2024-05-15,Second Class,CUST-1057,Valued Customer,Mumbai,MH,West,India,PRD-101,8,1169.8,0.05,8890.48,6800.0,2090.48,Net Banking,Delivered,west.manager@ysm.com
+ORD-20240227,2024-05-13,2024-05-15,Same Day,CUST-1098,Sneha Williams,Dubai,DXB,Asia-Pac,UAE,PRD-110,5,202.31,0.0,1011.55,750.0,261.55,Debit Card,Delivered,apac.manager@ysm.com
+ORD-20240012,2024-05-14,2024-05-19,First Class,CUST-1049,Valued Customer,Mumbai,MH,West,India,PRD-102,9,1312.55,0.15,10041.01,8550.0,1491.01,Debit Card,Delivered,west.manager@ysm.com
+ORD-20240333,2024-05-14,2024-05-16,Same Day,CUST-1091,Valued Customer,Mumbai,MH,West,India,PRD-115,6,54.7,0.2,262.56,210.0,52.56,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240341,2024-05-14,2024-05-19,First Class,CUST-1014,Rahul Verma,Chennai,TN,South,India,PRD-109,7,91.44,0.05,608.08,455.0,153.08,UPI,Returned,south.manager@ysm.com
+ORD-20240031,2024-05-15,2024-05-18,Second Class,CUST-1049,Valued Customer,Mumbai,MH,West,India,PRD-109,5,84.06,0.0,420.3,325.0,95.3,Net Banking,Delivered,west.manager@ysm.com
+ORD-20240293,2024-05-16,2024-05-17,Same Day,CUST-1043,Valued Customer,Mumbai,MH,West,India,PRD-109,6,93.29,0.15,475.78,390.0,85.78,Net Banking,Delivered,west.manager@ysm.com
+ORD-20240350,2024-05-17,2024-05-22,Standard Class,CUST-1008,John Iyer,Chennai,TN,South,India,PRD-103,1,1065.42,0.2,852.34,800.0,52.34,Cash on Delivery,Delivered,south.manager@ysm.com
+ORD-20240277,2024-05-19,2024-05-25,Same Day,CUST-1059,Fatima Sharma,Singapore,SG,Asia-Pac,Singapore,PRD-107,10,510.13,0.15,4336.11,3800.0,536.11,Cash on Delivery,Delivered,apac.manager@ysm.com
+ORD-20240004,2024-05-21,2024-05-26,Standard Class,CUST-1046,Valued Customer,Mumbai,MH,West,India,PRD-104,4,81.5,0.0,326.0,240.0,86.0,Credit Card,Delivered,west.manager@ysm.com
+ORD-20240055,2024-05-21,2024-05-22,First Class,CUST-1084,Rohan Davis,Kolkata,WB,East,India,PRD-107,1,589.56,0.2,471.65,380.0,91.65,UPI,Delivered,east.manager@ysm.com
+ORD-20240278,2024-05-22,2024-05-24,Same Day,CUST-1068,Alex Patel,Mumbai,MH,West,India,PRD-105,5,87.03,0.15,369.88,350.0,19.88,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240150,2024-05-23,2024-05-26,First Class,CUST-1085,Priya Patel,Ahmedabad,GJ,West,India,PRD-105,2,84.4,0.2,135.04,140.0,-4.96,Debit Card,Delivered,west.manager@ysm.com
+ORD-20240102,2024-05-23,2024-05-24,First Class,CUST-1078,Ananya Deshmukh,Dubai,DXB,Asia-Pac,UAE,PRD-113,9,717.05,0.05,6130.78,4050.0,2080.78,Net Banking,Delivered,apac.manager@ysm.com
+ORD-20240143,2024-05-23,2024-05-27,Standard Class,CUST-1060,Pooja Deshmukh,New York,NY,US-East,USA,PRD-114,10,155.03,0.0,1550.3,1100.0,450.3,Debit Card,Delivered,us.manager@ysm.com
+ORD-20240096,2024-05-24,2024-05-27,Standard Class,CUST-1048,Valued Customer,Mumbai,MH,West,India,PRD-112,9,370.47,0.2,2667.38,2520.0,147.38,UPI,In Transit,west.manager@ysm.com
+ORD-20240332,2024-05-24,2024-05-30,Second Class,CUST-1049,Valued Customer,Mumbai,MH,West,India,PRD-109,7,88.88,0.05,591.05,455.0,136.05,Credit Card,Delivered,west.manager@ysm.com
+ORD-20240228,2024-05-25,2024-05-29,Second Class,CUST-1087,Vikram Iyer,Berlin,BER,Europe,Germany,PRD-109,3,94.08,0.2,225.79,195.0,30.79,UPI,Delivered,europe.manager@ysm.com
+ORD-20240051,2024-05-29,2024-06-04,Same Day,CUST-1072,Alex Smith,Chennai,TN,South,India,PRD-101,7,1098.6,0.2,6152.16,5950.0,202.16,Credit Card,Delivered,south.manager@ysm.com
+ORD-20240282,2024-05-30,2024-06-05,Same Day,CUST-1077,Vikram Johnson,Chennai,TN,South,India,PRD-109,5,90.75,0.2,363.0,325.0,38.0,UPI,In Transit,south.manager@ysm.com
+ORD-20240309,2024-06-01,2024-06-02,Same Day,CUST-1078,Ananya Deshmukh,Dubai,DXB,Asia-Pac,UAE,PRD-108,2,116.9,0.15,198.73,150.0,48.73,Debit Card,Delivered,apac.manager@ysm.com
+ORD-20240318,2024-06-03,2024-06-04,Second Class,CUST-1077,Vikram Johnson,Chennai,TN,South,India,PRD-112,3,369.31,0.15,941.74,840.0,101.74,UPI,In Transit,south.manager@ysm.com
+ORD-20240192,2024-06-03,2024-06-06,Same Day,CUST-1041,Valued Customer,Mumbai,MH,West,India,PRD-108,4,90.14,0.05,342.53,300.0,42.53,Credit Card,Delivered,west.manager@ysm.com
+ORD-20240174,2024-06-04,2024-06-08,Standard Class,CUST-1048,Valued Customer,Mumbai,MH,West,India,PRD-104,2,87.17,0.1,156.91,120.0,36.91,Net Banking,In Transit,west.manager@ysm.com
+ORD-20240080,2024-06-07,2024-06-13,Same Day,CUST-1093,Valued Customer,Mumbai,MH,West,India,PRD-114,3,144.71,0.0,434.13,330.0,104.13,Debit Card,Delivered,west.manager@ysm.com
+ORD-20240291,2024-06-08,2024-06-13,Standard Class,CUST-1041,Valued Customer,Mumbai,MH,West,India,PRD-109,2,101.67,0.1,183.01,130.0,53.01,Credit Card,Delivered,west.manager@ysm.com
+ORD-20240069,2024-06-09,2024-06-13,Standard Class,CUST-1052,Valued Customer,Mumbai,MH,West,India,PRD-110,8,211.24,0.15,1436.43,1200.0,236.43,Credit Card,Delivered,west.manager@ysm.com
+ORD-20240340,2024-06-09,2024-06-10,Second Class,CUST-1071,Rahul Brown,Chicago,IL,US-Central,USA,PRD-112,5,391.91,0.1,1763.6,1400.0,363.6,Cash on Delivery,Delivered,us.manager@ysm.com
+ORD-20240254,2024-06-10,2024-06-16,First Class,CUST-1018,Rohan Patel,London,LDN,Europe,UK,PRD-101,6,1112.3,0.0,6673.8,5100.0,1573.8,Net Banking,Delivered,europe.manager@ysm.com
+ORD-20240061,2024-06-11,2024-06-13,Standard Class,CUST-1037,Aarav Anderson,New York,NY,US-East,USA,PRD-113,7,677.78,0.15,4032.79,3150.0,882.79,UPI,Delivered,us.manager@ysm.com
+ORD-20240231,2024-06-11,2024-06-14,Second Class,CUST-1008,John Iyer,Chennai,TN,South,India,PRD-102,9,1281.71,0.05,10958.62,8550.0,2408.62,Net Banking,Delivered,south.manager@ysm.com
+ORD-20240251,2024-06-12,2024-06-16,Second Class,CUST-1096,Valued Customer,Mumbai,MH,West,India,PRD-103,1,1074.36,0.1,966.92,800.0,166.92,UPI,Delivered,west.manager@ysm.com
+ORD-20240294,2024-06-14,2024-06-19,Standard Class,CUST-1078,Ananya Deshmukh,Dubai,DXB,Asia-Pac,UAE,PRD-106,2,365.6,0.05,694.64,480.0,214.64,UPI,Delivered,apac.manager@ysm.com
+ORD-20240120,2024-06-15,2024-06-19,Same Day,CUST-1011,Priya Jones,Mumbai,MH,West,India,PRD-115,8,42.42,0.0,339.36,280.0,59.36,UPI,Delivered,west.manager@ysm.com
+ORD-20240068,2024-06-15,2024-06-19,Second Class,CUST-1092,Valued Customer,Mumbai,MH,West,India,PRD-108,1,102.83,0.2,82.26,75.0,7.26,Cash on Delivery,Returned,west.manager@ysm.com
+ORD-20240146,2024-06-18,2024-06-22,First Class,CUST-1058,Valued Customer,Mumbai,MH,West,India,PRD-104,5,95.05,0.1,427.73,300.0,127.73,Debit Card,Delivered,west.manager@ysm.com
+ORD-20240214,2024-06-19,2024-06-24,Standard Class,CUST-1061,Amit Williams,Bengaluru,KA,South,India,PRD-113,5,593.39,0.2,2373.56,2250.0,123.56,Net Banking,Delivered,south.manager@ysm.com
+ORD-20240186,2024-06-20,2024-06-21,Standard Class,CUST-1043,Valued Customer,Mumbai,MH,West,India,PRD-104,7,78.57,0.05,522.49,420.0,102.49,UPI,Delivered,west.manager@ysm.com
+ORD-20240160,2024-06-21,2024-06-27,Second Class,CUST-1008,John Iyer,Chennai,TN,South,India,PRD-110,1,198.8,0.0,198.8,150.0,48.8,Credit Card,Delivered,south.manager@ysm.com
+ORD-20240038,2024-06-21,2024-06-22,Same Day,CUST-1014,Rahul Verma,Chennai,TN,South,India,PRD-109,1,92.86,0.2,74.29,65.0,9.29,Cash on Delivery,Delivered,south.manager@ysm.com
+ORD-20240025,2024-06-21,2024-06-27,Second Class,CUST-1042,Valued Customer,Mumbai,MH,West,India,PRD-106,10,339.25,0.15,2883.62,2400.0,483.62,UPI,Delivered,west.manager@ysm.com
+ORD-20240256,2024-06-23,2024-06-25,Standard Class,CUST-1045,Valued Customer,Mumbai,MH,West,India,PRD-108,9,96.54,0.05,825.42,675.0,150.42,Debit Card,In Transit,west.manager@ysm.com
+ORD-20240175,2024-06-23,2024-06-24,Same Day,CUST-1069,Rahul Khan,Mumbai,MH,West,India,PRD-112,5,421.17,0.05,2000.56,1400.0,600.56,Debit Card,Delivered,west.manager@ysm.com
+ORD-20240259,2024-06-24,2024-06-26,First Class,CUST-1055,Valued Customer,Mumbai,MH,West,India,PRD-115,2,42.4,0.05,80.56,70.0,10.56,Debit Card,In Transit,west.manager@ysm.com
+ORD-20240046,2024-06-24,2024-06-30,Standard Class,CUST-1021,Priya Khan,Singapore,SG,Asia-Pac,Singapore,PRD-108,8,99.15,0.0,793.2,600.0,193.2,UPI,Delivered,apac.manager@ysm.com
+ORD-20240125,2024-06-24,2024-06-29,Second Class,CUST-1049,Valued Customer,Mumbai,MH,West,India,PRD-112,2,355.39,0.2,568.62,560.0,8.62,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240290,2024-06-25,2024-06-28,Same Day,CUST-1033,Neha Jones,Berlin,BER,Europe,Germany,PRD-112,4,375.34,0.05,1426.29,1120.0,306.29,Debit Card,Returned,europe.manager@ysm.com
+ORD-20240299,2024-06-26,2024-06-27,First Class,CUST-1035,Ananya Davis,Chennai,TN,South,India,PRD-115,5,49.06,0.15,208.5,175.0,33.5,Net Banking,Delivered,south.manager@ysm.com
+ORD-20240255,2024-06-29,2024-07-01,Standard Class,CUST-1042,Valued Customer,Mumbai,MH,West,India,PRD-102,5,1192.04,0.1,5364.18,4750.0,614.18,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240265,2024-06-29,2024-07-01,Second Class,CUST-1010,Emily Johnson,Kolkata,WB,East,India,PRD-108,2,105.15,0.0,210.3,150.0,60.3,Net Banking,In Transit,east.manager@ysm.com
+ORD-20240219,2024-06-29,2024-07-02,Same Day,CUST-1080,Fatima Reddy,Mumbai,MH,West,India,PRD-102,2,1245.32,0.1,2241.58,1900.0,341.58,UPI,Delivered,west.manager@ysm.com
+ORD-20240158,2024-06-30,2024-07-04,First Class,CUST-1026,Sarah Taylor,Chandigarh,CH,North,India,PRD-110,5,200.1,0.0,1000.5,750.0,250.5,UPI,Returned,north.manager@ysm.com
+ORD-20240117,2024-07-01,2024-07-04,First Class,CUST-1012,Valued Customer,Dubai,DXB,Asia-Pac,UAE,PRD-106,9,366.47,0.0,3298.23,2160.0,1138.23,Cash on Delivery,Delivered,apac.manager@ysm.com
+ORD-20240270,2024-07-03,2024-07-09,First Class,CUST-1047,Valued Customer,Mumbai,MH,West,India,PRD-111,1,313.03,0.0,313.03,220.0,93.03,UPI,Delivered,west.manager@ysm.com
+ORD-20240136,2024-07-03,2024-07-07,Second Class,CUST-1053,Valued Customer,Mumbai,MH,West,India,PRD-104,3,78.92,0.05,224.92,180.0,44.92,Credit Card,Delivered,west.manager@ysm.com
+ORD-20240249,2024-07-04,2024-07-09,Same Day,CUST-1075,Aarav Jones,Chicago,IL,US-Central,USA,PRD-115,5,49.92,0.15,212.16,175.0,37.16,Credit Card,Delivered,us.manager@ysm.com
+ORD-20240216,2024-07-05,2024-07-06,Standard Class,CUST-1026,Sarah Taylor,Chandigarh,CH,North,India,PRD-105,8,94.72,0.2,606.21,560.0,46.21,Credit Card,Delivered,north.manager@ysm.com
+ORD-20240289,2024-07-06,2024-07-09,Standard Class,CUST-1076,Rahul Wilson,San Francisco,CA,US-West,USA,PRD-107,6,572.31,0.15,2918.78,2280.0,638.78,Credit Card,Delivered,us.manager@ysm.com
+ORD-20240217,2024-07-06,2024-07-08,Standard Class,CUST-1029,Sarah Anderson,Ahmedabad,GJ,West,India,PRD-105,4,99.7,0.05,378.86,280.0,98.86,UPI,Delivered,west.manager@ysm.com
+ORD-20240142,2024-07-07,2024-07-08,Same Day,CUST-1027,Vikram Davis,Mumbai,MH,West,India,PRD-106,2,380.33,0.05,722.63,480.0,242.63,Net Banking,In Transit,west.manager@ysm.com
+ORD-20240329,2024-07-07,2024-07-09,Standard Class,CUST-1051,Valued Customer,Mumbai,MH,West,India,PRD-102,9,1145.36,0.15,8762.0,8550.0,212.0,Cash on Delivery,In Transit,west.manager@ysm.com
+ORD-20240213,2024-07-08,2024-07-14,Same Day,CUST-1023,John Kapoor,New York,NY,US-East,USA,PRD-102,1,1407.48,0.0,1407.48,950.0,457.48,Cash on Delivery,Returned,us.manager@ysm.com
+ORD-20240314,2024-07-10,2024-07-16,Standard Class,CUST-1026,Sarah Taylor,Chandigarh,CH,North,India,PRD-102,7,1260.27,0.15,7498.61,6650.0,848.61,Debit Card,Delivered,north.manager@ysm.com
+ORD-20240202,2024-07-10,2024-07-12,Same Day,CUST-1084,Rohan Davis,Kolkata,WB,East,India,PRD-103,6,1190.34,0.1,6427.84,4800.0,1627.84,Debit Card,Delivered,east.manager@ysm.com
+ORD-20240244,2024-07-11,2024-07-12,Standard Class,CUST-1066,Priya Smith,Delhi,DL,North,India,PRD-101,5,1159.22,0.15,4926.69,4250.0,676.69,Debit Card,Delivered,north.manager@ysm.com
+ORD-20240078,2024-07-12,2024-07-17,Same Day,CUST-1016,Michael Iyer,London,MH,Europe,UK,PRD-110,3,182.63,0.1,493.1,450.0,43.1,Net Banking,In Transit,europe.manager@ysm.com
+ORD-20240088,2024-07-13,2024-07-14,Same Day,CUST-1051,Valued Customer,Mumbai,MH,West,India,PRD-114,2,169.11,0.1,304.4,220.0,84.4,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240124,2024-07-15,2024-07-16,First Class,CUST-1033,Neha Jones,Berlin,BER,Europe,Germany,PRD-110,10,192.49,0.15,1636.16,1500.0,136.16,Cash on Delivery,Delivered,europe.manager@ysm.com
+ORD-20240312,2024-07-18,2024-07-24,Second Class,CUST-1068,Alex Patel,Mumbai,MH,West,India,PRD-114,4,173.16,0.05,658.01,440.0,218.01,Credit Card,Delivered,west.manager@ysm.com
+ORD-20240103,2024-07-18,2024-07-20,Standard Class,CUST-1022,Michael Iyer,Chennai,TN,South,India,PRD-105,5,108.21,0.1,486.94,350.0,136.94,Credit Card,Delivered,south.manager@ysm.com
+ORD-20240209,2024-07-20,2024-07-24,Standard Class,CUST-1041,Valued Customer,Mumbai,MH,West,India,PRD-114,4,151.91,0.0,607.64,440.0,167.64,Net Banking,In Transit,west.manager@ysm.com
+ORD-20240037,2024-07-20,2024-07-24,Standard Class,CUST-1020,Rohan Wilson,Mumbai,LDN,Europe,UK,PRD-101,5,1095.51,0.15,4655.92,4250.0,405.92,Debit Card,Delivered,europe.manager@ysm.com
+ORD-20240123,2024-07-24,2024-07-29,Same Day,CUST-1087,Vikram Iyer,Berlin,BER,Europe,Germany,PRD-107,4,492.26,0.2,1575.23,1520.0,55.23,Debit Card,Delivered,europe.manager@ysm.com
+ORD-20240276,2024-07-25,2024-07-26,Second Class,CUST-1081,Rohan Singh,Berlin,BER,Europe,Germany,PRD-113,8,690.86,0.1,4974.19,3600.0,1374.19,Net Banking,Delivered,europe.manager@ysm.com
+ORD-20240127,2024-07-26,2024-07-27,Standard Class,CUST-1065,Amit Verma,Berlin,BER,Europe,Germany,PRD-113,10,663.39,0.15,5638.81,4500.0,1138.81,UPI,Delivered,europe.manager@ysm.com
+ORD-20240272,2024-07-27,2024-07-30,Same Day,CUST-1054,Valued Customer,Mumbai,MH,West,India,PRD-106,2,306.12,0.15,520.4,480.0,40.4,UPI,Delivered,west.manager@ysm.com
+ORD-20240269,2024-07-27,2024-07-28,First Class,CUST-1058,Valued Customer,Mumbai,MH,West,India,PRD-112,2,349.84,0.2,559.74,560.0,-0.26,Debit Card,Delivered,west.manager@ysm.com
+ORD-20240015,2024-07-28,2024-08-03,First Class,CUST-1060,Pooja Deshmukh,New York,NY,US-East,USA,PRD-112,9,348.37,0.0,3135.33,2520.0,615.33,Credit Card,In Transit,us.manager@ysm.com
+ORD-20240161,2024-07-29,2024-07-30,Standard Class,CUST-1081,Rohan Singh,Berlin,BER,Europe,Germany,PRD-113,6,663.39,0.05,3781.32,2700.0,1081.32,UPI,Delivered,europe.manager@ysm.com
+ORD-20240200,2024-07-30,2024-08-01,Same Day,CUST-1031,Aarav Singh,San Francisco,CA,US-West,USA,PRD-110,2,233.48,0.15,396.92,300.0,96.92,Net Banking,Delivered,us.manager@ysm.com
+ORD-20240320,2024-07-30,2024-08-02,Same Day,CUST-1077,Vikram Johnson,Chennai,TN,South,India,PRD-108,2,116.3,0.05,220.97,150.0,70.97,UPI,Delivered,south.manager@ysm.com
+ORD-20240100,2024-07-30,2024-08-05,Standard Class,CUST-1057,Valued Customer,Mumbai,MH,West,India,PRD-107,5,582.94,0.2,2331.76,1900.0,431.76,UPI,Delivered,west.manager@ysm.com
+ORD-20240104,2024-07-30,2024-07-31,Same Day,CUST-1086,Rohan Verma,Chandigarh,CH,North,India,PRD-107,6,589.31,0.15,3005.48,2280.0,725.48,UPI,Delivered,north.manager@ysm.com
+ORD-20240326,2024-07-31,2024-08-03,Second Class,CUST-1057,Valued Customer,Mumbai,MH,West,India,PRD-109,7,88.23,0.2,494.09,455.0,39.09,Debit Card,Delivered,west.manager@ysm.com
+ORD-20240020,2024-07-31,2024-08-03,Standard Class,CUST-1020,Rohan Wilson,Mumbai,LDN,Europe,UK,PRD-104,5,91.77,0.2,367.08,300.0,67.08,Credit Card,Returned,europe.manager@ysm.com
+ORD-20240208,2024-08-01,2024-08-02,Standard Class,CUST-1075,Aarav Jones,Chicago,IL,US-Central,USA,PRD-112,9,447.02,0.0,4023.18,2520.0,1503.18,Cash on Delivery,Delivered,us.manager@ysm.com
+ORD-20240224,2024-08-03,2024-08-07,Standard Class,CUST-1003,Fatima Patel,Ahmedabad,GJ,West,India,PRD-106,2,315.99,0.0,631.98,480.0,151.98,Debit Card,In Transit,west.manager@ysm.com
+ORD-20240335,2024-08-04,2024-08-10,First Class,CUST-1030,Kavita Jones,Kolkata,WB,East,India,PRD-106,9,295.01,0.0,2655.09,2160.0,495.09,Credit Card,Delivered,east.manager@ysm.com
+ORD-20240240,2024-08-06,2024-08-09,Same Day,CUST-1069,Rahul Khan,Mumbai,MH,West,India,PRD-105,5,94.44,0.1,424.98,350.0,74.98,UPI,Delivered,west.manager@ysm.com
+ORD-20240207,2024-08-10,2024-08-15,Second Class,CUST-1081,Rohan Singh,Berlin,BER,Europe,Germany,PRD-107,10,591.56,0.05,5619.82,3800.0,1819.82,Net Banking,Delivered,europe.manager@ysm.com
+ORD-20240044,2024-08-14,2024-08-19,Second Class,CUST-1073,John Khan,Ahmedabad,GJ,West,India,PRD-110,4,206.43,0.05,784.43,600.0,184.43,UPI,Delivered,west.manager@ysm.com
+ORD-20240083,2024-08-14,2024-08-15,Standard Class,CUST-1063,David Reddy,Berlin,BER,Europe,Germany,PRD-105,9,90.85,0.1,735.88,630.0,105.88,Net Banking,Returned,europe.manager@ysm.com
+ORD-20240130,2024-08-16,2024-08-18,Second Class,CUST-1042,Valued Customer,Mumbai,MH,West,India,PRD-113,6,662.67,0.1,3578.42,2700.0,878.42,Net Banking,In Transit,west.manager@ysm.com
+ORD-20240241,2024-08-16,2024-08-21,Standard Class,CUST-1025,Fatima Wilson,Berlin,BER,Europe,Germany,PRD-103,8,1029.02,0.15,6997.34,6400.0,597.34,Cash on Delivery,Delivered,europe.manager@ysm.com
+ORD-20240028,2024-08-17,2024-08-21,Standard Class,CUST-1089,Rahul Gupta,Delhi,DL,North,India,PRD-113,5,670.74,0.2,2682.96,2250.0,432.96,Credit Card,Delivered,north.manager@ysm.com
+ORD-20240157,2024-08-17,2024-08-21,First Class,CUST-1026,Sarah Taylor,Chandigarh,CH,North,India,PRD-101,1,1347.0,0.0,1347.0,850.0,497.0,Net Banking,Returned,north.manager@ysm.com
+ORD-20240179,2024-08-18,2024-08-19,Standard Class,CUST-1053,Valued Customer,Mumbai,MH,West,India,PRD-111,6,293.86,0.0,1763.16,1320.0,443.16,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240284,2024-08-18,2024-08-21,Same Day,CUST-1052,Valued Customer,Mumbai,MH,West,India,PRD-103,1,1101.62,0.0,1101.62,800.0,301.62,Debit Card,Delivered,west.manager@ysm.com
+ORD-20240077,2024-08-18,2024-08-24,First Class,CUST-1070,Pooja Taylor,Delhi,DL,North,India,PRD-111,7,271.51,0.2,1520.46,1540.0,-19.54,Net Banking,Delivered,north.manager@ysm.com
+ORD-20240139,2024-08-20,2024-08-25,Same Day,CUST-1007,Rohan Sharma,Berlin,BER,Europe,Germany,PRD-106,8,341.0,0.15,2318.8,1920.0,398.8,UPI,Delivered,europe.manager@ysm.com
+ORD-20240087,2024-08-21,2024-08-27,First Class,CUST-1077,Vikram Johnson,Chennai,TN,South,India,PRD-109,2,102.22,0.1,184.0,130.0,54.0,UPI,Delivered,south.manager@ysm.com
+ORD-20240245,2024-08-24,2024-08-30,Second Class,CUST-1035,Ananya Davis,Chennai,TN,South,India,PRD-111,7,281.53,0.1,1773.64,1540.0,233.64,Net Banking,Delivered,south.manager@ysm.com
+ORD-20240121,2024-08-24,2024-08-26,First Class,CUST-1003,Fatima Patel,Ahmedabad,GJ,West,India,PRD-108,10,113.04,0.2,904.32,750.0,154.32,Debit Card,Delivered,west.manager@ysm.com
+ORD-20240303,2024-08-24,2024-08-26,Second Class,CUST-1038,Sneha Johnson,Chennai,TN,South,India,PRD-107,5,478.87,0.15,2035.2,1900.0,135.2,Cash on Delivery,Delivered,south.manager@ysm.com
+ORD-20240155,2024-08-25,2024-08-29,Same Day,CUST-1006,Fatima Brown,New York,NY,US-East,USA,PRD-104,9,79.23,0.05,677.42,540.0,137.42,Cash on Delivery,Returned,us.manager@ysm.com
+ORD-20240094,2024-08-26,2024-09-01,Standard Class,CUST-1082,Vikram Iyer,Chicago,IL,US-Central,USA,PRD-111,4,328.9,0.2,1052.48,880.0,172.48,Cash on Delivery,Delivered,us.manager@ysm.com
+ORD-20240011,2024-08-27,2024-08-30,Second Class,CUST-1001,Sneha Sharma,Kolkata,WB,East,India,PRD-101,3,1043.42,0.15,2660.72,2550.0,110.72,UPI,In Transit,east.manager@ysm.com
+ORD-20240148,2024-08-30,2024-09-04,Second Class,CUST-1060,Pooja Deshmukh,New York,NY,US-East,USA,PRD-101,5,1214.77,0.2,4859.08,4250.0,609.08,Credit Card,Delivered,us.manager@ysm.com
+ORD-20240206,2024-08-30,2024-09-03,First Class,CUST-1025,Fatima Wilson,Berlin,BER,Europe,Germany,PRD-115,7,42.2,0.05,280.63,245.0,35.63,Debit Card,Delivered,europe.manager@ysm.com
+ORD-20240195,2024-08-30,2024-09-03,Second Class,CUST-1079,Ananya Anderson,San Francisco,CA,US-West,USA,PRD-107,1,480.28,0.0,480.28,380.0,100.28,UPI,Delivered,us.manager@ysm.com
+ORD-20240190,2024-08-31,2024-09-06,Second Class,CUST-1075,Aarav Jones,Chicago,IL,US-Central,USA,PRD-109,5,83.36,0.2,333.44,325.0,8.44,Cash on Delivery,Delivered,us.manager@ysm.com
+ORD-20240235,2024-09-02,2024-09-03,Second Class,CUST-1082,Vikram Iyer,Chicago,IL,US-Central,USA,PRD-104,2,88.27,0.1,158.89,120.0,38.89,Credit Card,Delivered,us.manager@ysm.com
+ORD-20240258,2024-09-02,2024-09-05,First Class,CUST-1100,Pooja Khan,London,LDN,Europe,UK,PRD-108,3,110.73,0.15,282.36,225.0,57.36,Net Banking,Delivered,europe.manager@ysm.com
+ORD-20240149,2024-09-05,2024-09-06,Second Class,CUST-1087,Vikram Iyer,Berlin,BER,Europe,Germany,PRD-106,5,336.54,0.1,1514.43,1200.0,314.43,Debit Card,Delivered,europe.manager@ysm.com
+ORD-20240220,2024-09-05,2024-09-10,Standard Class,CUST-1019,Fatima Khan,New York,NY,US-East,USA,PRD-109,9,90.22,0.2,649.58,585.0,64.58,UPI,Delivered,us.manager@ysm.com
+ORD-20240052,2024-09-05,2024-09-10,Standard Class,CUST-1088,Fatima Brown,Delhi,DL,North,India,PRD-115,9,44.61,0.15,341.27,315.0,26.27,Net Banking,Returned,north.manager@ysm.com
+ORD-20240342,2024-09-08,2024-09-10,Same Day,CUST-1033,Neha Jones,Berlin,BER,Europe,Germany,PRD-104,3,73.28,0.0,219.84,180.0,39.84,Debit Card,Delivered,europe.manager@ysm.com
+ORD-20240019,2024-09-08,2024-09-09,Same Day,CUST-1069,Rahul Khan,Mumbai,MH,West,India,PRD-104,1,91.22,0.1,82.1,60.0,22.1,Net Banking,Returned,west.manager@ysm.com
+ORD-20240331,2024-09-10,2024-09-14,Second Class,CUST-1052,Valued Customer,Mumbai,MH,West,India,PRD-111,4,301.96,0.2,966.27,880.0,86.27,Debit Card,In Transit,west.manager@ysm.com
+ORD-20240296,2024-09-11,2024-09-17,Standard Class,CUST-1008,John Iyer,Chennai,TN,South,India,PRD-107,9,583.74,0.05,4990.98,3420.0,1570.98,UPI,Delivered,south.manager@ysm.com
+ORD-20240295,2024-09-14,2024-09-20,First Class,CUST-1017,Emily Deshmukh,Chandigarh,CH,North,India,PRD-110,5,190.0,0.1,855.0,750.0,105.0,Cash on Delivery,Delivered,north.manager@ysm.com
+ORD-20240337,2024-09-15,2024-09-20,Same Day,CUST-1073,John Khan,Ahmedabad,GJ,West,India,PRD-115,7,46.24,0.1,291.31,245.0,46.31,Debit Card,Delivered,west.manager@ysm.com
+ORD-20240106,2024-09-16,2024-09-17,Same Day,CUST-1082,Vikram Iyer,Chicago,IL,US-Central,USA,PRD-115,3,54.67,0.05,155.81,105.0,50.81,UPI,Delivered,us.manager@ysm.com
+ORD-20240250,2024-09-19,2024-09-25,Standard Class,CUST-1079,Ananya Anderson,San Francisco,CA,US-West,USA,PRD-110,3,230.72,0.2,553.73,450.0,103.73,Credit Card,Delivered,us.manager@ysm.com
+ORD-20240070,2024-09-22,2024-09-27,Same Day,CUST-1064,Fatima Miller,Chennai,TN,South,India,PRD-104,1,95.61,0.2,76.49,60.0,16.49,Cash on Delivery,Delivered,south.manager@ysm.com
+ORD-20240225,2024-09-23,2024-09-29,First Class,CUST-1061,Amit Williams,Bengaluru,KA,South,India,PRD-112,6,382.11,0.1,2063.39,1680.0,383.39,Cash on Delivery,Delivered,south.manager@ysm.com
+ORD-20240107,2024-09-25,2024-09-28,First Class,CUST-1040,Valued Customer,Mumbai,MH,West,India,PRD-103,2,1005.85,0.2,1609.36,1600.0,9.36,Debit Card,Delivered,west.manager@ysm.com
+ORD-20240014,2024-09-25,2024-10-01,Same Day,CUST-1064,Fatima Miller,Chennai,TN,South,India,PRD-112,3,421.76,0.2,1012.22,840.0,172.22,UPI,Delivered,south.manager@ysm.com
+ORD-20240105,2024-09-25,2024-09-28,Second Class,CUST-1077,Vikram Johnson,Chennai,TN,South,India,PRD-102,1,1182.65,0.05,1123.52,950.0,173.52,Credit Card,Delivered,south.manager@ysm.com
+ORD-20240041,2024-09-25,2024-09-27,Second Class,CUST-1055,Valued Customer,Mumbai,MH,West,India,PRD-106,7,294.88,0.1,1857.74,1680.0,177.74,Net Banking,Delivered,west.manager@ysm.com
+ORD-20240347,2024-09-26,2024-10-01,Second Class,,Rohan Smith,Kolkata,WB,West,India,PRD-108,2,102.49,0.05,194.73,150.0,44.73,Cash on Delivery,Returned,west.manager@ysm.com
+ORD-20240302,2024-09-29,2024-10-04,Same Day,CUST-1025,Fatima Wilson,Berlin,BER,Europe,Germany,PRD-110,1,236.08,0.2,188.86,150.0,38.86,Debit Card,Delivered,europe.manager@ysm.com
+ORD-20240101,2024-10-01,2024-10-02,Second Class,CUST-1086,Rohan Verma,Chandigarh,CH,North,India,PRD-108,6,107.32,0.1,579.53,450.0,129.53,Credit Card,Delivered,north.manager@ysm.com
+ORD-20240238,2024-10-02,2024-10-06,Standard Class,CUST-1097,Valued Customer,Mumbai,MH,West,India,PRD-102,7,1510.82,0.05,10046.95,6650.0,3396.95,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240047,2024-10-02,2024-10-04,Second Class,CUST-1082,Vikram Iyer,Chicago,IL,US-Central,USA,PRD-115,5,49.65,0.2,198.6,175.0,23.6,Cash on Delivery,Delivered,us.manager@ysm.com
+ORD-20240283,2024-10-03,2024-10-08,Standard Class,CUST-1037,Aarav Anderson,New York,NY,US-East,USA,PRD-106,1,379.45,0.15,322.53,240.0,82.53,Credit Card,Delivered,us.manager@ysm.com
+ORD-20240218,2024-10-03,2024-10-04,Same Day,CUST-1067,Jessica Davis,Bengaluru,KA,South,India,PRD-110,10,224.24,0.05,2130.28,1500.0,630.28,Debit Card,Delivered,south.manager@ysm.com
+ORD-20240135,2024-10-06,2024-10-08,Second Class,CUST-1055,Valued Customer,Mumbai,MH,West,India,PRD-104,4,83.4,0.2,266.88,240.0,26.88,Cash on Delivery,In Transit,west.manager@ysm.com
+ORD-20240074,2024-10-06,2024-10-08,Same Day,CUST-1090,Emily Taylor,Bengaluru,KA,South,India,PRD-104,8,81.93,0.0,655.44,480.0,175.44,Debit Card,Delivered,south.manager@ysm.com
+ORD-20240141,2024-10-06,2024-10-11,First Class,CUST-1050,Valued Customer,Mumbai,MH,West,India,PRD-115,1,42.47,0.2,33.98,35.0,-1.02,Cash on Delivery,Returned,west.manager@ysm.com
+ORD-20240026,2024-10-08,2024-10-11,First Class,CUST-1033,Neha Jones,Berlin,BER,Europe,Germany,PRD-103,7,1091.95,0.1,6879.28,5600.0,1279.28,Net Banking,Delivered,europe.manager@ysm.com
+ORD-20240084,2024-10-12,2024-10-14,Standard Class,CUST-1037,Aarav Anderson,New York,NY,US-East,USA,PRD-111,1,280.27,0.1,252.24,220.0,32.24,Credit Card,Delivered,us.manager@ysm.com
+ORD-20240257,2024-10-13,2024-10-18,Standard Class,CUST-1043,Valued Customer,Mumbai,MH,West,India,PRD-105,2,95.69,0.0,191.38,140.0,51.38,Debit Card,Delivered,west.manager@ysm.com
+ORD-20240287,2024-10-14,2024-10-16,Standard Class,CUST-1087,Vikram Iyer,Berlin,BER,Europe,Germany,PRD-108,8,101.74,0.2,651.14,600.0,51.14,Cash on Delivery,Delivered,europe.manager@ysm.com
+ORD-20240027,2024-10-15,2024-10-20,Second Class,CUST-1093,Valued Customer,Mumbai,MH,West,India,PRD-107,9,513.01,0.1,4155.38,3420.0,735.38,UPI,Delivered,west.manager@ysm.com
+ORD-20240032,2024-10-18,2024-10-20,Standard Class,CUST-1077,Vikram Johnson,Chennai,TN,South,India,PRD-109,8,96.81,0.05,735.76,520.0,215.76,Cash on Delivery,In Transit,south.manager@ysm.com
+ORD-20240170,2024-10-19,2024-10-25,First Class,CUST-1045,Valued Customer,Mumbai,MH,West,India,PRD-103,1,1208.72,0.15,1027.41,800.0,227.41,Debit Card,Returned,west.manager@ysm.com
+ORD-20240212,2024-10-19,2024-10-25,Standard Class,CUST-1046,Valued Customer,Mumbai,MH,West,India,PRD-115,8,55.67,0.05,423.09,280.0,143.09,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240017,2024-10-19,2024-10-25,Same Day,CUST-1010,Emily Johnson,Kolkata,WB,East,India,PRD-109,9,95.11,0.2,684.79,585.0,99.79,Net Banking,Delivered,east.manager@ysm.com
+ORD-20240234,2024-10-20,2024-10-26,Second Class,CUST-1073,John Khan,Ahmedabad,GJ,West,India,PRD-114,8,167.18,0.1,1203.7,880.0,323.7,Credit Card,Returned,west.manager@ysm.com
+ORD-20240172,2024-10-21,2024-10-22,Same Day,CUST-1036,Emily Deshmukh,Singapore,MH,Asia-Pac,Singapore,PRD-105,7,97.39,0.0,681.73,490.0,191.73,Net Banking,Delivered,apac.manager@ysm.com
+ORD-20240154,2024-10-22,2024-10-28,First Class,CUST-1072,Alex Smith,Chennai,TN,South,India,PRD-104,5,73.3,0.0,366.5,300.0,66.5,Credit Card,Delivered,south.manager@ysm.com
+ORD-20240205,2024-10-22,2024-10-27,Second Class,CUST-1051,Valued Customer,Mumbai,MH,West,India,PRD-115,9,43.21,0.15,330.56,315.0,15.56,Debit Card,Delivered,west.manager@ysm.com
+ORD-20240159,2024-10-26,2024-10-30,Same Day,CUST-1002,Pooja Gupta,Mumbai,MH,West,India,PRD-111,4,332.04,0.2,1062.53,880.0,182.53,Debit Card,Delivered,west.manager@ysm.com
+ORD-20240075,2024-10-29,2024-11-04,Second Class,CUST-1062,Aarav Williams,Singapore,SG,Asia-Pac,Singapore,PRD-103,2,1242.42,0.1,2236.36,1600.0,636.36,UPI,Returned,apac.manager@ysm.com
+ORD-20240298,2024-10-30,2024-11-02,First Class,CUST-1069,Rahul Khan,Mumbai,MH,West,India,PRD-113,9,552.11,0.15,4223.64,4050.0,173.64,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240126,2024-10-30,2024-11-04,Same Day,CUST-1008,John Iyer,Chennai,TN,South,India,PRD-107,2,505.46,0.15,859.28,760.0,99.28,Debit Card,Delivered,south.manager@ysm.com
+ORD-20240178,2024-10-30,2024-11-01,Same Day,CUST-1060,Pooja Deshmukh,New York,NY,US-East,USA,PRD-103,9,1084.41,0.1,8783.72,7200.0,1583.72,Cash on Delivery,Delivered,us.manager@ysm.com
+ORD-20240043,2024-10-31,2024-11-06,Standard Class,CUST-1003,Fatima Patel,Ahmedabad,GJ,West,India,PRD-109,3,98.01,0.1,264.63,195.0,69.63,Net Banking,In Transit,west.manager@ysm.com
+ORD-20240239,2024-11-04,2024-11-09,Standard Class,CUST-1097,Valued Customer,Mumbai,MH,West,India,PRD-114,6,171.97,0.15,877.05,660.0,217.05,Debit Card,Returned,west.manager@ysm.com
+ORD-20240065,2024-11-05,2024-11-09,First Class,CUST-1064,Fatima Miller,Chennai,TN,South,India,PRD-108,7,95.52,0.15,568.34,525.0,43.34,Cash on Delivery,Delivered,south.manager@ysm.com
+ORD-20240058,2024-11-05,2024-11-08,Same Day,CUST-1097,Valued Customer,Mumbai,MH,West,India,PRD-103,4,1133.51,0.05,4307.34,3200.0,1107.34,Net Banking,Delivered,west.manager@ysm.com
+ORD-20240183,2024-11-08,2024-11-10,Standard Class,CUST-1011,Priya Jones,Mumbai,MH,West,India,PRD-108,2,114.53,0.0,229.06,150.0,79.06,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240057,2024-11-09,2024-11-15,Second Class,CUST-1074,Ananya Jones,Singapore,SG,Asia-Pac,Singapore,PRD-104,10,82.02,0.05,779.19,600.0,179.19,Cash on Delivery,Delivered,apac.manager@ysm.com
+ORD-20240132,2024-11-09,2024-11-14,Same Day,CUST-1061,Amit Williams,Bengaluru,KA,South,India,PRD-109,5,100.04,0.0,500.2,325.0,175.2,UPI,Delivered,south.manager@ysm.com
+ORD-20240184,2024-11-11,2024-11-13,Standard Class,CUST-1002,Pooja Gupta,Mumbai,MH,West,India,PRD-104,7,91.31,0.1,575.25,420.0,155.25,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240236,2024-11-12,2024-11-14,Same Day,CUST-1017,Emily Deshmukh,Chandigarh,CH,North,India,PRD-101,6,1141.51,0.0,6849.06,5100.0,1749.06,Net Banking,Returned,north.manager@ysm.com
+ORD-20240221,2024-11-13,2024-11-16,Standard Class,CUST-1078,Ananya Deshmukh,Dubai,DXB,Asia-Pac,UAE,PRD-107,8,484.63,0.0,3877.04,3040.0,837.04,Credit Card,Delivered,apac.manager@ysm.com
+ORD-20240013,2024-11-13,2024-11-16,Second Class,CUST-1076,Rahul Wilson,San Francisco,CA,US-West,USA,PRD-108,2,99.62,0.2,159.39,150.0,9.39,Cash on Delivery,Delivered,us.manager@ysm.com
+ORD-20240281,2024-11-15,2024-11-16,Standard Class,CUST-1054,Valued Customer,Mumbai,MH,West,India,PRD-112,9,410.04,0.15,3136.81,2520.0,616.81,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240092,2024-11-15,2024-11-18,Second Class,CUST-1075,Aarav Jones,Chicago,IL,US-Central,USA,PRD-108,8,108.43,0.2,693.95,600.0,93.95,Cash on Delivery,Delivered,us.manager@ysm.com
+ORD-20240194,2024-11-16,2024-11-22,Second Class,CUST-1023,John Kapoor,New York,NY,US-East,USA,PRD-114,4,144.16,0.0,576.64,440.0,136.64,Debit Card,Returned,us.manager@ysm.com
+ORD-20240253,2024-11-17,2024-11-19,Standard Class,CUST-1038,Sneha Johnson,Chennai,TN,South,India,PRD-114,3,158.35,0.2,380.04,330.0,50.04,UPI,In Transit,south.manager@ysm.com
+ORD-20240279,2024-11-17,2024-11-19,Standard Class,CUST-1077,Vikram Johnson,Chennai,TN,South,India,PRD-107,1,471.14,0.0,471.14,380.0,91.14,Cash on Delivery,Returned,south.manager@ysm.com
+ORD-20240323,2024-11-17,2024-11-20,First Class,CUST-1065,Amit Verma,Berlin,BER,Europe,Germany,PRD-101,2,1215.78,0.05,2309.98,1700.0,609.98,Debit Card,Delivered,europe.manager@ysm.com
+ORD-20240144,2024-11-18,2024-11-24,Standard Class,CUST-1095,Valued Customer,Mumbai,MH,West,India,PRD-112,9,412.62,0.2,2970.86,2520.0,450.86,UPI,Delivered,west.manager@ysm.com
+ORD-20240071,2024-11-18,2024-11-19,Second Class,CUST-1049,Valued Customer,Mumbai,MH,West,India,PRD-104,7,78.99,0.1,497.64,420.0,77.64,UPI,Delivered,west.manager@ysm.com
+ORD-20240188,2024-11-19,2024-11-24,Same Day,CUST-1097,Valued Customer,Mumbai,MH,West,India,PRD-106,1,362.66,0.15,308.26,240.0,68.26,Credit Card,Delivered,west.manager@ysm.com
+ORD-20240252,2024-11-21,2024-11-24,Standard Class,CUST-1050,Valued Customer,Mumbai,MH,West,India,PRD-113,9,592.17,0.0,5329.53,4050.0,1279.53,Net Banking,Delivered,west.manager@ysm.com
+ORD-20240062,2024-11-22,2024-11-28,First Class,CUST-1081,Rohan Singh,Berlin,BER,Europe,Germany,PRD-111,4,277.37,0.0,1109.48,880.0,229.48,Debit Card,Delivered,europe.manager@ysm.com
+ORD-20240163,2024-11-22,2024-11-23,Standard Class,CUST-1013,Kavita Johnson,Chennai,TN,South,India,PRD-108,10,92.59,0.05,879.6,750.0,129.6,Cash on Delivery,Returned,south.manager@ysm.com
+ORD-20240171,2024-11-23,2024-11-24,Standard Class,CUST-1041,Valued Customer,Mumbai,MH,West,India,PRD-102,5,1392.55,0.05,6614.61,4750.0,1864.61,UPI,Delivered,west.manager@ysm.com
+ORD-20240169,2024-11-25,2024-11-26,Same Day,,Rohan Smith,Kolkata,WB,West,India,PRD-106,2,356.68,0.0,713.36,480.0,233.36,Credit Card,Delivered,west.manager@ysm.com
+ORD-20240319,2024-11-25,2024-11-29,Standard Class,CUST-1074,Ananya Jones,Singapore,SG,Asia-Pac,Singapore,PRD-103,2,1047.69,0.15,1781.07,1600.0,181.07,Cash on Delivery,Returned,apac.manager@ysm.com
+ORD-20240073,2024-11-26,2024-11-30,Standard Class,CUST-1016,Michael Iyer,London,MH,Europe,UK,PRD-109,2,96.79,0.05,183.9,130.0,53.9,Net Banking,Returned,europe.manager@ysm.com
+ORD-20240128,2024-11-26,2024-12-02,Standard Class,CUST-1010,Emily Johnson,Kolkata,WB,East,India,PRD-112,3,346.14,0.2,830.74,840.0,-9.26,Credit Card,In Transit,east.manager@ysm.com
+ORD-20240008,2024-11-26,2024-11-29,Same Day,CUST-1055,Valued Customer,Mumbai,MH,West,India,PRD-110,1,223.99,0.15,190.39,150.0,40.39,UPI,Returned,west.manager@ysm.com
+ORD-20240137,2024-11-27,2024-11-28,Second Class,CUST-1002,Pooja Gupta,Mumbai,MH,West,India,PRD-109,8,96.75,0.15,657.9,520.0,137.9,Debit Card,Delivered,west.manager@ysm.com
+ORD-20240211,2024-11-27,2024-11-28,Standard Class,CUST-1023,John Kapoor,New York,NY,US-East,USA,PRD-115,5,48.72,0.05,231.42,175.0,56.42,Cash on Delivery,In Transit,us.manager@ysm.com
+ORD-20240164,2024-11-27,2024-12-02,Second Class,CUST-1094,Valued Customer,Mumbai,MH,West,India,PRD-103,3,1246.72,0.1,3366.14,2400.0,966.14,UPI,Delivered,west.manager@ysm.com
+ORD-20240076,2024-11-28,2024-12-04,Second Class,CUST-1015,Ananya Patel,Dubai,DXB,Asia-Pac,UAE,PRD-108,2,111.55,0.0,223.1,150.0,73.1,Credit Card,Returned,apac.manager@ysm.com
+ORD-20240050,2024-12-01,2024-12-02,Standard Class,CUST-1036,Emily Deshmukh,Singapore,MH,Asia-Pac,Singapore,PRD-111,5,298.2,0.1,1341.9,1100.0,241.9,Credit Card,Delivered,apac.manager@ysm.com
+ORD-20240285,2024-12-03,2024-12-06,Second Class,CUST-1049,Valued Customer,Mumbai,MH,West,India,PRD-106,3,335.18,0.1,904.99,720.0,184.99,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240079,2024-12-03,2024-12-05,Second Class,CUST-1066,Priya Smith,Delhi,DL,North,India,PRD-113,3,696.39,0.0,2089.17,1350.0,739.17,Cash on Delivery,Delivered,north.manager@ysm.com
+ORD-20240110,2024-12-03,2024-12-09,First Class,CUST-1008,John Iyer,Chennai,TN,South,India,PRD-104,5,72.54,0.05,344.56,300.0,44.56,UPI,Delivered,south.manager@ysm.com
+ORD-20240165,2024-12-04,2024-12-05,Same Day,CUST-1021,Priya Khan,Singapore,SG,Asia-Pac,Singapore,PRD-111,5,345.2,0.15,1467.1,1100.0,367.1,UPI,Delivered,apac.manager@ysm.com
+ORD-20240316,2024-12-05,2024-12-06,Second Class,CUST-1040,Valued Customer,Mumbai,MH,West,India,PRD-115,7,45.54,0.1,286.9,245.0,41.9,UPI,In Transit,west.manager@ysm.com
+ORD-20240024,2024-12-06,2024-12-10,Standard Class,CUST-1055,Valued Customer,Mumbai,MH,West,India,PRD-106,3,304.01,0.2,729.62,720.0,9.62,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240226,2024-12-06,2024-12-12,Same Day,CUST-1008,John Iyer,Chennai,TN,South,India,PRD-114,10,152.15,0.05,1445.42,1100.0,345.42,UPI,Delivered,south.manager@ysm.com
+ORD-20240263,2024-12-07,2024-12-08,Standard Class,CUST-1048,Valued Customer,Mumbai,MH,West,India,PRD-112,10,423.63,0.05,4024.49,2800.0,1224.49,Net Banking,Delivered,west.manager@ysm.com
+ORD-20240003,2024-12-07,2024-12-09,Standard Class,CUST-1099,Pooja Kapoor,Chandigarh,CH,North,India,PRD-111,7,284.76,0.1,1793.99,1540.0,253.99,Credit Card,Delivered,north.manager@ysm.com
+ORD-20240067,2024-12-09,2024-12-11,Second Class,CUST-1060,Pooja Deshmukh,New York,NY,US-East,USA,PRD-105,8,85.85,0.2,549.44,560.0,-10.56,Cash on Delivery,Returned,us.manager@ysm.com
+ORD-20240330,2024-12-10,2024-12-14,Standard Class,CUST-1100,Pooja Khan,London,LDN,Europe,UK,PRD-109,4,83.84,0.05,318.59,260.0,58.59,UPI,Delivered,europe.manager@ysm.com
+ORD-20240199,2024-12-12,2024-12-15,Second Class,CUST-1002,Pooja Gupta,Mumbai,MH,West,India,PRD-106,6,362.78,0.05,2067.85,1440.0,627.85,Credit Card,Delivered,west.manager@ysm.com
+ORD-20240288,2024-12-12,2024-12-15,First Class,CUST-1056,Valued Customer,Mumbai,MH,West,India,PRD-109,1,86.33,0.2,69.06,65.0,4.06,Credit Card,Delivered,west.manager@ysm.com
+ORD-20240274,2024-12-12,2024-12-13,Standard Class,CUST-1084,Rohan Davis,Kolkata,WB,East,India,PRD-101,7,1068.74,0.2,5984.94,5950.0,34.94,Credit Card,Returned,east.manager@ysm.com
+ORD-20240131,2024-12-13,2024-12-16,Same Day,CUST-1065,Amit Verma,Berlin,BER,Europe,Germany,PRD-112,6,416.39,0.0,2498.34,1680.0,818.34,Net Banking,Delivered,europe.manager@ysm.com
+ORD-20240059,2024-12-16,2024-12-18,Second Class,CUST-1019,Fatima Khan,New York,NY,US-East,USA,PRD-115,9,46.33,0.05,396.12,315.0,81.12,Cash on Delivery,In Transit,us.manager@ysm.com
+ORD-20240317,2024-12-16,2024-12-17,Second Class,CUST-1094,Valued Customer,Mumbai,MH,West,India,PRD-108,7,115.73,0.0,810.11,525.0,285.11,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240305,2024-12-17,2024-12-22,Second Class,CUST-1065,Amit Verma,Berlin,BER,Europe,Germany,PRD-101,2,1157.99,0.05,2200.18,1700.0,500.18,Debit Card,Delivered,europe.manager@ysm.com
+ORD-20240091,2024-12-18,2024-12-23,First Class,CUST-1070,Pooja Taylor,Delhi,DL,North,India,PRD-102,6,1302.28,0.1,7032.31,5700.0,1332.31,Net Banking,Delivered,north.manager@ysm.com
+ORD-20240030,2024-12-19,2024-12-22,Second Class,CUST-1060,Pooja Deshmukh,New York,NY,US-East,USA,PRD-115,8,43.32,0.1,311.9,280.0,31.9,Debit Card,Delivered,us.manager@ysm.com
+ORD-20240005,2024-12-19,2024-12-23,Second Class,CUST-1016,Michael Iyer,London,MH,Europe,UK,PRD-113,2,606.85,0.05,1153.02,900.0,253.02,Debit Card,Delivered,europe.manager@ysm.com
+ORD-20240261,2024-12-19,2024-12-20,Standard Class,CUST-1065,Amit Verma,Berlin,BER,Europe,Germany,PRD-105,8,84.53,0.15,574.8,560.0,14.8,Credit Card,Delivered,europe.manager@ysm.com
+ORD-20240033,2024-12-19,2024-12-25,Standard Class,CUST-1007,Rohan Sharma,Berlin,BER,Europe,Germany,PRD-109,5,93.48,0.0,467.4,325.0,142.4,Net Banking,Delivered,europe.manager@ysm.com
+ORD-20240260,2024-12-21,2024-12-23,Second Class,CUST-1064,Fatima Miller,Chennai,TN,South,India,PRD-108,4,99.22,0.05,377.04,300.0,77.04,Credit Card,Delivered,south.manager@ysm.com
+ORD-20240147,2024-12-21,2024-12-26,First Class,CUST-1049,Valued Customer,Mumbai,MH,West,India,PRD-115,10,52.18,0.1,469.62,350.0,119.62,Credit Card,Returned,west.manager@ysm.com
+ORD-20240010,2024-12-22,2024-12-26,Second Class,CUST-1070,Pooja Taylor,Delhi,DL,North,India,PRD-108,9,107.0,0.1,866.7,675.0,191.7,UPI,Returned,north.manager@ysm.com
+ORD-20240134,2024-12-25,2024-12-30,Same Day,CUST-1092,Valued Customer,Mumbai,MH,West,India,PRD-114,7,159.51,0.15,949.08,770.0,179.08,Cash on Delivery,Delivered,west.manager@ysm.com
+ORD-20240156,2024-12-27,2024-12-31,Same Day,CUST-1074,Ananya Jones,Singapore,SG,Asia-Pac,Singapore,PRD-102,9,1239.8,0.15,9484.47,8550.0,934.47,Credit Card,Delivered,apac.manager@ysm.com
+ORD-20240324,2024-12-31,2025-01-06,Second Class,CUST-1052,Valued Customer,Mumbai,MH,West,India,PRD-109,7,100.02,0.1,630.13,455.0,175.13,Cash on Delivery,Delivered,west.manager@ysm.com

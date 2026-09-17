@@ -1,0 +1,101 @@
+CustomerID,CustomerName,Segment,City,State,Country,Region,PostalCode
+CUST-1001,Sneha Sharma,Home Office,Kolkata,WB,India,East,356787
+CUST-1002,Pooja Gupta,Home Office,Mumbai,MH,India,West,809570
+CUST-1003,Fatima Patel,,Ahmedabad,GJ,India,West,133326
+CUST-1004,Aarav Patel,Corporate,Chennai,TN,India,South,629903
+CUST-1005,Kavita Sharma,Home Office,Chennai,TN,India,South,850800
+CUST-1006,Fatima Brown,,New York,NY,USA,US-East,717889
+CUST-1007,Rohan Sharma,Corporate,Berlin,BER,Germany,Europe,543143
+CUST-1008,John Iyer,Corporate,Chennai,TN,India,South,900581
+CUST-1009,,Corporate,Ahmedabad,GJ,India,West,201414
+CUST-1010,Emily Johnson,Home Office,Kolkata,WB,India,East,946335
+CUST-1011,Priya Jones,Home Office,,MH,,West,496922
+CUST-1012,,Consumer,Dubai,DXB,UAE,Asia-Pac,759176
+CUST-1013,Kavita Johnson,,Chennai,TN,India,South,838797
+CUST-1014,Rahul Verma,Home Office,Chennai,TN,India,South,910620
+CUST-1015,Ananya Patel,Corporate,Dubai,DXB,UAE,Asia-Pac,205907
+CUST-1016,Michael Iyer,,London,,UK,Europe,974628
+CUST-1017,Emily Deshmukh,,Chandigarh,CH,,North,319684
+CUST-1018,Rohan Patel,,London,LDN,UK,Europe,279451
+CUST-1019,Fatima Khan,Corporate,New York,NY,USA,US-East,
+CUST-1020,Rohan Wilson,Corporate,,LDN,UK,Europe,440035
+CUST-1021,Priya Khan,Corporate,Singapore,SG,Singapore,Asia-Pac,430776
+CUST-1022,Michael Iyer,,Chennai,TN,India,South,694731
+CUST-1023,John Kapoor,Home Office,New York,NY,USA,US-East,514850
+CUST-1024,David Gupta,Consumer,Bengaluru,KA,India,South,358607
+CUST-1025,Fatima Wilson,Consumer,Berlin,BER,Germany,Europe,712982
+CUST-1026,Sarah Taylor,Consumer,Chandigarh,CH,India,North,329974
+CUST-1027,Vikram Davis,,Mumbai,MH,India,West,892495
+CUST-1028,Priya Singh,Corporate,London,LDN,UK,Europe,267753
+CUST-1029,Sarah Anderson,Corporate,Ahmedabad,GJ,India,West,500156
+CUST-1030,Kavita Jones,Home Office,Kolkata,WB,India,East,680099
+CUST-1031,Aarav Singh,Home Office,San Francisco,CA,USA,US-West,887352
+,Rohan Smith,Corporate,Kolkata,WB,India,,555884
+CUST-1033,Neha Jones,Corporate,Berlin,BER,Germany,Europe,854639
+CUST-1034,Rohan Davis,Corporate,San Francisco,CA,USA,US-West,211579
+CUST-1035,Ananya Davis,Home Office,Chennai,TN,India,South,260263
+CUST-1036,Emily Deshmukh,Home Office,Singapore,,Singapore,Asia-Pac,656116
+CUST-1037,Aarav Anderson,Consumer,New York,NY,USA,US-East,120422
+CUST-1038,Sneha Johnson,Consumer,Chennai,TN,India,South,160738
+CUST-1039,Pooja Taylor,Corporate,Mumbai,MH,India,West,867460
+CUST-1040,,,,,,,231869
+CUST-1041,,,,,,,377932
+CUST-1042,,,,,,,665492
+CUST-1043,,,,,,,781446
+CUST-1044,,,,,,,226882
+CUST-1045,,,,,,,122056
+CUST-1046,,,,,,,330914
+CUST-1047,,,,,,,161733
+CUST-1048,,,,,,,446479
+CUST-1049,,,,,,,801474
+CUST-1050,,,,,,,858490
+CUST-1051,,,,,,,922733
+CUST-1052,,,,,,,201639
+CUST-1053,,,,,,,589710
+CUST-1054,,,,,,,863587
+CUST-1055,,,,,,,299448
+CUST-1056,,,,,,,292401
+CUST-1057,,,,,,,179046
+CUST-1058,,,,,,,783823
+CUST-1059,Fatima Sharma,Corporate,Singapore,SG,Singapore,Asia-Pac,989921
+CUST-1060,Pooja Deshmukh,Consumer,New York,NY,USA,US-East,604740
+CUST-1061,Amit Williams,Corporate,Bengaluru,KA,India,South,497382
+CUST-1062,Aarav Williams,Consumer,Singapore,SG,Singapore,Asia-Pac,923267
+CUST-1063,David Reddy,Consumer,Berlin,BER,Germany,Europe,865990
+CUST-1064,Fatima Miller,Corporate,Chennai,TN,India,South,411120
+CUST-1065,Amit Verma,Home Office,Berlin,BER,Germany,Europe,668532
+CUST-1066,Priya Smith,Corporate,Delhi,DL,India,North,712554
+CUST-1067,Jessica Davis,Home Office,Bengaluru,KA,India,South,159642
+CUST-1068,Alex Patel,Corporate,Mumbai,MH,India,West,723939
+CUST-1069,Rahul Khan,Consumer,Mumbai,MH,India,West,697347
+CUST-1070,Pooja Taylor,Home Office,Delhi,DL,India,North,749468
+CUST-1071,Rahul Brown,Home Office,Chicago,IL,USA,US-Central,692683
+CUST-1072,Alex Smith,Consumer,Chennai,TN,India,South,802258
+CUST-1073,John Khan,Consumer,Ahmedabad,GJ,India,West,237235
+CUST-1074,Ananya Jones,Consumer,Singapore,SG,Singapore,Asia-Pac,176066
+CUST-1075,Aarav Jones,Home Office,Chicago,IL,USA,US-Central,204837
+CUST-1076,Rahul Wilson,Corporate,San Francisco,CA,USA,US-West,378082
+CUST-1077,Vikram Johnson,Corporate,Chennai,TN,India,South,487477
+CUST-1078,Ananya Deshmukh,Consumer,Dubai,DXB,UAE,Asia-Pac,669605
+CUST-1079,Ananya Anderson,Home Office,San Francisco,CA,USA,US-West,108203
+CUST-1080,Fatima Reddy,Home Office,Mumbai,MH,India,West,240814
+CUST-1081,Rohan Singh,Corporate,Berlin,BER,Germany,Europe,680097
+CUST-1082,Vikram Iyer,Consumer,Chicago,IL,USA,US-Central,320861
+CUST-1083,John Kapoor,Home Office,London,LDN,UK,Europe,994343
+CUST-1084,Rohan Davis,Consumer,Kolkata,WB,India,East,987204
+CUST-1085,Priya Patel,Home Office,Ahmedabad,GJ,India,West,969634
+CUST-1086,Rohan Verma,Corporate,Chandigarh,CH,India,North,908577
+CUST-1087,Vikram Iyer,Corporate,Berlin,BER,Germany,Europe,563298
+CUST-1088,Fatima Brown,Home Office,Delhi,DL,India,North,217308
+CUST-1089,Rahul Gupta,Home Office,Delhi,DL,India,North,975136
+CUST-1090,Emily Taylor,Home Office,Bengaluru,KA,India,South,550664
+CUST-1091,,,,,,,
+CUST-1092,,,,,,,
+CUST-1093,,,,,,,
+CUST-1094,,,,,,,
+CUST-1095,,,,,,,
+CUST-1096,,,,,,,
+CUST-1097,,,,,,,
+CUST-1098,Sneha Williams,Corporate,Dubai,DXB,UAE,Asia-Pac,593554
+CUST-1099,Pooja Kapoor,Consumer,Chandigarh,CH,India,North,420015
+CUST-1100,Pooja Khan,Corporate,London,LDN,UK,Europe,302511

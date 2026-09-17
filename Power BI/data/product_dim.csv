@@ -1,0 +1,16 @@
+ProductID,Category,SubCategory,ProductName,CostPrice
+PRD-101,Technology,Laptops,Dell XPS 15,850
+PRD-102,Technology,Laptops,MacBook Air M2,950
+PRD-103,Technology,Laptops,Lenovo ThinkPad X1,800
+PRD-104,Technology,Accessories,Logitech MX Master 3,60
+PRD-105,Technology,Accessories,Mechanical Keyboard RGB,70
+PRD-106,Technology,Monitors,Samsung 27-inch 4K,240
+PRD-107,Technology,Monitors,LG UltraWide 34-inch,380
+PRD-108,Office Supplies,Storage,External SSD 1TB SanDisk,75
+PRD-109,Office Supplies,Storage,Seagate 4TB HDD,65
+PRD-110,Office Supplies,Chairs,Ergonomic Mesh Chair,150
+PRD-111,Office Supplies,Chairs,Executive Leather Chair,220
+PRD-112,Office Supplies,Desks,Motorized Standing Desk,280
+PRD-113,Furniture,Tables,Conference Room Table,450
+PRD-114,Furniture,Bookcases,Wooden 4-Tier Bookshelf,110
+PRD-115,Furniture,Lighting,Smart LED Desk Lamp,35

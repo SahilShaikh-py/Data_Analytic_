@@ -1,0 +1,1001 @@
+IncidentID,Timestamp,SourceIP,DestinationServer,AttackerCountry,AttackType,Severity,Status,ResponseTimeMinutes,FirewallAction
+SEC-INC-50001,2024-10-18 20:33:49,56.145.253.203,SRV-PROD-08,Russia,Phishing Attempt,Low,False Positive,7,Alerted
+SEC-INC-50002,2024-05-24 14:29:44,173.50.81.193,SRV-PROD-07,India,Brute Force SSH,Medium,Resolved,89,Alerted
+SEC-INC-50003,2024-09-14 03:40:38,173.207.199.39,SRV-PROD-01,Netherlands,DDoS Attack,Medium,Resolved,79,Allowed
+SEC-INC-50004,2024-03-18 16:51:40,65.227.161.24,SRV-PROD-04,Brazil,Privilege Escalation,Medium,Investigating,,Blocked
+SEC-INC-50005,2024-09-21 22:09:48,211.134.239.197,SRV-PROD-06,Unknown,Brute Force SSH,Low,False Positive,164,Alerted
+SEC-INC-50006,2024-01-21 14:06:47,106.54.157.156,SRV-PROD-02,USA,Malware Infiltration,Medium,Mitigated,29,Allowed
+SEC-INC-50007,2024-03-14 11:16:12,185.223.249.205,SRV-PROD-02,Unknown,Phishing Attempt,Medium,Investigating,,Alerted
+SEC-INC-50008,2024-03-23 02:28:54,116.148.94.91,SRV-PROD-02,China,Brute Force SSH,Medium,Mitigated,71,Alerted
+SEC-INC-50009,2024-05-11 16:05:39,211.237.36.241,SRV-PROD-02,Unknown,Phishing Attempt,Low,False Positive,107,Alerted
+SEC-INC-50010,2024-11-13 04:41:46,157.94.132.217,SRV-PROD-06,India,Phishing Attempt,Medium,Mitigated,72,Blocked
+SEC-INC-50011,2024-01-22 22:35:45,209.15.190.203,SRV-PROD-04,Russia,Brute Force SSH,High,False Positive,101,Blocked
+SEC-INC-50012,2024-03-22 20:45:28,147.219.19.58,SRV-PROD-07,Unknown,Privilege Escalation,Low,Mitigated,124,Blocked
+SEC-INC-50013,2024-09-30 16:55:29,72.22.47.188,SRV-PROD-02,Netherlands,DDoS Attack,Low,False Positive,21,Alerted
+SEC-INC-50014,2024-06-24 22:00:15,169.55.180.190,SRV-PROD-08,China,SQL Injection,Medium,Investigating,,Alerted
+SEC-INC-50015,2024-03-15 23:18:34,99.82.146.9,SRV-PROD-07,Russia,SQL Injection,High,Mitigated,59,Blocked
+SEC-INC-50016,2024-01-28 07:42:00,50.244.195.176,SRV-PROD-07,Germany,SQL Injection,Medium,Resolved,41,Allowed
+SEC-INC-50017,2024-05-20 14:44:53,65.77.224.183,SRV-PROD-08,Netherlands,Malware Infiltration,Low,False Positive,52,Allowed
+SEC-INC-50018,2024-02-17 15:36:08,132.247.193.77,SRV-PROD-03,Brazil,SQL Injection,Critical,Mitigated,126,Blocked
+SEC-INC-50019,2024-10-01 05:51:01,156.91.234.178,SRV-PROD-07,Russia,Malware Infiltration,High,Investigating,,Blocked
+SEC-INC-50020,2024-02-09 21:03:43,202.38.83.171,SRV-PROD-06,Russia,Brute Force SSH,High,Investigating,,Blocked
+SEC-INC-50021,2024-09-12 11:31:12,74.203.249.173,SRV-PROD-07,Germany,Malware Infiltration,Medium,Mitigated,37,Blocked
+SEC-INC-50022,2024-08-18 23:15:44,193.25.10.56,SRV-PROD-04,Netherlands,Privilege Escalation,Medium,Investigating,,Blocked
+SEC-INC-50023,2024-07-12 07:52:09,134.54.244.49,SRV-PROD-01,India,SQL Injection,Low,False Positive,133,Allowed
+SEC-INC-50024,2024-12-24 18:10:22,211.117.106.106,SRV-PROD-06,India,Malware Infiltration,Medium,False Positive,34,Allowed
+SEC-INC-50025,2024-08-22 15:35:49,140.46.142.153,SRV-PROD-03,Netherlands,DDoS Attack,Low,Mitigated,167,Alerted
+SEC-INC-50026,2024-12-25 22:35:13,70.255.23.207,SRV-PROD-02,China,Privilege Escalation,Low,Mitigated,31,Alerted
+SEC-INC-50027,2024-11-15 19:49:59,70.163.114.129,SRV-PROD-01,Germany,DDoS Attack,Low,Mitigated,146,Alerted
+SEC-INC-50028,2024-02-28 07:07:12,165.244.32.90,SRV-PROD-08,Netherlands,Privilege Escalation,Medium,Mitigated,6,Alerted
+SEC-INC-50029,2024-04-24 18:28:47,117.69.226.169,SRV-PROD-05,Germany,DDoS Attack,Medium,Resolved,111,Allowed
+SEC-INC-50030,2024-01-08 00:57:20,84.203.96.216,SRV-PROD-06,India,Brute Force SSH,Critical,Mitigated,66,Blocked
+SEC-INC-50031,2024-10-11 14:14:56,94.158.165.101,SRV-PROD-01,Netherlands,Brute Force SSH,Critical,Mitigated,49,Blocked
+SEC-INC-50032,2024-07-25 11:34:57,177.41.112.60,SRV-PROD-02,USA,Malware Infiltration,Low,Mitigated,165,Alerted
+SEC-INC-50033,2024-10-10 05:47:27,127.53.24.24,SRV-PROD-01,Netherlands,Phishing Attempt,Medium,Investigating,,Allowed
+SEC-INC-50034,2024-11-12 19:47:40,65.147.98.7,SRV-PROD-03,Unknown,Privilege Escalation,Medium,False Positive,52,Allowed
+SEC-INC-50035,2024-11-30 08:04:25,121.50.138.216,SRV-PROD-04,Netherlands,SQL Injection,Medium,False Positive,26,Allowed
+SEC-INC-50036,2024-11-17 00:50:33,208.253.149.222,SRV-PROD-02,China,DDoS Attack,High,Resolved,32,Blocked
+SEC-INC-50037,2024-03-13 10:17:02,112.230.47.24,SRV-PROD-02,Unknown,SQL Injection,High,Investigating,,Blocked
+SEC-INC-50038,2024-07-19 03:39:55,170.204.6.106,SRV-PROD-02,Unknown,Privilege Escalation,Low,Mitigated,101,Alerted
+SEC-INC-50039,2024-11-20 16:24:57,86.47.77.3,SRV-PROD-03,Russia,Phishing Attempt,Critical,False Positive,128,Blocked
+SEC-INC-50040,2024-11-10 21:50:42,184.2.41.134,SRV-PROD-05,China,Brute Force SSH,Medium,Resolved,137,Blocked
+SEC-INC-50041,2024-03-19 07:52:31,138.30.231.56,SRV-PROD-01,India,Brute Force SSH,Low,Investigating,,Alerted
+SEC-INC-50042,2024-05-20 17:32:00,96.245.24.90,SRV-PROD-05,Unknown,Privilege Escalation,High,Mitigated,136,Blocked
+SEC-INC-50043,2024-07-23 07:01:44,109.45.51.176,SRV-PROD-05,Netherlands,Phishing Attempt,Medium,False Positive,47,Allowed
+SEC-INC-50044,2024-09-06 15:46:55,159.109.153.192,SRV-PROD-05,India,Malware Infiltration,Low,Mitigated,114,Allowed
+SEC-INC-50045,2024-10-17 12:50:57,140.230.162.210,SRV-PROD-02,Unknown,Brute Force SSH,High,False Positive,155,Blocked
+SEC-INC-50046,2024-07-28 10:41:06,199.212.225.166,SRV-PROD-06,Netherlands,Phishing Attempt,Low,False Positive,114,Allowed
+SEC-INC-50047,2024-07-02 08:55:54,63.56.169.96,SRV-PROD-06,USA,SQL Injection,Low,False Positive,7,Blocked
+SEC-INC-50048,2024-06-17 07:46:59,164.146.204.83,SRV-PROD-04,China,DDoS Attack,Low,Investigating,,Blocked
+SEC-INC-50049,2024-04-21 03:44:49,188.72.184.156,SRV-PROD-02,Netherlands,Privilege Escalation,High,False Positive,86,Blocked
+SEC-INC-50050,2024-04-11 07:10:37,57.206.127.128,SRV-PROD-01,Germany,DDoS Attack,Low,Mitigated,48,Blocked
+SEC-INC-50051,2024-06-16 21:31:25,143.61.148.6,SRV-PROD-05,Russia,Privilege Escalation,High,Resolved,123,Blocked
+SEC-INC-50052,2024-05-25 04:46:18,148.10.230.137,SRV-PROD-01,India,Privilege Escalation,Low,Mitigated,29,Alerted
+SEC-INC-50053,2024-06-03 10:00:02,126.193.89.103,SRV-PROD-02,India,DDoS Attack,Medium,Mitigated,81,Blocked
+SEC-INC-50054,2024-08-20 17:57:42,209.248.234.32,SRV-PROD-06,China,Phishing Attempt,Low,Resolved,40,Allowed
+SEC-INC-50055,2024-06-14 15:51:45,102.44.23.49,SRV-PROD-06,Russia,Privilege Escalation,High,False Positive,16,Blocked
+SEC-INC-50056,2024-02-26 01:44:51,122.20.68.85,SRV-PROD-07,Germany,Privilege Escalation,Low,Investigating,,Blocked
+SEC-INC-50057,2024-08-23 04:21:55,77.82.221.38,SRV-PROD-07,Unknown,Privilege Escalation,Low,Investigating,,Blocked
+SEC-INC-50058,2024-09-01 17:50:38,116.83.198.188,SRV-PROD-08,Brazil,Phishing Attempt,Low,False Positive,26,Alerted
+SEC-INC-50059,2024-10-12 08:49:28,213.166.189.220,SRV-PROD-04,China,Phishing Attempt,Critical,Resolved,59,Blocked
+SEC-INC-50060,2024-01-07 07:52:09,164.210.99.49,SRV-PROD-08,China,SQL Injection,Low,False Positive,84,Blocked
+SEC-INC-50061,2024-08-20 23:51:30,84.218.130.28,SRV-PROD-03,Brazil,SQL Injection,Low,Mitigated,163,Blocked
+SEC-INC-50062,2024-04-13 14:34:15,93.18.72.109,SRV-PROD-03,Germany,Malware Infiltration,Medium,Investigating,,Alerted
+SEC-INC-50063,2024-02-24 04:00:44,106.5.229.118,SRV-PROD-03,Germany,Phishing Attempt,Medium,Mitigated,95,Alerted
+SEC-INC-50064,2024-03-01 20:02:09,66.91.111.55,SRV-PROD-03,Netherlands,Malware Infiltration,Medium,False Positive,18,Alerted
+SEC-INC-50065,2024-05-19 13:27:47,70.13.167.98,SRV-PROD-07,Brazil,SQL Injection,Low,Investigating,,Blocked
+SEC-INC-50066,2024-05-21 19:16:50,200.127.133.111,SRV-PROD-02,Russia,Privilege Escalation,Low,Resolved,61,Allowed
+SEC-INC-50067,2024-01-28 01:17:57,192.69.62.17,SRV-PROD-02,Germany,Brute Force SSH,High,Mitigated,105,Blocked
+SEC-INC-50068,2024-07-20 03:41:18,101.188.211.226,SRV-PROD-05,Unknown,Brute Force SSH,Low,Investigating,,Alerted
+SEC-INC-50069,2024-11-22 10:29:07,197.74.188.1,SRV-PROD-02,USA,Malware Infiltration,High,Mitigated,83,Blocked
+SEC-INC-50070,2024-12-18 08:41:16,88.81.175.18,SRV-PROD-03,USA,SQL Injection,High,Investigating,,Blocked
+SEC-INC-50071,2024-01-07 17:16:46,154.86.6.46,SRV-PROD-05,China,Brute Force SSH,Medium,Resolved,157,Alerted
+SEC-INC-50072,2024-08-30 21:13:55,45.126.224.64,SRV-PROD-08,China,Phishing Attempt,High,False Positive,63,Blocked
+SEC-INC-50073,2024-09-25 18:19:08,87.194.38.199,SRV-PROD-02,China,SQL Injection,High,False Positive,120,Blocked
+SEC-INC-50074,2024-09-08 12:46:17,184.66.170.125,SRV-PROD-05,India,DDoS Attack,Low,False Positive,82,Blocked
+SEC-INC-50075,2024-06-19 18:51:13,214.220.222.231,SRV-PROD-08,China,SQL Injection,Medium,Resolved,42,Alerted
+SEC-INC-50076,2024-04-22 05:09:24,136.128.8.63,SRV-PROD-07,India,Brute Force SSH,Medium,Investigating,,Alerted
+SEC-INC-50077,2024-11-23 03:55:46,115.225.161.174,SRV-PROD-08,USA,SQL Injection,High,False Positive,89,Blocked
+SEC-INC-50078,2024-07-19 21:27:00,151.242.255.71,SRV-PROD-05,Brazil,Phishing Attempt,Medium,False Positive,161,Allowed
+SEC-INC-50079,2024-08-09 16:34:01,190.248.203.203,SRV-PROD-06,Germany,Phishing Attempt,Critical,Mitigated,180,Blocked
+SEC-INC-50080,2024-03-16 16:58:41,219.39.134.248,SRV-PROD-05,USA,SQL Injection,Medium,Resolved,80,Allowed
+SEC-INC-50081,2024-08-20 01:29:27,100.73.212.152,SRV-PROD-02,Russia,DDoS Attack,Low,Mitigated,95,Blocked
+SEC-INC-50082,2024-01-01 01:49:00,109.36.90.225,SRV-PROD-05,USA,Phishing Attempt,Medium,Investigating,,Blocked
+SEC-INC-50083,2024-04-10 15:43:49,194.236.21.75,SRV-PROD-04,Russia,DDoS Attack,Critical,Investigating,,Blocked
+SEC-INC-50084,2024-12-13 23:11:38,143.109.103.248,SRV-PROD-02,Germany,SQL Injection,Medium,Investigating,,Blocked
+SEC-INC-50085,2024-08-11 11:44:28,193.36.175.197,SRV-PROD-04,Germany,Brute Force SSH,Medium,Investigating,,Alerted
+SEC-INC-50086,2024-06-05 03:06:59,121.146.238.161,SRV-PROD-08,USA,DDoS Attack,High,Mitigated,29,Blocked
+SEC-INC-50087,2024-03-11 19:10:18,158.178.81.129,SRV-PROD-06,Unknown,SQL Injection,Medium,Mitigated,110,Alerted
+SEC-INC-50088,2024-01-15 20:20:57,51.246.197.108,SRV-PROD-02,USA,Malware Infiltration,High,Investigating,,Blocked
+SEC-INC-50089,2024-10-24 18:38:55,140.33.159.140,SRV-PROD-05,Russia,DDoS Attack,Low,Resolved,123,Blocked
+SEC-INC-50090,2024-08-23 01:58:43,66.15.70.213,SRV-PROD-02,India,Malware Infiltration,Low,False Positive,149,Alerted
+SEC-INC-50091,2024-12-19 12:03:45,60.32.190.150,SRV-PROD-01,Brazil,Malware Infiltration,Low,Mitigated,39,Allowed
+SEC-INC-50092,2024-12-11 23:17:22,84.78.161.80,SRV-PROD-01,Unknown,Malware Infiltration,Medium,Resolved,22,Allowed
+SEC-INC-50093,2024-03-19 21:59:00,75.134.25.64,SRV-PROD-04,China,DDoS Attack,Low,Mitigated,105,Allowed
+SEC-INC-50094,2024-03-03 10:55:11,148.124.252.48,SRV-PROD-04,Germany,Malware Infiltration,Medium,Resolved,115,Allowed
+SEC-INC-50095,2024-11-21 00:47:18,92.37.210.191,SRV-PROD-04,USA,Malware Infiltration,Medium,Investigating,,Alerted
+SEC-INC-50096,2024-09-02 10:33:35,119.171.26.246,SRV-PROD-08,India,Privilege Escalation,Low,Mitigated,32,Alerted
+SEC-INC-50097,2024-08-01 15:28:03,82.8.73.118,SRV-PROD-02,Netherlands,Phishing Attempt,Medium,Resolved,170,Blocked
+SEC-INC-50098,2024-12-02 22:34:08,158.11.233.233,SRV-PROD-06,USA,DDoS Attack,High,Mitigated,75,Blocked
+SEC-INC-50099,2024-01-05 05:45:50,136.129.220.221,SRV-PROD-04,India,Privilege Escalation,Medium,Resolved,49,Blocked
+SEC-INC-50100,2024-03-18 12:48:39,212.185.145.87,SRV-PROD-08,USA,SQL Injection,High,False Positive,105,Blocked
+SEC-INC-50101,2024-02-04 23:29:19,168.97.247.121,SRV-PROD-03,Germany,Brute Force SSH,Medium,False Positive,154,Blocked
+SEC-INC-50102,2024-07-25 02:27:36,56.8.219.188,SRV-PROD-03,Brazil,Phishing Attempt,Medium,Mitigated,178,Alerted
+SEC-INC-50103,2024-06-14 08:25:47,105.27.231.226,SRV-PROD-03,Netherlands,DDoS Attack,High,Resolved,161,Blocked
+SEC-INC-50104,2024-05-08 04:10:04,54.217.192.19,SRV-PROD-08,India,Malware Infiltration,Medium,Resolved,49,Alerted
+SEC-INC-50105,2024-02-25 16:21:58,141.35.254.164,SRV-PROD-04,Brazil,SQL Injection,Medium,False Positive,62,Allowed
+SEC-INC-50106,2024-03-23 15:48:13,180.208.203.50,SRV-PROD-02,Russia,Privilege Escalation,Critical,Resolved,57,Blocked
+SEC-INC-50107,2024-01-18 05:07:03,46.93.199.105,SRV-PROD-02,India,Brute Force SSH,Medium,Mitigated,53,Allowed
+SEC-INC-50108,2024-10-19 17:14:53,173.91.92.159,SRV-PROD-03,China,DDoS Attack,Medium,Mitigated,23,Blocked
+SEC-INC-50109,2024-02-10 04:37:51,177.77.26.31,SRV-PROD-08,Brazil,Phishing Attempt,Medium,False Positive,10,Allowed
+SEC-INC-50110,2024-05-28 09:09:09,144.181.92.18,SRV-PROD-03,Germany,Phishing Attempt,Medium,Investigating,,Blocked
+SEC-INC-50111,2024-11-08 18:12:22,124.103.159.15,SRV-PROD-02,Unknown,SQL Injection,Medium,Resolved,91,Alerted
+SEC-INC-50112,2024-05-13 07:18:01,130.228.196.16,SRV-PROD-03,Brazil,Malware Infiltration,High,False Positive,174,Blocked
+SEC-INC-50113,2024-02-01 08:34:42,171.19.207.243,SRV-PROD-01,India,Phishing Attempt,Critical,Resolved,146,Blocked
+SEC-INC-50114,2024-09-02 04:42:49,114.186.11.27,SRV-PROD-01,Unknown,Malware Infiltration,Low,False Positive,115,Alerted
+SEC-INC-50115,2024-06-04 08:17:32,50.239.15.7,SRV-PROD-04,Netherlands,Privilege Escalation,Medium,Resolved,146,Alerted
+SEC-INC-50116,2024-01-27 14:05:41,141.179.33.111,SRV-PROD-07,USA,Phishing Attempt,Medium,False Positive,95,Allowed
+SEC-INC-50117,2024-06-24 15:53:36,59.61.60.24,SRV-PROD-01,Brazil,DDoS Attack,Medium,Resolved,8,Blocked
+SEC-INC-50118,2024-05-07 02:04:15,64.15.33.113,SRV-PROD-03,Germany,Phishing Attempt,Low,Investigating,,Alerted
+SEC-INC-50119,2024-03-07 22:04:05,146.123.169.32,SRV-PROD-02,China,SQL Injection,Critical,Investigating,,Blocked
+SEC-INC-50120,2024-09-10 12:59:47,101.114.183.78,SRV-PROD-06,Germany,Privilege Escalation,Low,False Positive,86,Blocked
+SEC-INC-50121,2024-10-04 18:19:47,71.14.89.231,SRV-PROD-07,Unknown,SQL Injection,Low,Investigating,,Blocked
+SEC-INC-50122,2024-04-28 11:06:08,186.54.32.96,SRV-PROD-03,Russia,Brute Force SSH,Medium,Mitigated,34,Allowed
+SEC-INC-50123,2024-09-12 01:13:44,114.72.151.99,SRV-PROD-05,China,Phishing Attempt,Low,Mitigated,131,Allowed
+SEC-INC-50124,2024-07-14 14:00:18,158.12.58.53,SRV-PROD-07,USA,Privilege Escalation,Medium,Resolved,174,Alerted
+SEC-INC-50125,2024-01-17 19:43:01,134.240.7.233,SRV-PROD-06,Germany,Malware Infiltration,Low,Resolved,92,Blocked
+SEC-INC-50126,2024-11-14 15:48:15,154.201.187.238,SRV-PROD-01,China,Malware Infiltration,Low,False Positive,141,Alerted
+SEC-INC-50127,2024-08-05 20:50:52,190.197.133.67,SRV-PROD-03,Netherlands,DDoS Attack,Medium,Investigating,,Allowed
+SEC-INC-50128,2024-01-08 10:13:11,219.244.71.22,SRV-PROD-04,Germany,SQL Injection,Medium,Resolved,162,Alerted
+SEC-INC-50129,2024-07-04 09:47:05,213.65.201.168,SRV-PROD-01,China,SQL Injection,Medium,False Positive,72,Allowed
+SEC-INC-50130,2024-08-15 16:50:50,49.113.3.120,SRV-PROD-01,India,DDoS Attack,Medium,Investigating,,Alerted
+SEC-INC-50131,2024-01-30 21:06:05,65.71.230.157,SRV-PROD-06,China,DDoS Attack,Low,False Positive,71,Alerted
+SEC-INC-50132,2024-03-06 08:16:48,206.45.38.224,SRV-PROD-01,Brazil,Phishing Attempt,Medium,Investigating,,Blocked
+SEC-INC-50133,2024-09-16 16:01:52,193.82.11.142,SRV-PROD-04,Russia,Privilege Escalation,Critical,False Positive,9,Blocked
+SEC-INC-50134,2024-12-13 12:51:52,183.184.12.154,SRV-PROD-04,India,Phishing Attempt,Low,Mitigated,33,Blocked
+SEC-INC-50135,2024-02-09 08:37:41,97.84.147.96,SRV-PROD-07,China,Privilege Escalation,Medium,False Positive,41,Allowed
+SEC-INC-50136,2024-06-16 22:05:56,137.86.250.105,SRV-PROD-06,Unknown,SQL Injection,Medium,Investigating,,Alerted
+SEC-INC-50137,2024-01-23 10:35:25,83.234.152.7,SRV-PROD-02,Brazil,SQL Injection,Medium,False Positive,60,Alerted
+SEC-INC-50138,2024-10-25 01:11:12,213.186.39.98,SRV-PROD-02,China,Brute Force SSH,Medium,Mitigated,142,Blocked
+SEC-INC-50139,2024-03-03 19:12:54,58.156.121.169,SRV-PROD-08,India,SQL Injection,Low,False Positive,67,Alerted
+SEC-INC-50140,2024-05-04 13:10:43,104.117.81.192,SRV-PROD-02,Brazil,DDoS Attack,Medium,Mitigated,97,Allowed
+SEC-INC-50141,2024-06-29 20:24:20,174.20.235.93,SRV-PROD-08,Brazil,DDoS Attack,High,Investigating,,Blocked
+SEC-INC-50142,2024-10-18 04:33:40,182.63.199.233,SRV-PROD-07,USA,Malware Infiltration,Low,False Positive,92,Alerted
+SEC-INC-50143,2024-03-01 02:58:03,149.108.130.252,SRV-PROD-03,Unknown,Privilege Escalation,High,Investigating,,Blocked
+SEC-INC-50144,2024-04-02 16:31:55,48.43.31.108,SRV-PROD-05,Unknown,Privilege Escalation,Low,Resolved,115,Allowed
+SEC-INC-50145,2024-12-19 06:04:40,63.34.132.222,SRV-PROD-07,Netherlands,SQL Injection,Low,Investigating,,Blocked
+SEC-INC-50146,2024-05-30 04:20:01,131.230.212.230,SRV-PROD-06,China,Privilege Escalation,Low,False Positive,119,Alerted
+SEC-INC-50147,2024-11-18 16:22:30,156.75.194.123,SRV-PROD-03,USA,Privilege Escalation,High,Resolved,43,Blocked
+SEC-INC-50148,2024-01-04 21:36:38,196.95.173.167,SRV-PROD-08,Netherlands,SQL Injection,Medium,False Positive,29,Allowed
+SEC-INC-50149,2024-06-01 17:57:36,132.13.145.133,SRV-PROD-07,Germany,SQL Injection,Low,Investigating,,Allowed
+SEC-INC-50150,2024-01-22 07:40:14,155.133.72.148,SRV-PROD-06,China,SQL Injection,Low,Resolved,78,Alerted
+SEC-INC-50151,2024-09-06 15:58:49,102.227.44.74,SRV-PROD-05,China,Brute Force SSH,Medium,Investigating,,Allowed
+SEC-INC-50152,2024-04-15 20:06:13,175.194.44.8,SRV-PROD-01,Brazil,Phishing Attempt,Medium,Resolved,99,Allowed
+SEC-INC-50153,2024-05-24 20:47:43,154.188.114.134,SRV-PROD-03,Unknown,SQL Injection,High,Resolved,118,Blocked
+SEC-INC-50154,2024-08-09 17:57:31,112.23.222.36,SRV-PROD-05,China,SQL Injection,High,Investigating,,Blocked
+SEC-INC-50155,2024-02-08 11:54:35,85.130.86.71,SRV-PROD-08,China,Privilege Escalation,Medium,Resolved,115,Allowed
+SEC-INC-50156,2024-12-27 18:58:47,126.49.216.143,SRV-PROD-01,Russia,Brute Force SSH,Low,Mitigated,61,Blocked
+SEC-INC-50157,2024-04-10 09:39:31,165.39.125.209,SRV-PROD-03,Unknown,SQL Injection,Low,Resolved,137,Blocked
+SEC-INC-50158,2024-04-19 00:06:59,156.18.126.143,SRV-PROD-04,USA,Phishing Attempt,Medium,False Positive,162,Alerted
+SEC-INC-50159,2024-11-19 21:15:32,105.164.90.124,SRV-PROD-03,Germany,Brute Force SSH,High,Mitigated,130,Blocked
+SEC-INC-50160,2024-11-18 14:16:47,198.92.140.124,SRV-PROD-05,China,Brute Force SSH,Low,False Positive,112,Alerted
+SEC-INC-50161,2024-06-15 09:00:26,214.109.30.46,SRV-PROD-08,India,Privilege Escalation,Low,Mitigated,37,Alerted
+SEC-INC-50162,2024-09-07 21:53:01,150.176.61.8,SRV-PROD-05,Germany,Malware Infiltration,Low,Mitigated,20,Blocked
+SEC-INC-50163,2024-06-14 09:31:29,217.82.106.101,SRV-PROD-08,Netherlands,DDoS Attack,Low,Resolved,73,Alerted
+SEC-INC-50164,2024-04-22 12:22:23,207.210.12.79,SRV-PROD-08,Netherlands,Brute Force SSH,Medium,Investigating,,Blocked
+SEC-INC-50165,2024-04-15 22:45:57,73.243.248.158,SRV-PROD-06,USA,Malware Infiltration,Medium,Resolved,102,Allowed
+SEC-INC-50166,2024-12-26 12:08:04,135.197.197.142,SRV-PROD-02,Russia,Malware Infiltration,Low,Investigating,,Allowed
+SEC-INC-50167,2024-10-01 14:24:02,103.75.206.42,SRV-PROD-06,India,DDoS Attack,Low,Investigating,,Allowed
+SEC-INC-50168,2024-01-19 00:43:45,179.27.129.102,SRV-PROD-08,Russia,Brute Force SSH,Low,Resolved,63,Blocked
+SEC-INC-50169,2024-12-18 09:00:15,53.70.192.32,SRV-PROD-07,Netherlands,Brute Force SSH,High,False Positive,26,Blocked
+SEC-INC-50170,2024-02-09 02:41:24,174.185.181.196,SRV-PROD-07,Russia,Phishing Attempt,Medium,Investigating,,Allowed
+SEC-INC-50171,2024-10-28 14:14:25,94.213.156.220,SRV-PROD-05,India,DDoS Attack,Medium,Resolved,82,Alerted
+SEC-INC-50172,2024-08-22 07:22:43,70.68.249.168,SRV-PROD-08,Netherlands,SQL Injection,Medium,Investigating,,Alerted
+SEC-INC-50173,2024-10-14 10:08:31,168.73.233.180,SRV-PROD-04,Netherlands,Phishing Attempt,Critical,Mitigated,100,Blocked
+SEC-INC-50174,2024-10-06 03:56:35,160.58.148.250,SRV-PROD-01,Netherlands,Brute Force SSH,Medium,Mitigated,149,Allowed
+SEC-INC-50175,2024-11-25 11:18:32,130.37.208.162,SRV-PROD-02,China,Malware Infiltration,Low,Mitigated,156,Allowed
+SEC-INC-50176,2024-02-12 05:08:44,148.158.215.122,SRV-PROD-04,Russia,DDoS Attack,Low,False Positive,91,Allowed
+SEC-INC-50177,2024-01-19 11:42:12,189.154.105.224,SRV-PROD-01,Germany,Privilege Escalation,Low,Mitigated,144,Alerted
+SEC-INC-50178,2024-06-09 23:44:20,105.83.119.182,SRV-PROD-08,China,Phishing Attempt,Medium,Resolved,101,Allowed
+SEC-INC-50179,2024-01-07 05:54:05,178.192.32.43,SRV-PROD-04,Unknown,Phishing Attempt,Low,Mitigated,131,Allowed
+SEC-INC-50180,2024-11-16 19:05:58,169.36.192.224,SRV-PROD-07,Netherlands,Phishing Attempt,Low,Mitigated,80,Blocked
+SEC-INC-50181,2024-12-12 09:52:14,178.83.158.228,SRV-PROD-06,USA,Brute Force SSH,Low,Investigating,,Blocked
+SEC-INC-50182,2024-12-31 13:31:00,177.155.65.121,SRV-PROD-08,Brazil,SQL Injection,High,Investigating,,Blocked
+SEC-INC-50183,2024-03-25 19:05:31,166.3.82.107,SRV-PROD-03,USA,DDoS Attack,Low,Resolved,84,Blocked
+SEC-INC-50184,2024-04-06 07:15:18,69.138.118.85,SRV-PROD-02,Russia,Malware Infiltration,Medium,Investigating,,Allowed
+SEC-INC-50185,2024-06-28 23:10:06,188.227.58.89,SRV-PROD-01,Brazil,SQL Injection,Low,Mitigated,154,Blocked
+SEC-INC-50186,2024-06-05 13:22:19,204.197.104.240,SRV-PROD-05,Brazil,Phishing Attempt,Medium,Resolved,60,Alerted
+SEC-INC-50187,2024-04-01 09:34:23,189.27.33.205,SRV-PROD-07,India,Malware Infiltration,High,False Positive,162,Blocked
+SEC-INC-50188,2024-12-08 17:14:10,98.44.1.201,SRV-PROD-04,Brazil,Phishing Attempt,High,Investigating,,Blocked
+SEC-INC-50189,2024-03-14 06:00:03,166.224.1.83,SRV-PROD-02,Russia,Brute Force SSH,Medium,Mitigated,113,Blocked
+SEC-INC-50190,2024-08-29 11:54:32,122.129.195.31,SRV-PROD-04,Netherlands,DDoS Attack,High,Mitigated,95,Blocked
+SEC-INC-50191,2024-06-08 19:00:17,126.136.21.227,SRV-PROD-04,USA,Privilege Escalation,High,Investigating,,Blocked
+SEC-INC-50192,2024-08-11 20:24:24,158.126.178.202,SRV-PROD-05,China,Malware Infiltration,High,False Positive,50,Blocked
+SEC-INC-50193,2024-01-13 13:18:51,164.198.172.89,SRV-PROD-07,Brazil,Malware Infiltration,Medium,Investigating,,Alerted
+SEC-INC-50194,2024-07-10 06:31:02,47.51.114.93,SRV-PROD-04,Russia,Malware Infiltration,Low,Resolved,99,Alerted
+SEC-INC-50195,2024-09-14 00:28:23,200.70.9.166,SRV-PROD-05,Unknown,DDoS Attack,Low,False Positive,75,Blocked
+SEC-INC-50196,2024-01-30 20:49:56,52.221.184.238,SRV-PROD-08,Unknown,DDoS Attack,Low,Resolved,14,Alerted
+SEC-INC-50197,2024-01-15 22:18:56,84.181.189.46,SRV-PROD-03,China,DDoS Attack,High,Resolved,19,Blocked
+SEC-INC-50198,2024-08-15 23:12:35,60.81.25.220,SRV-PROD-05,Brazil,Privilege Escalation,Medium,Resolved,90,Blocked
+SEC-INC-50199,2024-06-11 06:09:39,195.185.242.94,SRV-PROD-01,Netherlands,DDoS Attack,High,Resolved,21,Blocked
+SEC-INC-50200,2024-04-08 18:15:35,82.187.69.22,SRV-PROD-03,Unknown,Phishing Attempt,Low,Investigating,,Blocked
+SEC-INC-50201,2024-09-15 14:54:01,89.163.192.216,SRV-PROD-01,Germany,SQL Injection,Medium,Resolved,92,Alerted
+SEC-INC-50202,2024-10-17 03:08:04,189.239.119.23,SRV-PROD-02,China,Brute Force SSH,Medium,Investigating,,Alerted
+SEC-INC-50203,2024-10-29 22:48:52,50.197.44.202,SRV-PROD-01,Brazil,Privilege Escalation,Low,Resolved,68,Alerted
+SEC-INC-50204,2024-12-14 23:23:09,93.192.194.189,SRV-PROD-03,Germany,Phishing Attempt,Low,False Positive,50,Alerted
+SEC-INC-50205,2024-03-12 20:34:20,125.106.58.214,SRV-PROD-04,Germany,Brute Force SSH,Low,False Positive,71,Blocked
+SEC-INC-50206,2024-08-13 09:37:54,68.126.91.149,SRV-PROD-06,India,Privilege Escalation,Medium,Investigating,,Allowed
+SEC-INC-50207,2024-10-26 14:02:31,84.138.146.54,SRV-PROD-07,India,Privilege Escalation,High,False Positive,58,Blocked
+SEC-INC-50208,2024-06-24 18:20:29,186.213.191.204,SRV-PROD-05,China,Malware Infiltration,High,False Positive,60,Blocked
+SEC-INC-50209,2024-08-27 09:29:49,53.237.30.133,SRV-PROD-03,Unknown,Brute Force SSH,Medium,False Positive,100,Blocked
+SEC-INC-50210,2024-07-12 23:58:05,195.231.9.83,SRV-PROD-02,India,Phishing Attempt,Low,Mitigated,90,Alerted
+SEC-INC-50211,2024-11-27 03:38:54,92.234.92.79,SRV-PROD-03,Unknown,Malware Infiltration,Low,Resolved,117,Blocked
+SEC-INC-50212,2024-08-21 21:36:41,192.178.112.188,SRV-PROD-07,Unknown,Brute Force SSH,Low,False Positive,158,Alerted
+SEC-INC-50213,2024-09-04 14:36:19,121.11.249.238,SRV-PROD-04,China,DDoS Attack,Medium,False Positive,152,Alerted
+SEC-INC-50214,2024-10-30 01:02:22,86.132.43.237,SRV-PROD-05,Brazil,Malware Infiltration,High,Investigating,,Blocked
+SEC-INC-50215,2024-12-05 12:07:46,58.249.24.80,SRV-PROD-03,India,DDoS Attack,Low,Mitigated,5,Blocked
+SEC-INC-50216,2024-03-16 07:17:47,89.78.79.21,SRV-PROD-03,Brazil,Brute Force SSH,Medium,Investigating,,Allowed
+SEC-INC-50217,2024-12-16 20:13:10,140.2.123.41,SRV-PROD-06,China,DDoS Attack,Medium,Mitigated,59,Alerted
+SEC-INC-50218,2024-12-08 13:42:01,163.181.63.196,SRV-PROD-02,Netherlands,Brute Force SSH,Low,Investigating,,Alerted
+SEC-INC-50219,2024-06-16 10:18:38,217.187.224.109,SRV-PROD-07,China,SQL Injection,Medium,Resolved,61,Blocked
+SEC-INC-50220,2024-04-01 08:33:42,139.93.88.129,SRV-PROD-01,Netherlands,Phishing Attempt,Medium,Investigating,,Alerted
+SEC-INC-50221,2024-04-06 01:36:39,99.78.112.24,SRV-PROD-06,Netherlands,Privilege Escalation,Low,Investigating,,Alerted
+SEC-INC-50222,2024-06-08 14:05:00,217.211.124.9,SRV-PROD-05,Netherlands,Brute Force SSH,Low,Resolved,124,Allowed
+SEC-INC-50223,2024-06-26 03:41:31,212.221.104.206,SRV-PROD-01,USA,SQL Injection,Low,Mitigated,180,Alerted
+SEC-INC-50224,2024-01-06 17:41:59,212.246.172.103,SRV-PROD-07,Russia,SQL Injection,Medium,Resolved,159,Alerted
+SEC-INC-50225,2024-09-14 13:34:26,166.183.86.217,SRV-PROD-06,China,Brute Force SSH,Critical,Mitigated,177,Blocked
+SEC-INC-50226,2024-02-10 05:28:31,46.87.243.240,SRV-PROD-05,Brazil,Malware Infiltration,High,Mitigated,116,Blocked
+SEC-INC-50227,2024-01-25 16:55:17,117.11.32.223,SRV-PROD-08,Unknown,SQL Injection,Low,False Positive,69,Alerted
+SEC-INC-50228,2024-06-21 10:46:56,51.139.69.46,SRV-PROD-05,India,DDoS Attack,Low,False Positive,81,Blocked
+SEC-INC-50229,2024-01-19 21:41:29,73.92.188.10,SRV-PROD-07,Brazil,Brute Force SSH,Low,Resolved,37,Blocked
+SEC-INC-50230,2024-03-15 23:02:38,171.111.229.71,SRV-PROD-06,Unknown,Privilege Escalation,Medium,Mitigated,15,Allowed
+SEC-INC-50231,2024-06-16 13:34:23,54.38.156.251,SRV-PROD-02,Netherlands,Malware Infiltration,Critical,Resolved,91,Blocked
+SEC-INC-50232,2024-11-22 10:59:41,153.103.6.48,SRV-PROD-05,China,DDoS Attack,Critical,Investigating,,Blocked
+SEC-INC-50233,2024-10-19 09:30:06,122.158.132.139,SRV-PROD-04,Russia,SQL Injection,Medium,Investigating,,Alerted
+SEC-INC-50234,2024-05-20 06:45:41,115.129.172.12,SRV-PROD-07,USA,Privilege Escalation,Low,Resolved,109,Allowed
+SEC-INC-50235,2024-01-10 15:05:06,213.34.71.69,SRV-PROD-08,India,Phishing Attempt,Low,Resolved,88,Allowed
+SEC-INC-50236,2024-02-02 22:15:35,118.187.183.156,SRV-PROD-08,Netherlands,Privilege Escalation,Medium,Mitigated,126,Blocked
+SEC-INC-50237,2024-01-07 12:29:11,132.82.89.211,SRV-PROD-08,USA,DDoS Attack,High,Mitigated,58,Blocked
+SEC-INC-50238,2024-09-29 06:11:23,217.100.66.104,SRV-PROD-01,China,Privilege Escalation,Medium,False Positive,26,Allowed
+SEC-INC-50239,2024-09-28 13:26:30,122.75.193.81,SRV-PROD-08,Unknown,Phishing Attempt,Low,Investigating,,Blocked
+SEC-INC-50240,2024-06-29 20:34:01,155.107.255.196,SRV-PROD-01,Germany,Malware Infiltration,Medium,Investigating,,Alerted
+SEC-INC-50241,2024-10-02 04:47:41,141.156.243.218,SRV-PROD-02,China,DDoS Attack,Low,Resolved,151,Alerted
+SEC-INC-50242,2024-04-01 05:47:35,147.141.105.91,SRV-PROD-04,Netherlands,Malware Infiltration,Low,False Positive,166,Allowed
+SEC-INC-50243,2024-12-06 23:03:04,207.82.129.138,SRV-PROD-07,Brazil,DDoS Attack,Medium,Mitigated,78,Alerted
+SEC-INC-50244,2024-03-21 06:28:01,147.74.1.137,SRV-PROD-06,Unknown,Privilege Escalation,Low,Resolved,103,Blocked
+SEC-INC-50245,2024-11-30 15:13:21,152.106.49.163,SRV-PROD-01,Brazil,Brute Force SSH,Medium,Resolved,158,Blocked
+SEC-INC-50246,2024-07-28 00:49:52,128.157.64.43,SRV-PROD-08,China,SQL Injection,Low,Mitigated,146,Blocked
+SEC-INC-50247,2024-04-08 05:52:32,162.95.186.224,SRV-PROD-04,USA,DDoS Attack,Critical,Investigating,,Blocked
+SEC-INC-50248,2024-06-14 04:49:46,120.17.229.8,SRV-PROD-04,Unknown,DDoS Attack,Low,Mitigated,66,Allowed
+SEC-INC-50249,2024-08-24 18:12:44,209.29.206.155,SRV-PROD-06,USA,Brute Force SSH,Medium,Resolved,6,Blocked
+SEC-INC-50250,2024-01-17 14:47:40,178.255.121.221,SRV-PROD-07,China,DDoS Attack,Critical,Resolved,160,Blocked
+SEC-INC-50251,2024-11-27 19:26:54,51.113.124.212,SRV-PROD-01,Germany,DDoS Attack,High,Resolved,98,Blocked
+SEC-INC-50252,2024-07-23 18:37:31,206.167.113.110,SRV-PROD-02,China,Brute Force SSH,High,Resolved,48,Blocked
+SEC-INC-50253,2024-07-06 15:01:58,213.87.37.234,SRV-PROD-04,Unknown,Brute Force SSH,Low,False Positive,169,Blocked
+SEC-INC-50254,2024-02-07 16:41:02,170.193.63.194,SRV-PROD-05,India,SQL Injection,Medium,False Positive,120,Blocked
+SEC-INC-50255,2024-05-12 20:41:19,115.153.10.195,SRV-PROD-03,USA,Malware Infiltration,Low,Investigating,,Alerted
+SEC-INC-50256,2024-10-15 13:12:22,119.79.242.184,SRV-PROD-03,Germany,DDoS Attack,Medium,False Positive,44,Blocked
+SEC-INC-50257,2024-12-21 04:40:49,82.156.75.220,SRV-PROD-07,Germany,Privilege Escalation,Low,Investigating,,Blocked
+SEC-INC-50258,2024-06-04 05:24:06,194.4.67.94,SRV-PROD-07,Unknown,Malware Infiltration,High,False Positive,169,Blocked
+SEC-INC-50259,2024-03-20 21:22:37,173.81.134.96,SRV-PROD-07,Unknown,Privilege Escalation,Low,Mitigated,49,Alerted
+SEC-INC-50260,2024-07-13 00:31:05,216.243.17.88,SRV-PROD-04,Germany,Brute Force SSH,Low,False Positive,160,Blocked
+SEC-INC-50261,2024-03-02 23:39:56,95.92.128.118,SRV-PROD-01,Brazil,Privilege Escalation,Low,Resolved,107,Blocked
+SEC-INC-50262,2024-02-20 11:59:50,174.18.70.142,SRV-PROD-02,Russia,DDoS Attack,Medium,Investigating,,Allowed
+SEC-INC-50263,2024-05-11 06:39:04,211.220.63.59,SRV-PROD-08,USA,Phishing Attempt,Critical,False Positive,146,Blocked
+SEC-INC-50264,2024-05-22 03:19:34,93.188.213.235,SRV-PROD-02,USA,Malware Infiltration,Low,Investigating,,Allowed
+SEC-INC-50265,2024-05-04 21:19:25,193.123.119.26,SRV-PROD-01,India,Privilege Escalation,Low,Mitigated,34,Alerted
+SEC-INC-50266,2024-02-12 17:19:54,95.26.139.151,SRV-PROD-04,Unknown,SQL Injection,Medium,Mitigated,33,Blocked
+SEC-INC-50267,2024-08-14 23:23:50,94.151.207.163,SRV-PROD-08,Russia,SQL Injection,High,False Positive,131,Blocked
+SEC-INC-50268,2024-11-19 06:25:38,129.130.124.132,SRV-PROD-05,Germany,SQL Injection,High,Investigating,,Blocked
+SEC-INC-50269,2024-06-23 10:01:22,218.144.129.80,SRV-PROD-08,China,Brute Force SSH,Medium,False Positive,135,Alerted
+SEC-INC-50270,2024-09-10 05:56:21,90.17.195.111,SRV-PROD-05,China,DDoS Attack,Low,Investigating,,Allowed
+SEC-INC-50271,2024-02-25 08:26:22,99.79.129.79,SRV-PROD-06,Unknown,Phishing Attempt,Medium,Investigating,,Blocked
+SEC-INC-50272,2024-12-10 05:37:43,127.41.50.197,SRV-PROD-07,USA,Brute Force SSH,Medium,Investigating,,Alerted
+SEC-INC-50273,2024-09-21 17:14:58,212.153.202.107,SRV-PROD-05,Brazil,SQL Injection,Medium,False Positive,99,Allowed
+SEC-INC-50274,2024-06-05 12:09:01,135.213.191.81,SRV-PROD-08,Germany,DDoS Attack,Medium,Mitigated,6,Alerted
+SEC-INC-50275,2024-01-29 14:53:00,135.166.207.36,SRV-PROD-08,Germany,Phishing Attempt,High,Investigating,,Blocked
+SEC-INC-50276,2024-04-16 09:19:05,120.214.96.7,SRV-PROD-06,Netherlands,DDoS Attack,Low,Investigating,,Allowed
+SEC-INC-50277,2024-11-12 18:18:41,157.220.71.28,SRV-PROD-02,Brazil,Brute Force SSH,Low,Mitigated,156,Alerted
+SEC-INC-50278,2024-01-24 14:12:06,169.64.72.253,SRV-PROD-07,Russia,Phishing Attempt,Low,False Positive,75,Blocked
+SEC-INC-50279,2024-07-08 15:57:05,117.29.121.35,SRV-PROD-02,India,Privilege Escalation,Medium,Investigating,,Allowed
+SEC-INC-50280,2024-10-28 10:52:51,191.52.144.23,SRV-PROD-08,Brazil,SQL Injection,Medium,False Positive,147,Blocked
+SEC-INC-50281,2024-05-29 00:47:44,80.198.198.18,SRV-PROD-06,India,DDoS Attack,Medium,Investigating,,Allowed
+SEC-INC-50282,2024-06-13 17:03:04,103.118.93.86,SRV-PROD-04,Germany,SQL Injection,Medium,Resolved,40,Allowed
+SEC-INC-50283,2024-11-24 14:57:21,154.102.207.125,SRV-PROD-01,Russia,Malware Infiltration,Low,Mitigated,13,Blocked
+SEC-INC-50284,2024-06-16 19:37:02,170.73.148.86,SRV-PROD-02,China,Malware Infiltration,Low,Resolved,141,Allowed
+SEC-INC-50285,2024-09-19 03:11:38,191.237.120.157,SRV-PROD-04,China,Privilege Escalation,Medium,False Positive,124,Alerted
+SEC-INC-50286,2024-03-18 23:40:54,129.19.47.166,SRV-PROD-06,Unknown,Malware Infiltration,High,Mitigated,10,Blocked
+SEC-INC-50287,2024-07-24 20:55:32,120.2.160.213,SRV-PROD-07,Russia,Phishing Attempt,Low,Mitigated,43,Alerted
+SEC-INC-50288,2024-04-24 21:16:35,217.197.84.137,SRV-PROD-08,Brazil,Malware Infiltration,High,Investigating,,Blocked
+SEC-INC-50289,2024-04-06 05:23:55,97.79.47.26,SRV-PROD-01,Russia,Brute Force SSH,Medium,Resolved,88,Alerted
+SEC-INC-50290,2024-04-27 23:57:47,98.52.78.42,SRV-PROD-07,Germany,Brute Force SSH,Critical,Investigating,,Blocked
+SEC-INC-50291,2024-06-30 00:59:37,80.225.231.242,SRV-PROD-08,China,DDoS Attack,Low,Investigating,,Alerted
+SEC-INC-50292,2024-01-26 16:16:04,157.103.51.53,SRV-PROD-07,China,Phishing Attempt,Critical,Resolved,46,Blocked
+SEC-INC-50293,2024-04-17 04:22:55,170.190.155.92,SRV-PROD-06,Netherlands,Brute Force SSH,Low,Resolved,134,Alerted
+SEC-INC-50294,2024-09-01 09:17:40,175.29.242.117,SRV-PROD-01,Russia,DDoS Attack,High,Mitigated,30,Blocked
+SEC-INC-50295,2024-06-30 13:07:17,124.215.17.112,SRV-PROD-05,Brazil,Privilege Escalation,Low,Mitigated,125,Allowed
+SEC-INC-50296,2024-05-20 23:34:10,127.12.37.217,SRV-PROD-04,USA,Malware Infiltration,Low,Investigating,,Allowed
+SEC-INC-50297,2024-12-21 17:06:19,54.16.153.206,SRV-PROD-04,Germany,SQL Injection,Medium,Investigating,,Alerted
+SEC-INC-50298,2024-03-29 06:21:30,177.248.39.190,SRV-PROD-03,India,Phishing Attempt,High,Resolved,132,Blocked
+SEC-INC-50299,2024-04-14 11:08:36,148.161.96.233,SRV-PROD-05,India,Phishing Attempt,High,False Positive,12,Blocked
+SEC-INC-50300,2024-08-28 01:14:45,81.234.105.12,SRV-PROD-07,USA,Brute Force SSH,Low,False Positive,62,Allowed
+SEC-INC-50301,2024-08-02 02:24:53,73.248.122.119,SRV-PROD-07,Unknown,Brute Force SSH,High,Resolved,84,Blocked
+SEC-INC-50302,2024-08-31 17:05:36,110.33.83.169,SRV-PROD-06,China,DDoS Attack,Medium,Investigating,,Allowed
+SEC-INC-50303,2024-04-22 18:44:27,78.207.242.37,SRV-PROD-04,China,Privilege Escalation,Low,Mitigated,77,Blocked
+SEC-INC-50304,2024-02-23 09:05:39,102.65.48.187,SRV-PROD-05,India,Privilege Escalation,Critical,False Positive,38,Blocked
+SEC-INC-50305,2024-06-16 15:21:55,140.170.38.149,SRV-PROD-01,Netherlands,Privilege Escalation,Low,Investigating,,Allowed
+SEC-INC-50306,2024-01-08 05:12:17,207.9.214.204,SRV-PROD-04,USA,DDoS Attack,Low,Mitigated,128,Alerted
+SEC-INC-50307,2024-04-06 22:53:26,192.104.116.255,SRV-PROD-04,Unknown,Malware Infiltration,Low,Mitigated,35,Blocked
+SEC-INC-50308,2024-05-23 23:51:52,176.237.87.87,SRV-PROD-03,Germany,SQL Injection,High,Mitigated,145,Blocked
+SEC-INC-50309,2024-08-21 03:30:48,216.220.88.196,SRV-PROD-05,China,SQL Injection,Medium,Resolved,144,Allowed
+SEC-INC-50310,2024-02-18 08:16:09,162.213.29.31,SRV-PROD-05,USA,SQL Injection,Low,Mitigated,146,Allowed
+SEC-INC-50311,2024-09-15 06:38:55,146.210.241.227,SRV-PROD-04,USA,Privilege Escalation,Low,Resolved,55,Blocked
+SEC-INC-50312,2024-06-30 19:08:08,198.200.39.145,SRV-PROD-01,India,Malware Infiltration,Low,Investigating,,Alerted
+SEC-INC-50313,2024-03-22 03:38:45,219.43.163.163,SRV-PROD-04,USA,Malware Infiltration,Critical,Mitigated,56,Blocked
+SEC-INC-50314,2024-05-22 01:46:51,147.76.100.231,SRV-PROD-07,Unknown,DDoS Attack,Low,False Positive,5,Allowed
+SEC-INC-50315,2024-05-08 20:14:04,216.80.54.237,SRV-PROD-02,Russia,DDoS Attack,Low,Mitigated,46,Allowed
+SEC-INC-50316,2024-07-19 05:48:18,210.108.101.152,SRV-PROD-04,Brazil,SQL Injection,Low,False Positive,40,Alerted
+SEC-INC-50317,2024-03-04 21:19:58,217.39.53.114,SRV-PROD-03,Germany,SQL Injection,Low,Resolved,138,Alerted
+SEC-INC-50318,2024-09-25 03:44:09,205.154.121.60,SRV-PROD-08,Germany,Phishing Attempt,Medium,Mitigated,44,Allowed
+SEC-INC-50319,2024-06-23 09:54:25,55.98.215.229,SRV-PROD-05,China,Privilege Escalation,Medium,Investigating,,Blocked
+SEC-INC-50320,2024-12-20 17:44:31,119.58.134.27,SRV-PROD-02,India,Brute Force SSH,High,Mitigated,115,Blocked
+SEC-INC-50321,2024-08-03 02:03:45,208.27.222.198,SRV-PROD-05,Germany,SQL Injection,Medium,False Positive,112,Blocked
+SEC-INC-50322,2024-05-08 12:59:08,66.4.26.183,SRV-PROD-08,Brazil,Malware Infiltration,Medium,Mitigated,175,Alerted
+SEC-INC-50323,2024-02-23 17:45:45,188.156.215.145,SRV-PROD-07,Netherlands,Phishing Attempt,Medium,Resolved,152,Allowed
+SEC-INC-50324,2024-03-01 08:41:15,137.149.173.182,SRV-PROD-07,Netherlands,Privilege Escalation,Medium,False Positive,170,Alerted
+SEC-INC-50325,2024-08-23 20:52:29,178.10.241.103,SRV-PROD-07,Russia,Brute Force SSH,Medium,Resolved,166,Alerted
+SEC-INC-50326,2024-02-20 10:38:29,150.206.8.187,SRV-PROD-08,Germany,SQL Injection,High,False Positive,95,Blocked
+SEC-INC-50327,2024-05-07 10:04:18,159.201.13.84,SRV-PROD-08,Germany,Brute Force SSH,Low,False Positive,107,Alerted
+SEC-INC-50328,2024-03-29 18:11:54,67.86.91.158,SRV-PROD-04,India,SQL Injection,Low,Resolved,168,Alerted
+SEC-INC-50329,2024-06-09 22:38:20,172.164.48.194,SRV-PROD-07,Brazil,SQL Injection,High,Mitigated,94,Blocked
+SEC-INC-50330,2024-06-21 15:56:19,137.194.41.246,SRV-PROD-03,India,Phishing Attempt,Low,False Positive,134,Blocked
+SEC-INC-50331,2024-11-24 20:24:23,120.194.144.138,SRV-PROD-03,Netherlands,Malware Infiltration,Medium,Investigating,,Allowed
+SEC-INC-50332,2024-02-16 21:46:17,214.104.219.68,SRV-PROD-03,India,Malware Infiltration,Low,Investigating,,Alerted
+SEC-INC-50333,2024-02-23 10:42:03,202.146.249.22,SRV-PROD-06,Brazil,DDoS Attack,High,Investigating,,Blocked
+SEC-INC-50334,2024-10-07 05:38:37,215.255.71.7,SRV-PROD-08,Brazil,Privilege Escalation,Critical,Investigating,,Blocked
+SEC-INC-50335,2024-04-25 16:01:58,210.208.56.38,SRV-PROD-01,Germany,Brute Force SSH,Critical,Mitigated,117,Blocked
+SEC-INC-50336,2024-07-31 20:15:18,186.146.50.106,SRV-PROD-03,Netherlands,Privilege Escalation,Medium,Mitigated,71,Blocked
+SEC-INC-50337,2024-07-05 09:35:44,155.95.94.231,SRV-PROD-04,India,Malware Infiltration,Low,Investigating,,Alerted
+SEC-INC-50338,2024-12-25 08:59:21,182.149.33.25,SRV-PROD-08,India,Phishing Attempt,High,Investigating,,Blocked
+SEC-INC-50339,2024-06-27 23:28:56,186.211.253.58,SRV-PROD-08,Germany,Malware Infiltration,High,Mitigated,163,Blocked
+SEC-INC-50340,2024-08-12 18:06:00,196.112.17.245,SRV-PROD-03,Russia,Malware Infiltration,Medium,Resolved,93,Alerted
+SEC-INC-50341,2024-12-27 05:23:02,61.175.91.17,SRV-PROD-05,Germany,Privilege Escalation,Low,Mitigated,115,Blocked
+SEC-INC-50342,2024-03-09 14:25:36,100.170.116.80,SRV-PROD-05,India,Brute Force SSH,Medium,Mitigated,41,Blocked
+SEC-INC-50343,2024-12-14 21:22:02,125.221.2.249,SRV-PROD-01,India,Malware Infiltration,Low,Resolved,162,Allowed
+SEC-INC-50344,2024-09-28 15:03:45,86.188.50.64,SRV-PROD-03,USA,Phishing Attempt,Medium,Mitigated,35,Alerted
+SEC-INC-50345,2024-02-15 03:25:41,148.147.180.243,SRV-PROD-07,Netherlands,DDoS Attack,Medium,Investigating,,Alerted
+SEC-INC-50346,2024-04-03 03:29:24,124.91.46.182,SRV-PROD-07,Germany,DDoS Attack,Low,False Positive,107,Allowed
+SEC-INC-50347,2024-04-26 12:47:12,210.163.21.87,SRV-PROD-08,China,Malware Infiltration,Low,Resolved,147,Allowed
+SEC-INC-50348,2024-12-15 13:35:09,69.44.1.247,SRV-PROD-01,Russia,SQL Injection,Low,Resolved,150,Blocked
+SEC-INC-50349,2024-07-10 02:31:34,89.49.163.159,SRV-PROD-08,USA,Malware Infiltration,Low,False Positive,29,Blocked
+SEC-INC-50350,2024-03-20 21:50:06,140.147.46.229,SRV-PROD-08,USA,Malware Infiltration,Low,Mitigated,12,Blocked
+SEC-INC-50351,2024-01-20 19:34:22,75.207.240.80,SRV-PROD-05,China,SQL Injection,Medium,Investigating,,Allowed
+SEC-INC-50352,2024-09-11 07:01:57,199.40.157.236,SRV-PROD-06,Unknown,Privilege Escalation,Medium,Mitigated,119,Allowed
+SEC-INC-50353,2024-12-08 20:11:14,61.87.64.94,SRV-PROD-03,Brazil,DDoS Attack,Low,Mitigated,15,Alerted
+SEC-INC-50354,2024-01-31 17:29:30,213.182.194.215,SRV-PROD-02,China,Privilege Escalation,Medium,Mitigated,144,Blocked
+SEC-INC-50355,2024-04-12 10:17:15,127.35.115.196,SRV-PROD-04,Germany,Privilege Escalation,Medium,Mitigated,101,Allowed
+SEC-INC-50356,2024-09-08 00:52:03,170.27.83.144,SRV-PROD-08,Netherlands,SQL Injection,Medium,False Positive,180,Blocked
+SEC-INC-50357,2024-01-29 19:12:27,55.49.243.23,SRV-PROD-05,USA,Privilege Escalation,Low,Resolved,141,Allowed
+SEC-INC-50358,2024-01-25 11:01:47,143.49.91.247,SRV-PROD-01,Netherlands,Privilege Escalation,Medium,Investigating,,Blocked
+SEC-INC-50359,2024-07-08 01:37:41,99.26.118.244,SRV-PROD-03,Brazil,Privilege Escalation,Low,Investigating,,Alerted
+SEC-INC-50360,2024-04-15 20:47:41,208.157.4.12,SRV-PROD-07,Brazil,Privilege Escalation,Low,False Positive,6,Allowed
+SEC-INC-50361,2024-12-03 12:02:32,90.253.100.212,SRV-PROD-04,India,DDoS Attack,Low,Investigating,,Blocked
+SEC-INC-50362,2024-05-06 22:38:15,216.67.226.237,SRV-PROD-07,Germany,Brute Force SSH,Critical,False Positive,109,Blocked
+SEC-INC-50363,2024-12-19 00:22:20,151.211.106.97,SRV-PROD-05,Brazil,DDoS Attack,Low,Resolved,165,Blocked
+SEC-INC-50364,2024-07-21 01:31:18,159.33.170.177,SRV-PROD-04,China,Privilege Escalation,Low,Investigating,,Alerted
+SEC-INC-50365,2024-02-04 06:40:33,182.84.43.242,SRV-PROD-05,Netherlands,SQL Injection,Medium,False Positive,150,Alerted
+SEC-INC-50366,2024-02-25 04:20:50,146.211.227.227,SRV-PROD-04,China,Malware Infiltration,High,Investigating,,Blocked
+SEC-INC-50367,2024-03-06 18:52:04,54.121.123.28,SRV-PROD-02,Brazil,Phishing Attempt,High,Investigating,,Blocked
+SEC-INC-50368,2024-02-12 02:27:14,106.112.158.95,SRV-PROD-08,USA,DDoS Attack,Medium,Resolved,174,Blocked
+SEC-INC-50369,2024-04-06 07:39:41,126.12.146.4,SRV-PROD-03,India,SQL Injection,High,False Positive,123,Blocked
+SEC-INC-50370,2024-04-12 23:27:08,59.101.98.40,SRV-PROD-05,China,Brute Force SSH,Low,Investigating,,Alerted
+SEC-INC-50371,2024-12-02 15:58:43,51.224.113.18,SRV-PROD-04,Germany,Malware Infiltration,Low,False Positive,19,Allowed
+SEC-INC-50372,2024-12-16 02:22:16,149.133.137.5,SRV-PROD-03,India,SQL Injection,Low,Resolved,180,Allowed
+SEC-INC-50373,2024-01-04 13:52:46,45.145.15.209,SRV-PROD-07,China,Brute Force SSH,High,Resolved,149,Blocked
+SEC-INC-50374,2024-10-06 02:41:29,50.167.211.234,SRV-PROD-08,Netherlands,SQL Injection,Medium,Mitigated,120,Blocked
+SEC-INC-50375,2024-05-01 17:51:38,201.65.89.251,SRV-PROD-08,Unknown,Brute Force SSH,Medium,False Positive,62,Allowed
+SEC-INC-50376,2024-05-26 23:11:45,89.247.248.100,SRV-PROD-05,USA,SQL Injection,Medium,Mitigated,81,Allowed
+SEC-INC-50377,2024-01-22 16:44:44,150.182.226.139,SRV-PROD-04,Netherlands,Brute Force SSH,High,False Positive,58,Blocked
+SEC-INC-50378,2024-07-26 15:19:59,151.118.188.116,SRV-PROD-08,Netherlands,DDoS Attack,Low,False Positive,175,Alerted
+SEC-INC-50379,2024-03-09 19:17:39,97.63.56.183,SRV-PROD-04,Brazil,Privilege Escalation,Medium,False Positive,123,Blocked
+SEC-INC-50380,2024-07-28 13:38:47,209.79.55.101,SRV-PROD-03,Unknown,Phishing Attempt,Medium,Mitigated,81,Blocked
+SEC-INC-50381,2024-07-30 01:51:09,96.56.87.142,SRV-PROD-03,Netherlands,Malware Infiltration,Medium,Mitigated,11,Blocked
+SEC-INC-50382,2024-04-15 14:03:09,190.171.45.70,SRV-PROD-03,Netherlands,Malware Infiltration,High,Investigating,,Blocked
+SEC-INC-50383,2024-03-18 14:58:28,126.120.63.223,SRV-PROD-03,Unknown,SQL Injection,Medium,Resolved,178,Allowed
+SEC-INC-50384,2024-02-03 03:07:19,50.3.236.221,SRV-PROD-01,India,Phishing Attempt,Low,False Positive,56,Blocked
+SEC-INC-50385,2024-03-18 07:45:19,123.216.17.93,SRV-PROD-06,Unknown,DDoS Attack,Low,Investigating,,Alerted
+SEC-INC-50386,2024-06-04 03:41:43,188.41.231.226,SRV-PROD-03,USA,DDoS Attack,Low,Mitigated,45,Blocked
+SEC-INC-50387,2024-10-09 22:53:22,165.180.252.72,SRV-PROD-04,China,Privilege Escalation,Critical,Mitigated,29,Blocked
+SEC-INC-50388,2024-01-21 04:56:13,142.122.98.123,SRV-PROD-03,Russia,Malware Infiltration,Medium,False Positive,117,Blocked
+SEC-INC-50389,2024-10-19 06:37:13,159.229.6.249,SRV-PROD-08,India,SQL Injection,Critical,False Positive,22,Blocked
+SEC-INC-50390,2024-03-31 04:54:47,204.77.174.101,SRV-PROD-03,China,Privilege Escalation,Low,False Positive,79,Blocked
+SEC-INC-50391,2024-02-12 12:54:52,199.252.205.127,SRV-PROD-01,Netherlands,Brute Force SSH,Low,False Positive,54,Blocked
+SEC-INC-50392,2024-05-23 18:56:54,51.126.82.232,SRV-PROD-03,Russia,Privilege Escalation,Low,False Positive,72,Alerted
+SEC-INC-50393,2024-08-09 12:17:19,55.70.192.255,SRV-PROD-08,China,SQL Injection,Medium,Investigating,,Blocked
+SEC-INC-50394,2024-01-06 20:53:09,49.78.98.52,SRV-PROD-08,Netherlands,DDoS Attack,Low,False Positive,101,Alerted
+SEC-INC-50395,2024-07-06 18:39:45,153.105.182.88,SRV-PROD-03,India,Privilege Escalation,Low,Investigating,,Alerted
+SEC-INC-50396,2024-05-24 09:42:33,66.234.116.236,SRV-PROD-02,India,Malware Infiltration,High,Resolved,37,Blocked
+SEC-INC-50397,2024-02-24 08:50:45,64.46.96.17,SRV-PROD-03,Brazil,Phishing Attempt,High,Resolved,8,Blocked
+SEC-INC-50398,2024-06-23 22:28:51,63.40.150.161,SRV-PROD-08,India,Privilege Escalation,Low,Resolved,19,Blocked
+SEC-INC-50399,2024-03-12 07:15:51,65.48.24.184,SRV-PROD-02,Russia,DDoS Attack,High,Investigating,,Blocked
+SEC-INC-50400,2024-04-17 01:49:13,65.100.83.161,SRV-PROD-04,Unknown,Brute Force SSH,Medium,Mitigated,159,Blocked
+SEC-INC-50401,2024-04-05 17:05:00,118.188.174.152,SRV-PROD-01,Unknown,Brute Force SSH,Medium,Resolved,50,Allowed
+SEC-INC-50402,2024-05-14 05:14:20,183.148.250.49,SRV-PROD-02,China,Brute Force SSH,Low,False Positive,63,Allowed
+SEC-INC-50403,2024-07-21 23:07:49,196.76.154.106,SRV-PROD-05,Brazil,DDoS Attack,Low,False Positive,66,Blocked
+SEC-INC-50404,2024-01-04 23:50:31,219.65.73.194,SRV-PROD-03,China,Phishing Attempt,Low,False Positive,20,Blocked
+SEC-INC-50405,2024-08-08 02:54:39,217.196.231.184,SRV-PROD-08,Russia,Privilege Escalation,Medium,False Positive,155,Alerted
+SEC-INC-50406,2024-12-23 22:02:44,218.246.17.146,SRV-PROD-05,India,DDoS Attack,Low,Mitigated,99,Alerted
+SEC-INC-50407,2024-06-02 17:48:25,125.140.191.49,SRV-PROD-04,USA,Phishing Attempt,Medium,Mitigated,124,Alerted
+SEC-INC-50408,2024-06-15 14:40:53,163.223.231.119,SRV-PROD-08,USA,Brute Force SSH,Medium,Mitigated,112,Allowed
+SEC-INC-50409,2024-03-12 11:31:53,142.254.223.162,SRV-PROD-03,Netherlands,SQL Injection,Low,Investigating,,Allowed
+SEC-INC-50410,2024-10-30 06:41:45,100.25.5.101,SRV-PROD-08,USA,SQL Injection,Low,Resolved,132,Alerted
+SEC-INC-50411,2024-03-22 11:03:03,185.72.59.49,SRV-PROD-08,Unknown,DDoS Attack,Medium,Investigating,,Alerted
+SEC-INC-50412,2024-12-06 02:10:32,135.247.28.18,SRV-PROD-06,Unknown,Malware Infiltration,Low,Investigating,,Blocked
+SEC-INC-50413,2024-09-10 07:52:44,151.126.4.245,SRV-PROD-05,USA,SQL Injection,Medium,Mitigated,161,Allowed
+SEC-INC-50414,2024-11-02 04:42:44,180.73.88.186,SRV-PROD-06,USA,SQL Injection,Medium,Mitigated,21,Allowed
+SEC-INC-50415,2024-08-16 13:28:17,151.64.54.242,SRV-PROD-06,Brazil,SQL Injection,Medium,Mitigated,76,Blocked
+SEC-INC-50416,2024-06-23 21:00:57,129.179.50.231,SRV-PROD-03,India,Privilege Escalation,Medium,Investigating,,Blocked
+SEC-INC-50417,2024-10-30 22:11:13,105.209.210.64,SRV-PROD-08,Unknown,Phishing Attempt,Low,Resolved,103,Allowed
+SEC-INC-50418,2024-11-15 11:42:39,65.136.126.119,SRV-PROD-05,China,DDoS Attack,Low,Investigating,,Alerted
+SEC-INC-50419,2024-12-30 05:12:34,138.218.200.16,SRV-PROD-08,Brazil,Brute Force SSH,Medium,False Positive,96,Blocked
+SEC-INC-50420,2024-09-04 20:27:26,82.201.70.245,SRV-PROD-06,Unknown,SQL Injection,Medium,Investigating,,Blocked
+SEC-INC-50421,2024-04-06 21:45:26,199.31.76.188,SRV-PROD-01,Brazil,Malware Infiltration,High,False Positive,68,Blocked
+SEC-INC-50422,2024-07-11 15:24:02,47.77.67.53,SRV-PROD-03,Germany,Phishing Attempt,Low,Mitigated,25,Alerted
+SEC-INC-50423,2024-08-26 05:22:28,159.161.98.143,SRV-PROD-03,Unknown,SQL Injection,Low,False Positive,121,Alerted
+SEC-INC-50424,2024-04-11 22:05:00,161.73.42.151,SRV-PROD-03,India,Phishing Attempt,Low,False Positive,146,Alerted
+SEC-INC-50425,2024-07-07 05:09:39,125.213.185.97,SRV-PROD-01,Netherlands,Privilege Escalation,Low,Investigating,,Alerted
+SEC-INC-50426,2024-11-09 01:15:26,209.73.83.145,SRV-PROD-01,Russia,Privilege Escalation,Medium,Investigating,,Alerted
+SEC-INC-50427,2024-02-02 02:28:19,80.39.27.134,SRV-PROD-03,Brazil,Phishing Attempt,High,False Positive,91,Blocked
+SEC-INC-50428,2024-02-11 15:01:25,132.193.18.127,SRV-PROD-07,Russia,Malware Infiltration,Medium,Mitigated,44,Blocked
+SEC-INC-50429,2024-02-15 07:32:45,159.41.30.196,SRV-PROD-05,Brazil,Brute Force SSH,Low,Resolved,18,Blocked
+SEC-INC-50430,2024-12-23 08:12:39,167.11.11.57,SRV-PROD-04,USA,Brute Force SSH,Medium,False Positive,104,Blocked
+SEC-INC-50431,2024-12-09 14:24:39,49.131.196.75,SRV-PROD-08,Russia,Privilege Escalation,Medium,Mitigated,145,Allowed
+SEC-INC-50432,2024-01-21 07:17:10,195.10.54.59,SRV-PROD-08,Russia,SQL Injection,Medium,False Positive,135,Allowed
+SEC-INC-50433,2024-07-22 07:44:49,83.138.2.235,SRV-PROD-05,Germany,Malware Infiltration,Low,Mitigated,45,Allowed
+SEC-INC-50434,2024-11-07 09:19:50,130.51.84.230,SRV-PROD-05,Netherlands,Phishing Attempt,Medium,Mitigated,12,Alerted
+SEC-INC-50435,2024-11-04 23:43:01,216.132.198.104,SRV-PROD-04,USA,Phishing Attempt,Low,Resolved,57,Allowed
+SEC-INC-50436,2024-10-18 10:52:19,217.55.227.152,SRV-PROD-05,India,DDoS Attack,Low,Investigating,,Blocked
+SEC-INC-50437,2024-05-09 07:53:37,175.7.80.4,SRV-PROD-04,USA,SQL Injection,Low,Mitigated,88,Alerted
+SEC-INC-50438,2024-07-19 21:54:40,87.236.126.123,SRV-PROD-05,Brazil,Phishing Attempt,Medium,Resolved,12,Blocked
+SEC-INC-50439,2024-01-26 00:24:29,115.239.1.78,SRV-PROD-08,Netherlands,Privilege Escalation,Medium,Investigating,,Allowed
+SEC-INC-50440,2024-01-28 13:24:01,100.166.49.249,SRV-PROD-07,India,Phishing Attempt,Low,Resolved,81,Allowed
+SEC-INC-50441,2024-03-02 10:59:50,81.68.117.239,SRV-PROD-04,China,Privilege Escalation,Medium,Resolved,126,Allowed
+SEC-INC-50442,2024-01-08 04:05:56,67.186.61.117,SRV-PROD-05,Germany,Phishing Attempt,Medium,Mitigated,21,Blocked
+SEC-INC-50443,2024-12-20 05:34:52,100.17.102.174,SRV-PROD-07,Russia,Phishing Attempt,Medium,Mitigated,110,Allowed
+SEC-INC-50444,2024-01-07 20:59:57,56.169.17.246,SRV-PROD-05,Germany,Privilege Escalation,Medium,False Positive,11,Blocked
+SEC-INC-50445,2024-05-19 06:50:50,105.177.115.208,SRV-PROD-01,Russia,Malware Infiltration,High,Mitigated,148,Blocked
+SEC-INC-50446,2024-12-25 17:47:12,104.184.218.191,SRV-PROD-01,Germany,SQL Injection,Low,False Positive,121,Alerted
+SEC-INC-50447,2024-10-05 05:58:02,140.169.231.96,SRV-PROD-03,India,Privilege Escalation,Medium,Mitigated,49,Blocked
+SEC-INC-50448,2024-07-24 13:32:53,164.252.89.197,SRV-PROD-05,USA,Privilege Escalation,High,Mitigated,177,Blocked
+SEC-INC-50449,2024-10-04 14:50:54,137.247.111.23,SRV-PROD-05,USA,SQL Injection,High,Mitigated,120,Blocked
+SEC-INC-50450,2024-10-03 05:58:52,55.88.130.236,SRV-PROD-03,India,Malware Infiltration,Medium,Investigating,,Blocked
+SEC-INC-50451,2024-03-12 07:29:36,146.21.211.108,SRV-PROD-02,Russia,Malware Infiltration,Low,Resolved,70,Blocked
+SEC-INC-50452,2024-12-06 05:59:47,103.176.182.202,SRV-PROD-06,Unknown,Phishing Attempt,Low,False Positive,145,Alerted
+SEC-INC-50453,2024-09-24 23:55:00,145.57.148.90,SRV-PROD-07,China,Brute Force SSH,Medium,Mitigated,44,Blocked
+SEC-INC-50454,2024-04-06 00:01:18,174.205.28.127,SRV-PROD-03,China,Privilege Escalation,Critical,Investigating,,Blocked
+SEC-INC-50455,2024-07-26 11:01:36,98.139.164.25,SRV-PROD-04,Russia,Phishing Attempt,Low,Resolved,58,Allowed
+SEC-INC-50456,2024-12-14 02:35:50,62.65.116.244,SRV-PROD-02,Netherlands,SQL Injection,Medium,Resolved,157,Alerted
+SEC-INC-50457,2024-06-24 14:07:02,140.54.78.110,SRV-PROD-08,Russia,Privilege Escalation,Medium,Resolved,132,Alerted
+SEC-INC-50458,2024-06-28 01:07:48,110.180.122.221,SRV-PROD-07,China,DDoS Attack,Medium,False Positive,180,Alerted
+SEC-INC-50459,2024-01-14 13:50:03,54.247.125.195,SRV-PROD-02,Unknown,SQL Injection,Medium,Resolved,67,Blocked
+SEC-INC-50460,2024-11-19 03:25:21,161.98.192.87,SRV-PROD-04,Unknown,Phishing Attempt,Low,Mitigated,60,Blocked
+SEC-INC-50461,2024-07-29 03:27:25,47.176.33.152,SRV-PROD-01,Unknown,Phishing Attempt,Medium,Mitigated,75,Blocked
+SEC-INC-50462,2024-10-16 14:07:59,182.168.186.13,SRV-PROD-05,China,Privilege Escalation,Medium,Investigating,,Alerted
+SEC-INC-50463,2024-05-30 05:55:31,55.75.154.85,SRV-PROD-07,China,Privilege Escalation,Low,Resolved,55,Alerted
+SEC-INC-50464,2024-09-05 09:04:02,46.100.199.191,SRV-PROD-03,Netherlands,Phishing Attempt,Low,Investigating,,Alerted
+SEC-INC-50465,2024-12-15 21:14:49,171.59.183.114,SRV-PROD-02,China,Brute Force SSH,Low,Resolved,117,Alerted
+SEC-INC-50466,2024-07-06 15:39:17,50.182.135.230,SRV-PROD-06,China,DDoS Attack,Medium,False Positive,116,Blocked
+SEC-INC-50467,2024-12-25 15:22:25,62.17.23.68,SRV-PROD-06,Unknown,DDoS Attack,Medium,Investigating,,Allowed
+SEC-INC-50468,2024-03-02 00:52:40,86.23.147.48,SRV-PROD-04,Unknown,Privilege Escalation,Critical,False Positive,147,Blocked
+SEC-INC-50469,2024-05-14 17:23:56,62.249.203.169,SRV-PROD-03,Netherlands,Phishing Attempt,Medium,Investigating,,Allowed
+SEC-INC-50470,2024-03-16 10:56:06,79.192.180.101,SRV-PROD-01,India,Phishing Attempt,Medium,Resolved,33,Blocked
+SEC-INC-50471,2024-12-06 09:40:50,194.136.3.78,SRV-PROD-03,India,Brute Force SSH,High,Investigating,,Blocked
+SEC-INC-50472,2024-04-06 17:17:07,167.123.55.26,SRV-PROD-03,Netherlands,Malware Infiltration,Medium,Resolved,42,Blocked
+SEC-INC-50473,2024-03-06 18:33:49,82.221.195.18,SRV-PROD-08,China,Malware Infiltration,Low,Mitigated,165,Alerted
+SEC-INC-50474,2024-04-25 09:33:22,149.16.193.111,SRV-PROD-01,India,DDoS Attack,Low,False Positive,105,Alerted
+SEC-INC-50475,2024-11-06 08:10:54,77.123.158.244,SRV-PROD-07,USA,Brute Force SSH,Medium,False Positive,132,Allowed
+SEC-INC-50476,2024-08-09 21:50:19,52.107.17.144,SRV-PROD-02,USA,Privilege Escalation,Low,False Positive,105,Alerted
+SEC-INC-50477,2024-08-25 23:40:18,132.78.215.138,SRV-PROD-06,Germany,DDoS Attack,Medium,Mitigated,155,Blocked
+SEC-INC-50478,2024-10-13 22:02:05,198.170.202.147,SRV-PROD-03,Unknown,SQL Injection,Low,Mitigated,92,Blocked
+SEC-INC-50479,2024-09-21 22:26:28,206.17.65.162,SRV-PROD-05,Germany,SQL Injection,Medium,Investigating,,Alerted
+SEC-INC-50480,2024-06-14 08:43:00,189.49.90.249,SRV-PROD-05,Brazil,SQL Injection,Medium,Mitigated,76,Alerted
+SEC-INC-50481,2024-11-02 15:25:54,216.169.49.197,SRV-PROD-03,Germany,Brute Force SSH,Medium,False Positive,143,Blocked
+SEC-INC-50482,2024-06-13 07:26:39,163.149.134.45,SRV-PROD-02,Germany,Privilege Escalation,Low,False Positive,51,Blocked
+SEC-INC-50483,2024-09-11 13:39:11,107.101.124.184,SRV-PROD-05,Unknown,Malware Infiltration,Low,False Positive,160,Allowed
+SEC-INC-50484,2024-05-09 04:31:49,141.209.141.252,SRV-PROD-07,Russia,Phishing Attempt,Low,False Positive,131,Alerted
+SEC-INC-50485,2024-10-08 21:14:51,115.131.146.108,SRV-PROD-04,Germany,Phishing Attempt,Critical,Mitigated,157,Blocked
+SEC-INC-50486,2024-02-25 17:20:38,156.100.81.31,SRV-PROD-03,USA,Phishing Attempt,Low,Resolved,15,Allowed
+SEC-INC-50487,2024-05-22 03:54:45,185.138.69.33,SRV-PROD-02,Netherlands,Brute Force SSH,Low,Resolved,7,Allowed
+SEC-INC-50488,2024-06-21 22:43:56,115.73.111.62,SRV-PROD-04,Brazil,Malware Infiltration,Medium,False Positive,146,Alerted
+SEC-INC-50489,2024-05-01 05:31:24,50.142.150.82,SRV-PROD-04,USA,DDoS Attack,Low,Resolved,46,Allowed
+SEC-INC-50490,2024-10-19 22:21:35,114.208.125.32,SRV-PROD-02,Brazil,DDoS Attack,Low,Mitigated,161,Allowed
+SEC-INC-50491,2024-03-29 08:01:20,116.28.1.62,SRV-PROD-05,Netherlands,Malware Infiltration,High,Mitigated,119,Blocked
+SEC-INC-50492,2024-04-19 08:27:12,70.217.21.105,SRV-PROD-08,Unknown,Brute Force SSH,Medium,Mitigated,162,Alerted
+SEC-INC-50493,2024-01-12 19:42:24,114.53.226.173,SRV-PROD-08,Netherlands,Malware Infiltration,Low,Resolved,132,Blocked
+SEC-INC-50494,2024-11-11 14:07:22,158.156.53.96,SRV-PROD-03,China,Malware Infiltration,High,Mitigated,48,Blocked
+SEC-INC-50495,2024-07-25 07:32:29,100.81.91.104,SRV-PROD-05,Brazil,Privilege Escalation,Low,Investigating,,Alerted
+SEC-INC-50496,2024-11-03 17:06:06,51.176.240.145,SRV-PROD-04,China,DDoS Attack,Medium,Resolved,104,Blocked
+SEC-INC-50497,2024-06-25 13:05:23,142.6.126.112,SRV-PROD-08,Netherlands,Phishing Attempt,Medium,False Positive,63,Alerted
+SEC-INC-50498,2024-07-06 09:27:40,167.41.44.57,SRV-PROD-04,Russia,DDoS Attack,Low,Investigating,,Allowed
+SEC-INC-50499,2024-12-28 05:46:48,68.158.179.142,SRV-PROD-01,Germany,Phishing Attempt,Medium,False Positive,120,Allowed
+SEC-INC-50500,2024-05-30 05:09:24,156.72.223.235,SRV-PROD-03,Brazil,DDoS Attack,Low,Resolved,64,Allowed
+SEC-INC-50501,2024-11-13 01:53:54,191.168.201.201,SRV-PROD-03,Germany,Malware Infiltration,Medium,Mitigated,47,Allowed
+SEC-INC-50502,2024-01-09 07:06:49,199.183.20.18,SRV-PROD-02,Germany,Brute Force SSH,Medium,Mitigated,146,Alerted
+SEC-INC-50503,2024-04-01 05:33:37,181.239.48.63,SRV-PROD-01,India,Brute Force SSH,High,Resolved,133,Blocked
+SEC-INC-50504,2024-09-15 02:04:11,145.35.43.13,SRV-PROD-08,USA,Brute Force SSH,Low,False Positive,151,Alerted
+SEC-INC-50505,2024-08-24 08:56:56,161.45.182.29,SRV-PROD-04,USA,Privilege Escalation,Medium,Resolved,22,Alerted
+SEC-INC-50506,2024-03-10 00:01:15,118.118.136.205,SRV-PROD-08,Netherlands,Malware Infiltration,Medium,Mitigated,139,Alerted
+SEC-INC-50507,2024-11-27 18:55:12,135.202.156.148,SRV-PROD-07,Germany,Malware Infiltration,Critical,Investigating,,Blocked
+SEC-INC-50508,2024-09-14 18:11:40,77.207.10.53,SRV-PROD-02,India,SQL Injection,Low,Mitigated,102,Alerted
+SEC-INC-50509,2024-06-02 13:36:11,51.81.125.51,SRV-PROD-01,Brazil,DDoS Attack,High,Investigating,,Blocked
+SEC-INC-50510,2024-08-18 21:29:48,80.167.204.78,SRV-PROD-07,Brazil,Brute Force SSH,Low,Investigating,,Alerted
+SEC-INC-50511,2024-05-09 17:43:22,147.120.183.120,SRV-PROD-06,Brazil,DDoS Attack,Low,Resolved,67,Allowed
+SEC-INC-50512,2024-11-23 03:41:15,120.96.14.90,SRV-PROD-08,Netherlands,Privilege Escalation,High,Resolved,158,Blocked
+SEC-INC-50513,2024-05-30 12:55:00,176.142.123.11,SRV-PROD-08,China,SQL Injection,Low,False Positive,134,Allowed
+SEC-INC-50514,2024-01-06 03:41:17,82.191.183.144,SRV-PROD-05,Russia,Phishing Attempt,Medium,False Positive,11,Alerted
+SEC-INC-50515,2024-07-25 12:09:43,201.118.89.160,SRV-PROD-06,Germany,SQL Injection,Low,Resolved,117,Alerted
+SEC-INC-50516,2024-08-09 18:42:47,54.171.200.141,SRV-PROD-02,USA,DDoS Attack,Low,Mitigated,167,Alerted
+SEC-INC-50517,2024-03-14 05:10:39,95.24.158.99,SRV-PROD-05,Netherlands,Brute Force SSH,Low,False Positive,8,Allowed
+SEC-INC-50518,2024-04-09 15:13:57,190.50.107.205,SRV-PROD-03,Netherlands,Malware Infiltration,Medium,Investigating,,Allowed
+SEC-INC-50519,2024-02-03 05:56:56,54.68.187.124,SRV-PROD-02,Brazil,DDoS Attack,High,Investigating,,Blocked
+SEC-INC-50520,2024-12-10 17:58:01,74.21.172.118,SRV-PROD-06,India,DDoS Attack,Critical,False Positive,152,Blocked
+SEC-INC-50521,2024-10-12 19:56:57,129.162.171.84,SRV-PROD-03,Germany,Malware Infiltration,High,Investigating,,Blocked
+SEC-INC-50522,2024-04-25 00:48:33,156.124.70.85,SRV-PROD-05,Unknown,Privilege Escalation,Critical,Resolved,156,Blocked
+SEC-INC-50523,2024-06-02 09:22:49,72.211.38.143,SRV-PROD-04,Brazil,Brute Force SSH,Medium,Investigating,,Allowed
+SEC-INC-50524,2024-12-23 19:44:28,174.93.106.191,SRV-PROD-07,Netherlands,Malware Infiltration,Low,Resolved,67,Allowed
+SEC-INC-50525,2024-11-15 17:31:08,214.17.199.81,SRV-PROD-01,Netherlands,DDoS Attack,High,Investigating,,Blocked
+SEC-INC-50526,2024-07-31 17:13:39,52.86.241.95,SRV-PROD-02,Germany,Brute Force SSH,Medium,Mitigated,106,Blocked
+SEC-INC-50527,2024-04-19 14:45:25,155.218.61.74,SRV-PROD-04,USA,SQL Injection,Low,False Positive,156,Alerted
+SEC-INC-50528,2024-02-12 03:39:53,66.22.204.189,SRV-PROD-01,USA,Malware Infiltration,Medium,Resolved,170,Allowed
+SEC-INC-50529,2024-01-27 00:04:33,165.46.9.35,SRV-PROD-05,India,Privilege Escalation,Medium,False Positive,175,Blocked
+SEC-INC-50530,2024-02-14 01:28:19,87.229.80.85,SRV-PROD-02,Russia,Malware Infiltration,Low,Resolved,162,Allowed
+SEC-INC-50531,2024-04-08 06:11:13,145.211.255.126,SRV-PROD-02,Germany,Malware Infiltration,Low,Resolved,161,Alerted
+SEC-INC-50532,2024-03-11 02:21:52,163.156.219.67,SRV-PROD-03,China,DDoS Attack,Medium,False Positive,13,Alerted
+SEC-INC-50533,2024-06-22 05:55:39,166.208.116.92,SRV-PROD-05,Germany,Privilege Escalation,Medium,Mitigated,112,Allowed
+SEC-INC-50534,2024-06-07 11:53:29,98.62.119.39,SRV-PROD-03,Russia,Phishing Attempt,Low,Resolved,42,Allowed
+SEC-INC-50535,2024-08-17 04:35:29,83.186.19.73,SRV-PROD-06,India,Malware Infiltration,Low,Mitigated,116,Alerted
+SEC-INC-50536,2024-03-03 23:27:31,216.242.172.142,SRV-PROD-05,Brazil,DDoS Attack,Medium,False Positive,45,Alerted
+SEC-INC-50537,2024-04-08 12:33:51,61.13.9.216,SRV-PROD-05,Netherlands,Brute Force SSH,High,Mitigated,173,Blocked
+SEC-INC-50538,2024-07-22 11:46:52,160.35.209.84,SRV-PROD-07,India,Malware Infiltration,High,Investigating,,Blocked
+SEC-INC-50539,2024-01-04 05:58:39,109.107.24.125,SRV-PROD-06,USA,Phishing Attempt,High,Investigating,,Blocked
+SEC-INC-50540,2024-09-19 21:59:17,171.246.72.233,SRV-PROD-04,USA,DDoS Attack,Low,Resolved,166,Alerted
+SEC-INC-50541,2024-12-30 12:29:12,202.96.87.1,SRV-PROD-02,Unknown,Malware Infiltration,Low,Investigating,,Alerted
+SEC-INC-50542,2024-12-14 23:58:52,174.71.136.101,SRV-PROD-04,Netherlands,Privilege Escalation,High,Mitigated,156,Blocked
+SEC-INC-50543,2024-10-07 10:33:56,182.194.117.12,SRV-PROD-05,India,Phishing Attempt,Medium,Resolved,126,Alerted
+SEC-INC-50544,2024-08-25 22:09:51,191.60.237.81,SRV-PROD-04,Unknown,SQL Injection,Low,Resolved,63,Blocked
+SEC-INC-50545,2024-10-23 09:15:10,146.68.2.136,SRV-PROD-04,Russia,Brute Force SSH,Critical,Mitigated,66,Blocked
+SEC-INC-50546,2024-07-22 00:04:54,155.13.246.20,SRV-PROD-05,Netherlands,Phishing Attempt,Medium,False Positive,158,Blocked
+SEC-INC-50547,2024-01-27 18:04:55,193.55.137.170,SRV-PROD-05,China,Brute Force SSH,High,Mitigated,148,Blocked
+SEC-INC-50548,2024-06-17 06:27:10,184.168.52.4,SRV-PROD-07,China,SQL Injection,Medium,Mitigated,10,Allowed
+SEC-INC-50549,2024-03-07 09:24:01,88.169.75.172,SRV-PROD-05,Netherlands,Brute Force SSH,High,Investigating,,Blocked
+SEC-INC-50550,2024-03-24 13:09:33,69.196.239.74,SRV-PROD-05,China,Phishing Attempt,Critical,Resolved,5,Blocked
+SEC-INC-50551,2024-05-02 02:24:08,114.248.46.30,SRV-PROD-08,India,Phishing Attempt,Medium,Mitigated,135,Allowed
+SEC-INC-50552,2024-09-03 22:22:06,116.202.22.92,SRV-PROD-02,India,Brute Force SSH,Low,Investigating,,Blocked
+SEC-INC-50553,2024-05-08 00:39:49,203.206.249.204,SRV-PROD-02,China,Brute Force SSH,Low,Investigating,,Blocked
+SEC-INC-50554,2024-12-19 19:28:18,94.123.254.237,SRV-PROD-06,Russia,SQL Injection,High,Mitigated,31,Blocked
+SEC-INC-50555,2024-09-19 14:39:11,99.43.49.159,SRV-PROD-08,China,Privilege Escalation,Low,Mitigated,147,Alerted
+SEC-INC-50556,2024-07-17 11:43:53,209.95.51.231,SRV-PROD-01,Russia,DDoS Attack,Low,False Positive,9,Blocked
+SEC-INC-50557,2024-07-09 23:37:08,131.107.192.215,SRV-PROD-01,India,DDoS Attack,Low,Resolved,157,Blocked
+SEC-INC-50558,2024-10-14 04:14:29,196.35.122.127,SRV-PROD-06,China,Malware Infiltration,High,False Positive,67,Blocked
+SEC-INC-50559,2024-06-08 19:33:16,153.76.10.220,SRV-PROD-02,Russia,SQL Injection,Medium,Investigating,,Blocked
+SEC-INC-50560,2024-05-12 13:49:12,84.72.88.218,SRV-PROD-07,China,Malware Infiltration,Low,Mitigated,83,Blocked
+SEC-INC-50561,2024-06-02 14:48:49,50.7.252.73,SRV-PROD-06,USA,Privilege Escalation,Low,Investigating,,Blocked
+SEC-INC-50562,2024-11-04 21:49:43,70.93.30.25,SRV-PROD-05,India,SQL Injection,High,Investigating,,Blocked
+SEC-INC-50563,2024-10-22 07:43:47,194.205.21.60,SRV-PROD-01,Germany,SQL Injection,High,Resolved,145,Blocked
+SEC-INC-50564,2024-10-22 19:52:53,121.233.142.169,SRV-PROD-05,China,DDoS Attack,High,Resolved,84,Blocked
+SEC-INC-50565,2024-08-03 03:23:05,213.86.69.190,SRV-PROD-01,USA,Phishing Attempt,Low,Resolved,32,Alerted
+SEC-INC-50566,2024-01-22 17:05:02,137.104.139.28,SRV-PROD-05,USA,Malware Infiltration,Critical,Investigating,,Blocked
+SEC-INC-50567,2024-02-11 12:09:46,88.48.167.236,SRV-PROD-02,Russia,DDoS Attack,Low,Investigating,,Allowed
+SEC-INC-50568,2024-12-15 18:33:25,106.254.105.2,SRV-PROD-05,Brazil,DDoS Attack,Medium,Resolved,115,Allowed
+SEC-INC-50569,2024-11-09 14:08:33,94.212.136.75,SRV-PROD-06,USA,DDoS Attack,Critical,Mitigated,153,Blocked
+SEC-INC-50570,2024-05-27 09:48:25,108.158.220.228,SRV-PROD-02,Netherlands,SQL Injection,Medium,Mitigated,5,Allowed
+SEC-INC-50571,2024-07-26 21:30:29,93.192.65.177,SRV-PROD-03,USA,Privilege Escalation,Medium,Investigating,,Allowed
+SEC-INC-50572,2024-12-30 01:27:49,104.64.191.12,SRV-PROD-02,Netherlands,Brute Force SSH,Critical,False Positive,33,Blocked
+SEC-INC-50573,2024-10-21 00:06:09,211.54.184.29,SRV-PROD-01,Netherlands,Phishing Attempt,Low,Mitigated,41,Allowed
+SEC-INC-50574,2024-11-27 04:29:13,139.84.251.106,SRV-PROD-07,Germany,DDoS Attack,Medium,Investigating,,Allowed
+SEC-INC-50575,2024-07-18 12:51:31,93.223.171.220,SRV-PROD-04,Unknown,DDoS Attack,Critical,Mitigated,17,Blocked
+SEC-INC-50576,2024-05-09 00:06:40,155.119.41.16,SRV-PROD-01,Unknown,Malware Infiltration,Low,Mitigated,33,Alerted
+SEC-INC-50577,2024-03-13 10:19:11,116.46.110.197,SRV-PROD-01,Unknown,Malware Infiltration,Low,Mitigated,94,Alerted
+SEC-INC-50578,2024-11-25 08:10:01,160.52.177.222,SRV-PROD-05,Unknown,DDoS Attack,Low,Mitigated,61,Alerted
+SEC-INC-50579,2024-03-09 00:37:27,105.166.125.99,SRV-PROD-04,USA,Phishing Attempt,Low,False Positive,138,Alerted
+SEC-INC-50580,2024-12-19 03:35:54,114.221.169.133,SRV-PROD-05,Netherlands,Phishing Attempt,Low,Resolved,66,Alerted
+SEC-INC-50581,2024-05-09 08:53:40,216.239.143.220,SRV-PROD-03,Unknown,Malware Infiltration,Low,Resolved,88,Blocked
+SEC-INC-50582,2024-10-10 15:16:54,190.88.1.124,SRV-PROD-04,USA,Phishing Attempt,Medium,Mitigated,69,Blocked
+SEC-INC-50583,2024-05-19 21:20:33,96.161.103.172,SRV-PROD-06,China,DDoS Attack,Medium,Investigating,,Allowed
+SEC-INC-50584,2024-06-15 01:40:03,131.92.121.195,SRV-PROD-04,India,DDoS Attack,Low,Resolved,24,Allowed
+SEC-INC-50585,2024-10-16 04:59:16,104.106.222.12,SRV-PROD-04,Unknown,DDoS Attack,Medium,Resolved,31,Blocked
+SEC-INC-50586,2024-10-07 16:03:59,79.57.189.55,SRV-PROD-04,India,Phishing Attempt,Low,Resolved,155,Alerted
+SEC-INC-50587,2024-03-02 10:12:34,209.151.228.116,SRV-PROD-04,China,SQL Injection,High,Resolved,28,Blocked
+SEC-INC-50588,2024-05-08 21:47:03,182.192.162.241,SRV-PROD-04,Russia,DDoS Attack,Medium,Investigating,,Blocked
+SEC-INC-50589,2024-12-22 00:13:53,170.210.255.56,SRV-PROD-07,India,Phishing Attempt,Low,Investigating,,Blocked
+SEC-INC-50590,2024-05-22 00:00:12,154.179.90.240,SRV-PROD-06,Unknown,Malware Infiltration,Medium,Resolved,29,Blocked
+SEC-INC-50591,2024-10-19 00:46:39,215.71.50.45,SRV-PROD-03,Brazil,Privilege Escalation,Low,Investigating,,Allowed
+SEC-INC-50592,2024-04-17 07:11:45,78.76.118.16,SRV-PROD-08,Brazil,Malware Infiltration,Low,Resolved,57,Alerted
+SEC-INC-50593,2024-11-17 10:54:28,220.111.40.177,SRV-PROD-02,USA,DDoS Attack,Low,Investigating,,Alerted
+SEC-INC-50594,2024-01-18 19:24:25,89.176.216.229,SRV-PROD-07,China,Phishing Attempt,High,Investigating,,Blocked
+SEC-INC-50595,2024-02-07 05:35:50,151.28.112.59,SRV-PROD-03,Germany,Privilege Escalation,Medium,False Positive,120,Allowed
+SEC-INC-50596,2024-10-31 19:24:01,214.146.56.245,SRV-PROD-08,Netherlands,Brute Force SSH,Medium,Mitigated,76,Alerted
+SEC-INC-50597,2024-05-13 22:04:26,99.238.188.205,SRV-PROD-01,Brazil,DDoS Attack,Low,Mitigated,28,Blocked
+SEC-INC-50598,2024-02-29 04:36:57,58.59.189.180,SRV-PROD-02,Unknown,DDoS Attack,High,Investigating,,Blocked
+SEC-INC-50599,2024-01-28 18:51:29,91.138.225.60,SRV-PROD-03,Brazil,Phishing Attempt,Medium,Resolved,66,Blocked
+SEC-INC-50600,2024-10-09 03:02:33,131.135.138.24,SRV-PROD-05,Germany,SQL Injection,Medium,Investigating,,Allowed
+SEC-INC-50601,2024-08-06 17:51:31,97.36.206.203,SRV-PROD-04,China,Malware Infiltration,Low,Mitigated,23,Alerted
+SEC-INC-50602,2024-11-20 19:54:20,65.189.195.83,SRV-PROD-08,USA,Privilege Escalation,Low,False Positive,12,Allowed
+SEC-INC-50603,2024-01-06 00:59:41,215.177.7.221,SRV-PROD-01,China,SQL Injection,Low,Resolved,26,Blocked
+SEC-INC-50604,2024-04-07 17:30:16,70.113.201.229,SRV-PROD-06,Russia,Privilege Escalation,Medium,Resolved,43,Alerted
+SEC-INC-50605,2024-06-09 13:48:02,217.30.204.235,SRV-PROD-05,Germany,SQL Injection,Low,Investigating,,Blocked
+SEC-INC-50606,2024-12-08 20:59:07,183.123.74.126,SRV-PROD-02,USA,Brute Force SSH,High,False Positive,133,Blocked
+SEC-INC-50607,2024-11-14 01:32:45,125.98.121.11,SRV-PROD-07,Unknown,Phishing Attempt,Low,Resolved,5,Blocked
+SEC-INC-50608,2024-05-13 08:56:32,141.89.163.88,SRV-PROD-02,India,Privilege Escalation,Medium,Investigating,,Alerted
+SEC-INC-50609,2024-07-12 20:29:53,76.61.106.39,SRV-PROD-05,Brazil,SQL Injection,Low,Resolved,98,Alerted
+SEC-INC-50610,2024-03-28 21:00:05,141.187.11.142,SRV-PROD-01,Unknown,Phishing Attempt,Medium,Investigating,,Alerted
+SEC-INC-50611,2024-11-04 22:21:45,187.118.159.91,SRV-PROD-01,USA,Brute Force SSH,Low,False Positive,17,Allowed
+SEC-INC-50612,2024-07-19 09:12:16,180.32.228.143,SRV-PROD-01,Germany,Privilege Escalation,Medium,Investigating,,Blocked
+SEC-INC-50613,2024-08-30 18:08:52,108.133.50.97,SRV-PROD-04,China,DDoS Attack,Low,Investigating,,Blocked
+SEC-INC-50614,2024-02-03 05:09:06,147.159.174.76,SRV-PROD-03,Germany,DDoS Attack,Low,Resolved,67,Alerted
+SEC-INC-50615,2024-03-07 13:24:28,180.111.55.27,SRV-PROD-05,Germany,Phishing Attempt,Medium,Resolved,104,Alerted
+SEC-INC-50616,2024-11-19 14:11:42,85.91.243.193,SRV-PROD-06,Germany,Phishing Attempt,Low,Investigating,,Blocked
+SEC-INC-50617,2024-12-11 13:26:11,132.140.175.48,SRV-PROD-05,Brazil,Privilege Escalation,Low,Resolved,125,Alerted
+SEC-INC-50618,2024-06-06 14:58:15,116.221.75.132,SRV-PROD-01,Brazil,Privilege Escalation,Low,Investigating,,Blocked
+SEC-INC-50619,2024-12-23 18:14:23,177.46.213.252,SRV-PROD-05,India,Privilege Escalation,Critical,Mitigated,161,Blocked
+SEC-INC-50620,2024-12-22 02:14:24,217.177.88.10,SRV-PROD-05,Russia,SQL Injection,Low,Investigating,,Allowed
+SEC-INC-50621,2024-06-30 07:04:31,179.66.151.81,SRV-PROD-02,Netherlands,Privilege Escalation,Low,Investigating,,Allowed
+SEC-INC-50622,2024-02-16 03:26:36,198.117.135.120,SRV-PROD-02,Russia,Malware Infiltration,Critical,Investigating,,Blocked
+SEC-INC-50623,2024-10-30 03:19:42,206.174.51.127,SRV-PROD-04,USA,DDoS Attack,Medium,Investigating,,Allowed
+SEC-INC-50624,2024-07-27 01:15:55,64.245.22.236,SRV-PROD-08,India,DDoS Attack,Low,Mitigated,146,Blocked
+SEC-INC-50625,2024-09-25 00:18:18,47.234.48.54,SRV-PROD-01,Russia,Malware Infiltration,Low,Mitigated,33,Blocked
+SEC-INC-50626,2024-03-06 21:44:35,179.237.4.63,SRV-PROD-07,India,DDoS Attack,Medium,Mitigated,72,Blocked
+SEC-INC-50627,2024-05-25 21:42:08,75.246.186.233,SRV-PROD-07,Russia,Malware Infiltration,Medium,Mitigated,99,Blocked
+SEC-INC-50628,2024-06-26 04:52:33,59.20.80.155,SRV-PROD-02,China,Malware Infiltration,Medium,False Positive,32,Blocked
+SEC-INC-50629,2024-05-29 08:13:21,104.102.136.123,SRV-PROD-06,Russia,Malware Infiltration,Low,Mitigated,54,Allowed
+SEC-INC-50630,2024-03-21 07:50:57,200.155.130.38,SRV-PROD-02,Brazil,DDoS Attack,Low,False Positive,112,Allowed
+SEC-INC-50631,2024-02-17 09:17:22,54.179.191.220,SRV-PROD-05,USA,Malware Infiltration,Medium,Resolved,98,Blocked
+SEC-INC-50632,2024-01-11 12:17:15,105.127.240.102,SRV-PROD-07,Netherlands,Privilege Escalation,Low,Resolved,34,Blocked
+SEC-INC-50633,2024-03-06 15:31:44,49.241.11.242,SRV-PROD-04,Russia,Malware Infiltration,High,False Positive,104,Blocked
+SEC-INC-50634,2024-07-22 22:06:56,67.210.224.196,SRV-PROD-01,Netherlands,Brute Force SSH,Medium,Resolved,87,Blocked
+SEC-INC-50635,2024-04-18 03:38:20,89.197.56.66,SRV-PROD-06,India,Phishing Attempt,High,Investigating,,Blocked
+SEC-INC-50636,2024-08-11 20:49:38,72.125.161.217,SRV-PROD-08,Netherlands,Malware Infiltration,Medium,Investigating,,Blocked
+SEC-INC-50637,2024-04-17 19:05:46,112.75.192.247,SRV-PROD-01,China,Brute Force SSH,Low,Resolved,140,Alerted
+SEC-INC-50638,2024-04-09 12:28:26,121.61.123.221,SRV-PROD-03,Netherlands,Phishing Attempt,Low,False Positive,162,Blocked
+SEC-INC-50639,2024-03-04 01:56:39,71.171.95.116,SRV-PROD-01,Russia,Malware Infiltration,Low,Resolved,79,Alerted
+SEC-INC-50640,2024-10-20 06:37:06,49.183.255.116,SRV-PROD-05,USA,DDoS Attack,High,Mitigated,164,Blocked
+SEC-INC-50641,2024-10-20 13:41:05,213.76.213.142,SRV-PROD-08,China,Malware Infiltration,Low,False Positive,153,Alerted
+SEC-INC-50642,2024-11-22 20:42:28,108.38.85.145,SRV-PROD-02,Germany,Phishing Attempt,High,False Positive,150,Blocked
+SEC-INC-50643,2024-11-12 07:04:47,89.228.49.28,SRV-PROD-03,Brazil,SQL Injection,High,Mitigated,108,Blocked
+SEC-INC-50644,2024-10-15 20:23:00,59.105.160.180,SRV-PROD-01,Unknown,Brute Force SSH,Low,Resolved,122,Alerted
+SEC-INC-50645,2024-01-16 23:22:19,158.45.192.56,SRV-PROD-05,Brazil,Malware Infiltration,Medium,False Positive,176,Blocked
+SEC-INC-50646,2024-11-04 13:10:22,211.63.231.244,SRV-PROD-03,Russia,SQL Injection,High,False Positive,109,Blocked
+SEC-INC-50647,2024-12-05 04:17:20,81.231.178.145,SRV-PROD-07,India,Phishing Attempt,Medium,Investigating,,Alerted
+SEC-INC-50648,2024-10-29 13:03:38,184.174.38.112,SRV-PROD-05,China,Malware Infiltration,Low,Mitigated,93,Alerted
+SEC-INC-50649,2024-11-18 02:39:02,100.4.144.124,SRV-PROD-07,China,Privilege Escalation,High,Investigating,,Blocked
+SEC-INC-50650,2024-04-07 19:14:32,125.147.87.252,SRV-PROD-02,Germany,Brute Force SSH,High,Mitigated,143,Blocked
+SEC-INC-50651,2024-03-17 08:45:36,195.204.198.80,SRV-PROD-05,Russia,Phishing Attempt,High,Investigating,,Blocked
+SEC-INC-50652,2024-09-01 08:08:45,45.2.171.219,SRV-PROD-07,Netherlands,DDoS Attack,Low,Resolved,34,Alerted
+SEC-INC-50653,2024-09-14 07:21:24,64.21.172.50,SRV-PROD-06,Russia,Phishing Attempt,Critical,Mitigated,140,Blocked
+SEC-INC-50654,2024-01-29 22:17:04,210.72.21.76,SRV-PROD-02,India,Phishing Attempt,Medium,Investigating,,Blocked
+SEC-INC-50655,2024-09-24 07:07:56,194.244.114.165,SRV-PROD-07,USA,Phishing Attempt,Medium,Investigating,,Blocked
+SEC-INC-50656,2024-05-23 09:50:05,49.230.127.113,SRV-PROD-08,Germany,DDoS Attack,Low,Mitigated,40,Blocked
+SEC-INC-50657,2024-07-25 14:59:15,216.34.153.36,SRV-PROD-06,Russia,Malware Infiltration,High,Mitigated,165,Blocked
+SEC-INC-50658,2024-08-30 13:59:53,57.252.42.145,SRV-PROD-02,Germany,Phishing Attempt,Low,False Positive,22,Allowed
+SEC-INC-50659,2024-04-11 07:22:43,161.60.23.240,SRV-PROD-03,India,SQL Injection,Medium,Investigating,,Allowed
+SEC-INC-50660,2024-06-25 14:36:40,72.120.140.238,SRV-PROD-02,Unknown,Phishing Attempt,Low,Investigating,,Blocked
+SEC-INC-50661,2024-02-22 02:51:41,199.42.1.98,SRV-PROD-02,Brazil,DDoS Attack,Low,False Positive,38,Alerted
+SEC-INC-50662,2024-09-10 19:53:00,191.250.89.97,SRV-PROD-02,Brazil,Brute Force SSH,Medium,False Positive,83,Alerted
+SEC-INC-50663,2024-10-30 01:47:26,88.222.149.83,SRV-PROD-01,USA,DDoS Attack,Low,Resolved,29,Alerted
+SEC-INC-50664,2024-05-21 10:22:04,58.61.116.53,SRV-PROD-05,China,DDoS Attack,Medium,Resolved,41,Alerted
+SEC-INC-50665,2024-09-12 18:41:31,88.235.48.20,SRV-PROD-01,USA,Privilege Escalation,Low,Mitigated,155,Blocked
+SEC-INC-50666,2024-04-03 03:43:33,205.50.67.133,SRV-PROD-07,USA,Malware Infiltration,Medium,Mitigated,180,Blocked
+SEC-INC-50667,2024-08-12 08:30:53,154.222.212.60,SRV-PROD-04,China,Malware Infiltration,Low,False Positive,109,Allowed
+SEC-INC-50668,2024-06-22 08:20:03,191.193.116.246,SRV-PROD-01,Unknown,Privilege Escalation,Medium,Mitigated,108,Blocked
+SEC-INC-50669,2024-03-01 16:30:50,167.180.16.104,SRV-PROD-08,Brazil,DDoS Attack,Medium,Investigating,,Allowed
+SEC-INC-50670,2024-07-05 00:04:55,141.139.37.22,SRV-PROD-03,USA,Brute Force SSH,Medium,False Positive,177,Allowed
+SEC-INC-50671,2024-02-14 14:19:18,218.224.169.94,SRV-PROD-01,India,Malware Infiltration,Critical,Resolved,180,Blocked
+SEC-INC-50672,2024-05-15 14:44:35,190.39.188.19,SRV-PROD-03,China,Malware Infiltration,Low,Mitigated,121,Blocked
+SEC-INC-50673,2024-01-21 20:17:56,196.137.198.175,SRV-PROD-05,Brazil,DDoS Attack,Medium,False Positive,144,Allowed
+SEC-INC-50674,2024-03-22 04:37:09,54.218.85.205,SRV-PROD-01,Brazil,Privilege Escalation,High,Mitigated,158,Blocked
+SEC-INC-50675,2024-12-20 09:07:49,174.249.75.166,SRV-PROD-03,Germany,Malware Infiltration,Low,Resolved,170,Allowed
+SEC-INC-50676,2024-05-25 12:37:33,160.161.140.130,SRV-PROD-08,Russia,Privilege Escalation,Medium,Resolved,96,Allowed
+SEC-INC-50677,2024-04-30 19:48:19,147.115.100.123,SRV-PROD-04,USA,Phishing Attempt,Critical,Mitigated,75,Blocked
+SEC-INC-50678,2024-07-13 02:50:22,202.17.185.161,SRV-PROD-08,Unknown,Malware Infiltration,Medium,Mitigated,143,Allowed
+SEC-INC-50679,2024-11-15 20:55:13,156.130.128.184,SRV-PROD-03,USA,SQL Injection,Medium,Investigating,,Alerted
+SEC-INC-50680,2024-01-20 23:25:19,181.82.175.135,SRV-PROD-01,Netherlands,Privilege Escalation,Low,Investigating,,Alerted
+SEC-INC-50681,2024-01-27 09:48:21,52.170.230.223,SRV-PROD-06,Netherlands,DDoS Attack,Medium,False Positive,180,Alerted
+SEC-INC-50682,2024-10-18 01:23:42,52.173.32.43,SRV-PROD-05,USA,Privilege Escalation,Low,False Positive,73,Alerted
+SEC-INC-50683,2024-04-03 19:03:47,145.118.152.101,SRV-PROD-04,USA,SQL Injection,High,False Positive,52,Blocked
+SEC-INC-50684,2024-11-22 08:58:45,207.244.35.175,SRV-PROD-05,Netherlands,Brute Force SSH,High,Investigating,,Blocked
+SEC-INC-50685,2024-10-06 20:50:51,71.88.104.43,SRV-PROD-05,China,Privilege Escalation,Medium,False Positive,52,Blocked
+SEC-INC-50686,2024-06-21 17:35:47,90.234.242.88,SRV-PROD-07,USA,Malware Infiltration,Low,Investigating,,Blocked
+SEC-INC-50687,2024-04-23 12:30:00,180.156.201.176,SRV-PROD-06,China,Brute Force SSH,High,Resolved,148,Blocked
+SEC-INC-50688,2024-12-29 14:14:37,139.94.7.244,SRV-PROD-08,Germany,DDoS Attack,Critical,False Positive,9,Blocked
+SEC-INC-50689,2024-11-08 11:40:00,169.198.175.74,SRV-PROD-05,Brazil,Phishing Attempt,Low,Resolved,177,Blocked
+SEC-INC-50690,2024-10-22 02:42:46,73.234.124.154,SRV-PROD-08,USA,Phishing Attempt,Low,False Positive,153,Allowed
+SEC-INC-50691,2024-05-17 01:22:20,67.215.94.54,SRV-PROD-07,Germany,Phishing Attempt,Low,Mitigated,32,Alerted
+SEC-INC-50692,2024-06-16 07:21:55,72.56.187.45,SRV-PROD-06,Brazil,DDoS Attack,Medium,Resolved,65,Alerted
+SEC-INC-50693,2024-08-17 11:33:11,56.5.246.159,SRV-PROD-05,USA,Privilege Escalation,High,Resolved,77,Blocked
+SEC-INC-50694,2024-02-14 01:16:52,135.46.117.99,SRV-PROD-02,Unknown,Malware Infiltration,Low,Investigating,,Alerted
+SEC-INC-50695,2024-01-04 09:53:29,137.34.61.217,SRV-PROD-06,Netherlands,Brute Force SSH,High,False Positive,147,Blocked
+SEC-INC-50696,2024-08-07 15:08:56,59.245.84.222,SRV-PROD-07,Unknown,Malware Infiltration,Medium,False Positive,47,Allowed
+SEC-INC-50697,2024-09-09 12:18:07,175.87.252.190,SRV-PROD-05,India,Privilege Escalation,Medium,False Positive,86,Blocked
+SEC-INC-50698,2024-11-10 10:29:13,90.129.33.78,SRV-PROD-02,China,Privilege Escalation,Medium,False Positive,11,Allowed
+SEC-INC-50699,2024-01-04 01:26:04,55.40.206.79,SRV-PROD-06,Brazil,Malware Infiltration,Medium,Investigating,,Allowed
+SEC-INC-50700,2024-05-01 04:46:27,209.225.212.227,SRV-PROD-02,India,SQL Injection,Low,Resolved,87,Alerted
+SEC-INC-50701,2024-09-03 01:13:48,178.53.163.163,SRV-PROD-07,USA,Privilege Escalation,Low,False Positive,77,Blocked
+SEC-INC-50702,2024-09-25 22:27:39,143.99.151.159,SRV-PROD-08,USA,DDoS Attack,Critical,Investigating,,Blocked
+SEC-INC-50703,2024-08-04 16:20:51,208.202.113.185,SRV-PROD-05,Netherlands,Brute Force SSH,Medium,Investigating,,Alerted
+SEC-INC-50704,2024-09-20 06:06:21,139.74.54.244,SRV-PROD-02,Brazil,Brute Force SSH,Medium,Resolved,39,Allowed
+SEC-INC-50705,2024-02-02 04:35:53,96.156.37.225,SRV-PROD-01,Germany,Malware Infiltration,Low,Mitigated,7,Allowed
+SEC-INC-50706,2024-09-23 08:54:39,151.68.126.41,SRV-PROD-04,Unknown,SQL Injection,Low,Investigating,,Alerted
+SEC-INC-50707,2024-07-25 18:53:04,67.171.117.46,SRV-PROD-03,India,DDoS Attack,Medium,False Positive,97,Blocked
+SEC-INC-50708,2024-11-17 09:40:16,168.35.98.40,SRV-PROD-01,India,Brute Force SSH,Medium,Mitigated,102,Blocked
+SEC-INC-50709,2024-10-10 08:46:40,71.101.14.141,SRV-PROD-03,Unknown,Phishing Attempt,Medium,Investigating,,Allowed
+SEC-INC-50710,2024-08-22 07:49:49,95.114.202.184,SRV-PROD-04,USA,Phishing Attempt,Low,Investigating,,Allowed
+SEC-INC-50711,2024-10-22 20:38:21,202.55.190.106,SRV-PROD-03,China,Privilege Escalation,Medium,False Positive,173,Blocked
+SEC-INC-50712,2024-02-08 23:18:52,122.61.142.141,SRV-PROD-03,Brazil,Brute Force SSH,Low,False Positive,67,Blocked
+SEC-INC-50713,2024-10-03 07:23:52,126.143.241.79,SRV-PROD-05,Netherlands,Phishing Attempt,Medium,Mitigated,131,Allowed
+SEC-INC-50714,2024-03-23 14:18:42,119.64.242.6,SRV-PROD-06,Germany,SQL Injection,Medium,Mitigated,161,Blocked
+SEC-INC-50715,2024-02-29 06:34:13,159.155.212.218,SRV-PROD-08,Russia,Brute Force SSH,Medium,Mitigated,22,Allowed
+SEC-INC-50716,2024-01-29 12:03:19,108.171.231.153,SRV-PROD-08,Unknown,Privilege Escalation,Low,Mitigated,88,Allowed
+SEC-INC-50717,2024-10-23 20:19:39,177.63.34.39,SRV-PROD-01,China,Brute Force SSH,High,Mitigated,18,Blocked
+SEC-INC-50718,2024-10-07 06:51:39,89.10.227.12,SRV-PROD-05,Unknown,Malware Infiltration,High,Mitigated,137,Blocked
+SEC-INC-50719,2024-09-14 18:25:11,190.113.90.176,SRV-PROD-04,India,Privilege Escalation,Medium,Investigating,,Allowed
+SEC-INC-50720,2024-11-22 19:28:42,145.237.16.205,SRV-PROD-01,Brazil,Phishing Attempt,Low,False Positive,65,Alerted
+SEC-INC-50721,2024-11-26 02:59:09,191.219.204.147,SRV-PROD-06,China,DDoS Attack,Low,Investigating,,Allowed
+SEC-INC-50722,2024-10-19 03:24:24,50.200.39.165,SRV-PROD-03,India,Privilege Escalation,Low,False Positive,55,Alerted
+SEC-INC-50723,2024-05-21 23:48:08,175.50.15.157,SRV-PROD-04,Russia,Malware Infiltration,Medium,Mitigated,26,Allowed
+SEC-INC-50724,2024-12-17 21:36:29,172.24.156.248,SRV-PROD-02,USA,DDoS Attack,Low,Investigating,,Blocked
+SEC-INC-50725,2024-03-18 04:12:26,98.41.31.222,SRV-PROD-08,Netherlands,DDoS Attack,High,Investigating,,Blocked
+SEC-INC-50726,2024-01-28 04:11:35,200.198.191.173,SRV-PROD-02,China,Phishing Attempt,Low,Resolved,38,Allowed
+SEC-INC-50727,2024-01-22 04:24:14,203.185.9.115,SRV-PROD-03,India,Privilege Escalation,Medium,Mitigated,68,Allowed
+SEC-INC-50728,2024-11-14 07:47:41,54.76.147.50,SRV-PROD-07,Netherlands,SQL Injection,Low,Resolved,174,Allowed
+SEC-INC-50729,2024-08-21 23:41:18,215.208.78.199,SRV-PROD-02,USA,SQL Injection,Low,Resolved,77,Allowed
+SEC-INC-50730,2024-10-12 14:22:25,205.135.36.237,SRV-PROD-06,Russia,Malware Infiltration,Medium,Investigating,,Allowed
+SEC-INC-50731,2024-11-01 10:26:20,141.33.5.216,SRV-PROD-04,India,SQL Injection,Medium,Resolved,172,Allowed
+SEC-INC-50732,2024-04-19 20:42:42,197.89.33.200,SRV-PROD-08,Russia,Phishing Attempt,Low,Mitigated,35,Allowed
+SEC-INC-50733,2024-05-21 06:56:42,153.240.92.141,SRV-PROD-06,India,DDoS Attack,Low,Investigating,,Allowed
+SEC-INC-50734,2024-01-14 09:26:34,64.228.191.200,SRV-PROD-03,Russia,Brute Force SSH,Critical,Resolved,113,Blocked
+SEC-INC-50735,2024-03-04 13:10:24,202.42.123.60,SRV-PROD-08,Germany,Phishing Attempt,Low,Resolved,118,Blocked
+SEC-INC-50736,2024-02-13 15:42:01,154.221.152.6,SRV-PROD-07,Brazil,Brute Force SSH,Low,False Positive,140,Blocked
+SEC-INC-50737,2024-02-24 12:27:57,126.67.244.222,SRV-PROD-03,Russia,Brute Force SSH,Medium,False Positive,13,Allowed
+SEC-INC-50738,2024-01-31 04:32:23,49.158.93.233,SRV-PROD-07,Unknown,Malware Infiltration,High,Mitigated,99,Blocked
+SEC-INC-50739,2024-08-04 11:13:24,204.17.95.114,SRV-PROD-06,India,SQL Injection,Medium,Investigating,,Allowed
+SEC-INC-50740,2024-05-08 17:27:38,72.36.215.208,SRV-PROD-05,Unknown,DDoS Attack,Low,Resolved,147,Allowed
+SEC-INC-50741,2024-03-01 18:43:14,76.10.54.7,SRV-PROD-07,Brazil,Phishing Attempt,Medium,False Positive,28,Alerted
+SEC-INC-50742,2024-03-23 15:25:49,177.11.140.4,SRV-PROD-02,India,DDoS Attack,Low,Resolved,32,Alerted
+SEC-INC-50743,2024-12-26 02:12:49,163.22.51.131,SRV-PROD-01,Netherlands,DDoS Attack,Low,Resolved,123,Blocked
+SEC-INC-50744,2024-04-27 12:05:34,65.249.13.209,SRV-PROD-05,India,Malware Infiltration,Critical,Mitigated,81,Blocked
+SEC-INC-50745,2024-04-12 14:35:09,89.30.181.51,SRV-PROD-01,Russia,Malware Infiltration,Medium,False Positive,141,Blocked
+SEC-INC-50746,2024-12-12 12:56:14,159.110.181.110,SRV-PROD-05,Unknown,Phishing Attempt,Low,Resolved,90,Allowed
+SEC-INC-50747,2024-12-09 07:17:42,200.104.41.211,SRV-PROD-08,Germany,DDoS Attack,High,Mitigated,43,Blocked
+SEC-INC-50748,2024-02-10 12:51:39,194.17.135.62,SRV-PROD-03,Unknown,Phishing Attempt,Low,False Positive,108,Alerted
+SEC-INC-50749,2024-08-05 03:38:49,124.248.85.161,SRV-PROD-01,China,Phishing Attempt,Low,Mitigated,175,Alerted
+SEC-INC-50750,2024-03-04 09:11:11,54.6.192.168,SRV-PROD-05,Brazil,Malware Infiltration,High,Resolved,149,Blocked
+SEC-INC-50751,2024-12-24 22:58:36,114.147.1.81,SRV-PROD-04,China,SQL Injection,High,Resolved,70,Blocked
+SEC-INC-50752,2024-11-08 22:10:03,173.10.207.151,SRV-PROD-05,Unknown,DDoS Attack,High,Mitigated,168,Blocked
+SEC-INC-50753,2024-04-24 23:35:38,61.51.119.152,SRV-PROD-08,China,DDoS Attack,Low,False Positive,31,Alerted
+SEC-INC-50754,2024-07-14 03:37:31,83.56.125.74,SRV-PROD-01,Unknown,DDoS Attack,Medium,Investigating,,Allowed
+SEC-INC-50755,2024-03-30 11:44:07,156.47.54.189,SRV-PROD-05,China,Malware Infiltration,Medium,Resolved,22,Blocked
+SEC-INC-50756,2024-05-15 06:00:45,155.218.253.245,SRV-PROD-03,Russia,Brute Force SSH,Medium,Mitigated,143,Allowed
+SEC-INC-50757,2024-02-24 03:14:28,150.15.216.41,SRV-PROD-01,Germany,Phishing Attempt,High,Resolved,65,Blocked
+SEC-INC-50758,2024-07-08 22:23:56,191.132.153.130,SRV-PROD-08,USA,Phishing Attempt,Low,Mitigated,10,Blocked
+SEC-INC-50759,2024-10-02 18:20:14,205.151.247.75,SRV-PROD-01,China,Malware Infiltration,High,False Positive,82,Blocked
+SEC-INC-50760,2024-09-30 05:01:59,86.195.31.116,SRV-PROD-06,Brazil,Malware Infiltration,Critical,False Positive,117,Blocked
+SEC-INC-50761,2024-01-06 19:37:40,89.16.208.7,SRV-PROD-05,Russia,DDoS Attack,Medium,Mitigated,175,Allowed
+SEC-INC-50762,2024-04-02 06:52:41,142.145.22.77,SRV-PROD-07,China,Privilege Escalation,Medium,Investigating,,Blocked
+SEC-INC-50763,2024-09-12 21:29:48,114.203.43.154,SRV-PROD-07,USA,DDoS Attack,Medium,Mitigated,153,Blocked
+SEC-INC-50764,2024-09-01 23:08:01,57.69.12.151,SRV-PROD-06,Brazil,Privilege Escalation,Low,Resolved,153,Alerted
+SEC-INC-50765,2024-02-27 12:54:39,154.12.127.231,SRV-PROD-04,USA,DDoS Attack,Low,Investigating,,Alerted
+SEC-INC-50766,2024-07-12 12:53:25,72.200.239.118,SRV-PROD-07,USA,SQL Injection,Medium,Mitigated,168,Alerted
+SEC-INC-50767,2024-11-08 13:42:04,143.140.64.185,SRV-PROD-05,Netherlands,Phishing Attempt,Low,False Positive,43,Allowed
+SEC-INC-50768,2024-08-15 00:25:22,84.144.87.27,SRV-PROD-07,USA,Brute Force SSH,Critical,False Positive,153,Blocked
+SEC-INC-50769,2024-05-04 22:56:56,149.71.139.140,SRV-PROD-03,Russia,Malware Infiltration,Critical,Investigating,,Blocked
+SEC-INC-50770,2024-05-16 19:27:53,147.137.179.129,SRV-PROD-04,Russia,DDoS Attack,Low,False Positive,106,Alerted
+SEC-INC-50771,2024-03-18 19:11:42,158.155.148.18,SRV-PROD-07,Russia,Malware Infiltration,High,Resolved,81,Blocked
+SEC-INC-50772,2024-02-07 07:48:28,73.151.230.194,SRV-PROD-04,India,Privilege Escalation,High,Investigating,,Blocked
+SEC-INC-50773,2024-04-14 14:49:56,72.60.55.122,SRV-PROD-07,Russia,SQL Injection,Low,Investigating,,Allowed
+SEC-INC-50774,2024-05-10 11:41:42,187.131.25.103,SRV-PROD-06,Russia,Brute Force SSH,Low,False Positive,82,Alerted
+SEC-INC-50775,2024-03-15 09:32:44,76.158.25.110,SRV-PROD-06,Russia,Brute Force SSH,Medium,False Positive,12,Blocked
+SEC-INC-50776,2024-08-01 14:38:19,61.121.194.190,SRV-PROD-08,China,Malware Infiltration,Low,False Positive,157,Blocked
+SEC-INC-50777,2024-10-20 19:54:06,206.11.140.139,SRV-PROD-01,Netherlands,DDoS Attack,High,Investigating,,Blocked
+SEC-INC-50778,2024-02-19 09:53:05,65.114.70.106,SRV-PROD-02,Brazil,SQL Injection,Medium,Mitigated,165,Alerted
+SEC-INC-50779,2024-05-15 19:52:34,153.158.170.138,SRV-PROD-04,Netherlands,Privilege Escalation,Medium,Mitigated,84,Blocked
+SEC-INC-50780,2024-07-14 20:39:06,124.177.229.222,SRV-PROD-02,India,SQL Injection,Medium,False Positive,173,Allowed
+SEC-INC-50781,2024-02-26 04:31:08,202.35.185.154,SRV-PROD-03,Russia,Privilege Escalation,High,False Positive,68,Blocked
+SEC-INC-50782,2024-12-22 13:53:22,56.90.30.19,SRV-PROD-08,China,DDoS Attack,Medium,Resolved,63,Blocked
+SEC-INC-50783,2024-10-02 20:12:56,146.54.108.81,SRV-PROD-04,Netherlands,Privilege Escalation,Medium,Resolved,136,Blocked
+SEC-INC-50784,2024-05-13 11:55:46,140.154.15.98,SRV-PROD-08,Russia,Phishing Attempt,Low,False Positive,39,Alerted
+SEC-INC-50785,2024-09-28 21:07:49,109.46.13.76,SRV-PROD-07,Netherlands,Privilege Escalation,High,Mitigated,115,Blocked
+SEC-INC-50786,2024-09-11 14:56:39,57.84.203.112,SRV-PROD-05,USA,Phishing Attempt,High,False Positive,85,Blocked
+SEC-INC-50787,2024-08-04 13:15:34,170.194.114.88,SRV-PROD-01,Unknown,SQL Injection,High,Investigating,,Blocked
+SEC-INC-50788,2024-04-08 18:26:17,200.8.109.34,SRV-PROD-04,India,SQL Injection,High,Mitigated,38,Blocked
+SEC-INC-50789,2024-11-20 06:42:39,152.87.180.75,SRV-PROD-01,China,DDoS Attack,Medium,False Positive,63,Allowed
+SEC-INC-50790,2024-01-05 15:29:30,86.220.48.31,SRV-PROD-03,USA,SQL Injection,Low,Mitigated,114,Alerted
+SEC-INC-50791,2024-12-21 23:54:27,166.80.103.35,SRV-PROD-06,China,DDoS Attack,Low,Resolved,50,Alerted
+SEC-INC-50792,2024-12-29 03:38:16,68.96.234.249,SRV-PROD-05,Netherlands,Phishing Attempt,Low,Resolved,32,Alerted
+SEC-INC-50793,2024-10-28 18:47:48,146.124.183.127,SRV-PROD-03,Brazil,Phishing Attempt,Low,False Positive,118,Allowed
+SEC-INC-50794,2024-05-19 16:14:33,79.255.184.105,SRV-PROD-05,USA,Privilege Escalation,High,Resolved,42,Blocked
+SEC-INC-50795,2024-02-26 05:59:37,58.53.136.65,SRV-PROD-04,Unknown,SQL Injection,Low,False Positive,155,Blocked
+SEC-INC-50796,2024-07-16 19:22:48,57.119.142.90,SRV-PROD-03,India,SQL Injection,Critical,Investigating,,Blocked
+SEC-INC-50797,2024-06-07 04:39:26,76.172.143.178,SRV-PROD-04,India,SQL Injection,Low,False Positive,17,Allowed
+SEC-INC-50798,2024-12-12 15:37:40,110.79.168.95,SRV-PROD-05,Unknown,SQL Injection,Medium,Investigating,,Allowed
+SEC-INC-50799,2024-02-27 05:05:42,94.40.240.183,SRV-PROD-08,Germany,Malware Infiltration,Medium,Mitigated,179,Blocked
+SEC-INC-50800,2024-02-13 16:24:40,157.231.199.102,SRV-PROD-04,Brazil,Privilege Escalation,Low,Investigating,,Alerted
+SEC-INC-50801,2024-03-27 01:07:04,94.223.214.143,SRV-PROD-07,USA,Phishing Attempt,High,False Positive,8,Blocked
+SEC-INC-50802,2024-12-01 19:45:59,60.206.217.18,SRV-PROD-07,Brazil,Phishing Attempt,Low,Investigating,,Allowed
+SEC-INC-50803,2024-07-16 22:10:07,103.84.185.140,SRV-PROD-03,Germany,Malware Infiltration,High,False Positive,63,Blocked
+SEC-INC-50804,2024-06-05 00:25:48,54.220.236.221,SRV-PROD-02,China,Privilege Escalation,High,Mitigated,126,Blocked
+SEC-INC-50805,2024-09-15 10:26:05,176.232.18.216,SRV-PROD-07,India,Brute Force SSH,Low,False Positive,176,Alerted
+SEC-INC-50806,2024-05-13 09:32:06,154.14.212.137,SRV-PROD-04,India,Privilege Escalation,Low,Investigating,,Alerted
+SEC-INC-50807,2024-12-26 20:06:53,72.4.165.176,SRV-PROD-06,Brazil,Privilege Escalation,Medium,Investigating,,Blocked
+SEC-INC-50808,2024-08-21 18:17:22,176.170.66.224,SRV-PROD-07,Netherlands,Malware Infiltration,Medium,Investigating,,Blocked
+SEC-INC-50809,2024-11-02 02:13:05,123.255.253.81,SRV-PROD-08,USA,DDoS Attack,Low,Mitigated,179,Allowed
+SEC-INC-50810,2024-05-09 13:43:13,104.10.208.23,SRV-PROD-07,Germany,Brute Force SSH,Low,Investigating,,Blocked
+SEC-INC-50811,2024-11-28 08:14:32,196.116.42.134,SRV-PROD-04,Brazil,Malware Infiltration,High,Investigating,,Blocked
+SEC-INC-50812,2024-02-27 23:31:21,213.141.128.8,SRV-PROD-07,USA,Malware Infiltration,Low,Investigating,,Blocked
+SEC-INC-50813,2024-09-20 01:47:51,192.143.237.55,SRV-PROD-03,USA,Phishing Attempt,Low,Resolved,8,Allowed
+SEC-INC-50814,2024-04-27 06:23:53,45.5.17.178,SRV-PROD-07,Unknown,DDoS Attack,Low,Resolved,12,Blocked
+SEC-INC-50815,2024-11-19 21:43:52,216.223.143.236,SRV-PROD-08,Netherlands,Phishing Attempt,Low,Resolved,80,Allowed
+SEC-INC-50816,2024-07-09 13:58:14,68.74.16.235,SRV-PROD-04,Germany,SQL Injection,Medium,Resolved,155,Blocked
+SEC-INC-50817,2024-01-25 17:34:13,115.108.201.193,SRV-PROD-03,Brazil,SQL Injection,Low,False Positive,178,Allowed
+SEC-INC-50818,2024-01-18 00:07:58,95.188.198.255,SRV-PROD-01,Unknown,DDoS Attack,High,Resolved,99,Blocked
+SEC-INC-50819,2024-05-22 11:59:38,195.98.113.214,SRV-PROD-02,India,Phishing Attempt,High,Resolved,116,Blocked
+SEC-INC-50820,2024-08-09 14:11:49,153.69.24.19,SRV-PROD-01,Netherlands,SQL Injection,Low,Resolved,28,Blocked
+SEC-INC-50821,2024-04-25 10:16:27,45.207.115.139,SRV-PROD-06,China,DDoS Attack,Medium,False Positive,163,Alerted
+SEC-INC-50822,2024-01-22 19:02:03,202.4.95.198,SRV-PROD-04,Netherlands,DDoS Attack,Medium,False Positive,146,Allowed
+SEC-INC-50823,2024-07-12 19:27:11,190.145.160.104,SRV-PROD-03,Netherlands,Malware Infiltration,Medium,Resolved,140,Allowed
+SEC-INC-50824,2024-10-03 15:46:53,187.143.134.230,SRV-PROD-02,Unknown,Malware Infiltration,Critical,Mitigated,162,Blocked
+SEC-INC-50825,2024-02-07 13:15:21,52.95.206.152,SRV-PROD-07,USA,SQL Injection,Medium,Resolved,150,Alerted
+SEC-INC-50826,2024-07-12 00:51:03,197.61.33.6,SRV-PROD-02,USA,DDoS Attack,High,False Positive,121,Blocked
+SEC-INC-50827,2024-11-19 19:00:16,192.144.213.224,SRV-PROD-03,Netherlands,Phishing Attempt,Low,Resolved,146,Allowed
+SEC-INC-50828,2024-10-19 13:25:05,80.241.19.201,SRV-PROD-08,India,SQL Injection,Medium,Resolved,122,Alerted
+SEC-INC-50829,2024-08-21 10:35:14,68.172.192.36,SRV-PROD-08,Germany,DDoS Attack,Medium,Resolved,29,Blocked
+SEC-INC-50830,2024-12-10 23:28:58,186.38.72.24,SRV-PROD-07,USA,DDoS Attack,Low,Investigating,,Allowed
+SEC-INC-50831,2024-11-04 17:23:10,130.132.151.20,SRV-PROD-08,Russia,Privilege Escalation,High,False Positive,98,Blocked
+SEC-INC-50832,2024-05-16 04:48:07,71.211.142.89,SRV-PROD-05,India,DDoS Attack,High,Resolved,86,Blocked
+SEC-INC-50833,2024-08-10 18:24:55,77.1.217.148,SRV-PROD-03,USA,SQL Injection,Medium,Resolved,152,Allowed
+SEC-INC-50834,2024-01-26 02:18:25,206.103.57.237,SRV-PROD-06,Netherlands,SQL Injection,Critical,Mitigated,48,Blocked
+SEC-INC-50835,2024-04-18 04:57:07,116.217.222.121,SRV-PROD-03,USA,Malware Infiltration,Medium,False Positive,6,Allowed
+SEC-INC-50836,2024-02-15 17:40:32,178.167.243.234,SRV-PROD-03,USA,Privilege Escalation,Low,Mitigated,66,Allowed
+SEC-INC-50837,2024-03-10 15:16:48,63.100.242.240,SRV-PROD-06,Russia,DDoS Attack,Low,False Positive,148,Blocked
+SEC-INC-50838,2024-12-23 02:08:53,68.30.148.96,SRV-PROD-01,USA,DDoS Attack,High,Resolved,173,Blocked
+SEC-INC-50839,2024-02-14 11:28:05,92.110.21.192,SRV-PROD-01,India,Brute Force SSH,Critical,Mitigated,18,Blocked
+SEC-INC-50840,2024-10-18 04:57:27,96.12.9.119,SRV-PROD-02,Netherlands,Malware Infiltration,Low,Resolved,6,Alerted
+SEC-INC-50841,2024-05-11 23:47:54,67.225.130.147,SRV-PROD-05,India,Privilege Escalation,Low,Investigating,,Blocked
+SEC-INC-50842,2024-09-24 17:03:04,150.152.143.147,SRV-PROD-04,Netherlands,SQL Injection,Low,False Positive,76,Alerted
+SEC-INC-50843,2024-02-29 15:03:07,67.246.160.204,SRV-PROD-03,Unknown,Brute Force SSH,High,Resolved,59,Blocked
+SEC-INC-50844,2024-02-06 01:17:35,111.86.12.40,SRV-PROD-06,Netherlands,Brute Force SSH,Medium,Resolved,124,Alerted
+SEC-INC-50845,2024-04-19 13:06:18,157.66.135.196,SRV-PROD-04,India,Brute Force SSH,Medium,Resolved,108,Alerted
+SEC-INC-50846,2024-10-06 15:51:11,54.191.110.115,SRV-PROD-04,Brazil,Privilege Escalation,Critical,False Positive,143,Blocked
+SEC-INC-50847,2024-09-14 07:06:29,185.78.248.46,SRV-PROD-06,Brazil,DDoS Attack,High,False Positive,108,Blocked
+SEC-INC-50848,2024-03-11 19:40:04,57.85.86.14,SRV-PROD-08,Unknown,SQL Injection,Medium,Mitigated,97,Alerted
+SEC-INC-50849,2024-11-13 12:13:02,135.21.94.246,SRV-PROD-07,USA,Brute Force SSH,Medium,Resolved,157,Allowed
+SEC-INC-50850,2024-10-03 12:08:07,128.28.11.127,SRV-PROD-05,Russia,Privilege Escalation,Critical,Resolved,64,Blocked
+SEC-INC-50851,2024-02-21 03:02:02,70.119.200.130,SRV-PROD-07,China,Malware Infiltration,Critical,Resolved,41,Blocked
+SEC-INC-50852,2024-06-17 10:44:17,158.175.100.14,SRV-PROD-03,USA,Privilege Escalation,Low,False Positive,64,Alerted
+SEC-INC-50853,2024-05-17 03:01:39,219.46.1.229,SRV-PROD-02,USA,Brute Force SSH,Medium,False Positive,149,Alerted
+SEC-INC-50854,2024-01-31 00:23:06,85.221.107.195,SRV-PROD-01,China,SQL Injection,Low,Investigating,,Blocked
+SEC-INC-50855,2024-04-03 12:38:05,212.176.176.151,SRV-PROD-05,Unknown,Privilege Escalation,High,False Positive,13,Blocked
+SEC-INC-50856,2024-08-12 10:17:10,56.245.214.127,SRV-PROD-02,Unknown,Privilege Escalation,Low,Investigating,,Alerted
+SEC-INC-50857,2024-10-31 20:03:07,57.239.91.182,SRV-PROD-06,Russia,Brute Force SSH,Medium,Resolved,17,Allowed
+SEC-INC-50858,2024-07-20 10:28:48,218.160.56.249,SRV-PROD-05,Russia,Brute Force SSH,Medium,Resolved,5,Alerted
+SEC-INC-50859,2024-06-27 04:35:22,53.225.55.110,SRV-PROD-01,Germany,Phishing Attempt,Low,False Positive,165,Blocked
+SEC-INC-50860,2024-02-18 08:03:36,212.87.226.158,SRV-PROD-03,India,SQL Injection,High,Investigating,,Blocked
+SEC-INC-50861,2024-07-10 20:38:48,132.38.12.93,SRV-PROD-07,China,Phishing Attempt,Low,Mitigated,150,Blocked
+SEC-INC-50862,2024-01-07 23:27:06,49.102.147.110,SRV-PROD-01,China,Malware Infiltration,Low,Mitigated,127,Alerted
+SEC-INC-50863,2024-01-23 08:47:51,167.129.69.178,SRV-PROD-03,Brazil,Privilege Escalation,Low,False Positive,83,Blocked
+SEC-INC-50864,2024-12-23 13:39:07,102.6.1.101,SRV-PROD-08,Unknown,DDoS Attack,High,Investigating,,Blocked
+SEC-INC-50865,2024-06-20 11:56:43,47.56.42.163,SRV-PROD-06,Russia,Phishing Attempt,Medium,Mitigated,85,Alerted
+SEC-INC-50866,2024-03-07 14:14:30,92.74.28.118,SRV-PROD-05,USA,Malware Infiltration,Low,Investigating,,Blocked
+SEC-INC-50867,2024-10-20 05:26:28,101.203.57.79,SRV-PROD-06,China,Phishing Attempt,Low,Resolved,151,Allowed
+SEC-INC-50868,2024-11-25 15:21:20,218.12.92.63,SRV-PROD-01,Netherlands,Malware Infiltration,Low,Resolved,43,Allowed
+SEC-INC-50869,2024-02-15 13:58:55,145.114.57.204,SRV-PROD-03,Russia,SQL Injection,High,False Positive,121,Blocked
+SEC-INC-50870,2024-06-20 20:28:57,187.203.252.140,SRV-PROD-08,India,Malware Infiltration,High,Resolved,48,Blocked
+SEC-INC-50871,2024-10-30 21:36:43,153.80.43.102,SRV-PROD-01,Brazil,Brute Force SSH,Medium,Investigating,,Allowed
+SEC-INC-50872,2024-12-21 05:09:02,162.95.91.134,SRV-PROD-03,China,SQL Injection,Medium,Mitigated,11,Blocked
+SEC-INC-50873,2024-11-01 04:35:25,45.233.114.30,SRV-PROD-02,India,Brute Force SSH,Low,Resolved,51,Allowed
+SEC-INC-50874,2024-08-08 06:07:32,70.166.204.156,SRV-PROD-03,China,SQL Injection,High,Resolved,138,Blocked
+SEC-INC-50875,2024-10-20 17:47:52,46.176.94.145,SRV-PROD-02,Netherlands,Phishing Attempt,High,Mitigated,59,Blocked
+SEC-INC-50876,2024-10-01 13:31:23,130.141.141.21,SRV-PROD-06,Unknown,Privilege Escalation,Critical,Investigating,,Blocked
+SEC-INC-50877,2024-12-26 03:25:46,142.143.133.12,SRV-PROD-01,India,Brute Force SSH,Medium,Investigating,,Allowed
+SEC-INC-50878,2024-10-07 13:40:09,200.242.40.131,SRV-PROD-08,USA,Malware Infiltration,Low,False Positive,18,Blocked
+SEC-INC-50879,2024-02-19 18:42:39,80.44.185.194,SRV-PROD-08,USA,Phishing Attempt,Low,Investigating,,Blocked
+SEC-INC-50880,2024-05-30 19:32:20,77.161.238.215,SRV-PROD-04,USA,Privilege Escalation,Critical,Resolved,69,Blocked
+SEC-INC-50881,2024-02-15 10:06:02,116.125.253.72,SRV-PROD-04,USA,Privilege Escalation,High,Resolved,21,Blocked
+SEC-INC-50882,2024-08-03 13:06:13,192.155.182.51,SRV-PROD-01,USA,Privilege Escalation,Medium,Resolved,37,Allowed
+SEC-INC-50883,2024-11-20 07:34:04,57.71.240.183,SRV-PROD-03,Brazil,Brute Force SSH,Low,Mitigated,132,Alerted
+SEC-INC-50884,2024-03-06 03:45:31,107.96.184.50,SRV-PROD-01,USA,Malware Infiltration,Low,False Positive,17,Alerted
+SEC-INC-50885,2024-05-09 14:24:47,95.1.175.252,SRV-PROD-01,India,Privilege Escalation,High,Investigating,,Blocked
+SEC-INC-50886,2024-08-13 16:38:09,162.92.102.232,SRV-PROD-02,Brazil,Brute Force SSH,High,Resolved,171,Blocked
+SEC-INC-50887,2024-03-23 21:46:49,67.107.175.227,SRV-PROD-02,Unknown,SQL Injection,Low,Resolved,45,Blocked
+SEC-INC-50888,2024-09-28 07:56:35,75.242.202.8,SRV-PROD-05,Brazil,Privilege Escalation,Medium,False Positive,22,Blocked
+SEC-INC-50889,2024-07-17 14:16:04,86.39.146.21,SRV-PROD-04,China,DDoS Attack,Medium,Resolved,98,Alerted
+SEC-INC-50890,2024-10-12 13:25:09,151.216.249.233,SRV-PROD-07,Unknown,Phishing Attempt,Low,Mitigated,44,Allowed
+SEC-INC-50891,2024-10-19 18:38:47,145.93.93.16,SRV-PROD-05,Germany,SQL Injection,Low,Resolved,117,Alerted
+SEC-INC-50892,2024-07-19 07:08:55,220.79.155.198,SRV-PROD-04,Brazil,Malware Infiltration,Medium,Resolved,82,Blocked
+SEC-INC-50893,2024-11-05 13:43:24,87.117.49.34,SRV-PROD-03,Netherlands,Brute Force SSH,Medium,Resolved,27,Alerted
+SEC-INC-50894,2024-03-16 09:18:38,100.202.106.171,SRV-PROD-03,India,Privilege Escalation,Medium,False Positive,73,Blocked
+SEC-INC-50895,2024-03-18 03:41:32,218.132.218.132,SRV-PROD-01,Unknown,Malware Infiltration,Critical,Resolved,164,Blocked
+SEC-INC-50896,2024-07-27 05:22:15,208.62.186.80,SRV-PROD-02,Netherlands,SQL Injection,Low,False Positive,66,Allowed
+SEC-INC-50897,2024-05-24 16:46:55,92.228.94.171,SRV-PROD-01,India,Malware Infiltration,Low,Investigating,,Alerted
+SEC-INC-50898,2024-04-13 01:15:52,106.20.21.181,SRV-PROD-06,Unknown,DDoS Attack,Low,False Positive,99,Alerted
+SEC-INC-50899,2024-07-18 20:31:27,217.69.128.85,SRV-PROD-08,Netherlands,Malware Infiltration,Medium,False Positive,167,Alerted
+SEC-INC-50900,2024-04-12 13:07:30,106.112.95.145,SRV-PROD-08,Germany,DDoS Attack,Low,Mitigated,21,Alerted
+SEC-INC-50901,2024-04-16 10:12:26,77.21.46.88,SRV-PROD-05,India,Phishing Attempt,Medium,Resolved,151,Alerted
+SEC-INC-50902,2024-11-12 11:09:13,175.23.209.88,SRV-PROD-03,Netherlands,Malware Infiltration,Low,False Positive,152,Alerted
+SEC-INC-50903,2024-07-22 10:59:55,159.47.29.219,SRV-PROD-04,Russia,DDoS Attack,High,False Positive,39,Blocked
+SEC-INC-50904,2024-05-02 13:23:46,195.253.31.69,SRV-PROD-03,Netherlands,Phishing Attempt,Critical,False Positive,18,Blocked
+SEC-INC-50905,2024-12-07 09:38:24,211.140.150.51,SRV-PROD-04,USA,DDoS Attack,High,False Positive,86,Blocked
+SEC-INC-50906,2024-06-07 07:46:22,59.116.146.106,SRV-PROD-04,Unknown,Brute Force SSH,Low,Resolved,12,Blocked
+SEC-INC-50907,2024-11-26 04:26:28,171.241.136.211,SRV-PROD-06,USA,Brute Force SSH,Critical,Resolved,99,Blocked
+SEC-INC-50908,2024-10-08 16:15:41,68.235.239.143,SRV-PROD-05,India,Brute Force SSH,Low,False Positive,50,Alerted
+SEC-INC-50909,2024-09-15 16:46:18,111.69.217.175,SRV-PROD-08,Russia,Phishing Attempt,Medium,Investigating,,Blocked
+SEC-INC-50910,2024-12-12 00:55:18,180.106.204.88,SRV-PROD-03,Brazil,DDoS Attack,Medium,Investigating,,Blocked
+SEC-INC-50911,2024-08-08 14:34:28,219.83.105.49,SRV-PROD-04,Unknown,Phishing Attempt,Low,Resolved,170,Allowed
+SEC-INC-50912,2024-11-18 13:00:07,84.209.113.239,SRV-PROD-02,Russia,SQL Injection,Low,Resolved,14,Allowed
+SEC-INC-50913,2024-03-18 17:36:58,219.46.187.33,SRV-PROD-02,Germany,Brute Force SSH,Low,Investigating,,Allowed
+SEC-INC-50914,2024-08-05 00:57:49,199.78.59.248,SRV-PROD-02,Brazil,DDoS Attack,Medium,Resolved,131,Allowed
+SEC-INC-50915,2024-01-18 07:13:32,76.51.97.160,SRV-PROD-06,India,Privilege Escalation,Low,Mitigated,50,Blocked
+SEC-INC-50916,2024-01-14 21:52:45,210.48.148.186,SRV-PROD-08,Brazil,SQL Injection,Low,False Positive,162,Alerted
+SEC-INC-50917,2024-12-03 07:45:45,105.38.44.39,SRV-PROD-08,Brazil,Privilege Escalation,Medium,Investigating,,Allowed
+SEC-INC-50918,2024-05-27 13:14:16,166.177.178.213,SRV-PROD-04,India,Brute Force SSH,Low,Mitigated,114,Allowed
+SEC-INC-50919,2024-09-16 12:44:36,53.121.102.24,SRV-PROD-01,Unknown,Phishing Attempt,Medium,Mitigated,160,Alerted
+SEC-INC-50920,2024-03-02 18:24:38,85.213.219.52,SRV-PROD-07,Russia,Phishing Attempt,Low,Resolved,44,Alerted
+SEC-INC-50921,2024-02-21 12:53:48,210.217.244.211,SRV-PROD-04,USA,Privilege Escalation,Low,Mitigated,175,Blocked
+SEC-INC-50922,2024-08-10 09:32:39,181.221.67.200,SRV-PROD-07,Unknown,Brute Force SSH,Low,False Positive,38,Allowed
+SEC-INC-50923,2024-04-17 07:53:22,84.37.244.42,SRV-PROD-01,China,Malware Infiltration,Low,Investigating,,Alerted
+SEC-INC-50924,2024-10-13 20:36:36,84.184.209.171,SRV-PROD-03,USA,Privilege Escalation,Critical,Mitigated,19,Blocked
+SEC-INC-50925,2024-07-12 06:39:51,203.255.255.87,SRV-PROD-04,India,Privilege Escalation,Low,Mitigated,67,Blocked
+SEC-INC-50926,2024-09-02 08:54:25,62.219.166.30,SRV-PROD-01,Germany,DDoS Attack,Medium,Mitigated,75,Allowed
+SEC-INC-50927,2024-04-30 00:13:47,169.172.81.59,SRV-PROD-05,China,Privilege Escalation,Medium,Investigating,,Allowed
+SEC-INC-50928,2024-12-03 02:36:42,101.199.99.45,SRV-PROD-07,Russia,Malware Infiltration,High,Mitigated,63,Blocked
+SEC-INC-50929,2024-10-19 17:14:26,213.94.99.17,SRV-PROD-06,Germany,DDoS Attack,Low,False Positive,69,Blocked
+SEC-INC-50930,2024-02-07 06:20:43,205.169.18.95,SRV-PROD-02,Netherlands,Privilege Escalation,Low,Resolved,149,Blocked
+SEC-INC-50931,2024-06-24 12:00:46,154.70.5.146,SRV-PROD-02,Netherlands,Malware Infiltration,Critical,False Positive,120,Blocked
+SEC-INC-50932,2024-10-07 18:04:57,136.207.48.16,SRV-PROD-08,Russia,Brute Force SSH,Low,Investigating,,Alerted
+SEC-INC-50933,2024-03-22 00:32:34,63.160.222.167,SRV-PROD-08,China,Brute Force SSH,Medium,Resolved,43,Alerted
+SEC-INC-50934,2024-02-07 07:20:48,191.63.193.184,SRV-PROD-07,Netherlands,DDoS Attack,Medium,Mitigated,108,Allowed
+SEC-INC-50935,2024-10-16 19:02:59,166.56.19.43,SRV-PROD-07,Unknown,DDoS Attack,Low,Investigating,,Allowed
+SEC-INC-50936,2024-08-12 23:44:23,144.173.196.8,SRV-PROD-08,India,Privilege Escalation,Medium,Mitigated,171,Blocked
+SEC-INC-50937,2024-08-03 12:49:51,105.216.164.240,SRV-PROD-04,Germany,Brute Force SSH,Low,Resolved,166,Alerted
+SEC-INC-50938,2024-06-17 11:14:30,93.8.245.132,SRV-PROD-06,USA,Brute Force SSH,Low,Resolved,45,Allowed
+SEC-INC-50939,2024-10-27 02:31:17,135.216.7.199,SRV-PROD-06,Unknown,DDoS Attack,Low,False Positive,149,Blocked
+SEC-INC-50940,2024-08-21 10:20:36,167.2.183.13,SRV-PROD-01,USA,DDoS Attack,Critical,Mitigated,106,Blocked
+SEC-INC-50941,2024-06-05 11:15:25,184.171.196.112,SRV-PROD-08,Netherlands,SQL Injection,Medium,Mitigated,84,Allowed
+SEC-INC-50942,2024-08-02 07:19:45,143.228.89.110,SRV-PROD-01,Germany,SQL Injection,Low,Mitigated,67,Alerted
+SEC-INC-50943,2024-06-10 08:01:53,165.51.10.151,SRV-PROD-07,Germany,Malware Infiltration,Medium,Investigating,,Alerted
+SEC-INC-50944,2024-08-13 02:52:44,73.226.163.145,SRV-PROD-06,USA,Malware Infiltration,Medium,Investigating,,Alerted
+SEC-INC-50945,2024-04-15 01:48:14,139.152.120.185,SRV-PROD-01,USA,SQL Injection,Low,Investigating,,Blocked
+SEC-INC-50946,2024-03-23 16:50:43,150.173.53.110,SRV-PROD-05,Brazil,Phishing Attempt,High,False Positive,139,Blocked
+SEC-INC-50947,2024-11-13 20:22:26,190.196.86.157,SRV-PROD-07,India,SQL Injection,Medium,Mitigated,68,Alerted
+SEC-INC-50948,2024-06-18 09:31:44,119.191.57.79,SRV-PROD-05,China,SQL Injection,Medium,Mitigated,150,Blocked
+SEC-INC-50949,2024-10-28 08:54:18,200.63.214.181,SRV-PROD-05,Germany,Malware Infiltration,Medium,Investigating,,Blocked
+SEC-INC-50950,2024-05-18 14:55:28,112.5.135.195,SRV-PROD-03,USA,Brute Force SSH,Low,False Positive,133,Alerted
+SEC-INC-50951,2024-03-06 22:02:36,167.186.240.56,SRV-PROD-05,China,Brute Force SSH,Low,Resolved,151,Alerted
+SEC-INC-50952,2024-03-07 02:13:42,89.30.221.123,SRV-PROD-01,Unknown,SQL Injection,Low,False Positive,54,Alerted
+SEC-INC-50953,2024-11-18 15:01:46,139.87.121.205,SRV-PROD-03,USA,Phishing Attempt,Low,Resolved,82,Alerted
+SEC-INC-50954,2024-10-17 15:45:32,122.98.238.17,SRV-PROD-03,Brazil,Malware Infiltration,Low,Resolved,41,Blocked
+SEC-INC-50955,2024-07-01 03:52:57,79.200.30.53,SRV-PROD-08,India,DDoS Attack,High,Mitigated,53,Blocked
+SEC-INC-50956,2024-06-18 21:12:09,131.161.174.215,SRV-PROD-08,Russia,Malware Infiltration,Critical,Resolved,151,Blocked
+SEC-INC-50957,2024-11-08 07:57:06,62.67.181.93,SRV-PROD-05,Brazil,SQL Injection,Medium,Mitigated,104,Allowed
+SEC-INC-50958,2024-02-13 02:38:19,102.240.139.141,SRV-PROD-06,Russia,Brute Force SSH,Low,Investigating,,Allowed
+SEC-INC-50959,2024-07-27 05:44:13,216.190.35.9,SRV-PROD-04,Brazil,SQL Injection,Medium,Investigating,,Alerted
+SEC-INC-50960,2024-07-27 07:34:11,212.28.5.78,SRV-PROD-04,Unknown,Privilege Escalation,Medium,Mitigated,143,Allowed
+SEC-INC-50961,2024-01-17 20:06:13,211.81.182.182,SRV-PROD-03,Germany,DDoS Attack,High,Resolved,44,Blocked
+SEC-INC-50962,2024-11-30 03:15:53,210.170.249.125,SRV-PROD-08,Germany,Phishing Attempt,Medium,Investigating,,Allowed
+SEC-INC-50963,2024-06-03 07:34:01,126.15.40.59,SRV-PROD-06,Russia,Brute Force SSH,Low,False Positive,113,Alerted
+SEC-INC-50964,2024-06-22 06:35:46,159.193.87.187,SRV-PROD-03,Brazil,Brute Force SSH,Low,Investigating,,Blocked
+SEC-INC-50965,2024-04-29 00:20:21,79.5.35.85,SRV-PROD-07,China,Brute Force SSH,Low,Resolved,63,Allowed
+SEC-INC-50966,2024-04-22 07:10:56,109.105.120.113,SRV-PROD-02,China,Privilege Escalation,High,Mitigated,98,Blocked
+SEC-INC-50967,2024-01-06 15:55:49,154.37.199.123,SRV-PROD-06,India,Brute Force SSH,High,Resolved,49,Blocked
+SEC-INC-50968,2024-05-22 23:21:56,139.54.15.21,SRV-PROD-03,Brazil,Privilege Escalation,Medium,False Positive,129,Allowed
+SEC-INC-50969,2024-04-30 01:03:26,100.70.184.235,SRV-PROD-03,Russia,Brute Force SSH,Medium,Mitigated,22,Blocked
+SEC-INC-50970,2024-01-09 03:18:30,161.184.42.246,SRV-PROD-03,USA,SQL Injection,Low,False Positive,19,Alerted
+SEC-INC-50971,2024-07-30 09:25:40,214.227.140.119,SRV-PROD-02,Unknown,Privilege Escalation,Medium,Mitigated,87,Alerted
+SEC-INC-50972,2024-07-30 03:51:16,204.202.214.154,SRV-PROD-03,Germany,Phishing Attempt,Low,Investigating,,Blocked
+SEC-INC-50973,2024-08-13 05:36:36,218.121.162.38,SRV-PROD-06,China,Brute Force SSH,Low,Resolved,154,Blocked
+SEC-INC-50974,2024-06-24 14:01:39,145.195.137.73,SRV-PROD-05,USA,Brute Force SSH,Medium,Investigating,,Alerted
+SEC-INC-50975,2024-10-20 02:46:41,92.26.34.22,SRV-PROD-02,Russia,Phishing Attempt,Medium,Resolved,65,Blocked
+SEC-INC-50976,2024-06-26 20:07:36,151.207.236.191,SRV-PROD-01,China,DDoS Attack,High,Mitigated,79,Blocked
+SEC-INC-50977,2024-12-21 01:18:45,206.239.58.154,SRV-PROD-03,India,Phishing Attempt,Medium,False Positive,95,Allowed
+SEC-INC-50978,2024-11-02 11:35:25,73.127.27.45,SRV-PROD-03,USA,DDoS Attack,Critical,False Positive,68,Blocked
+SEC-INC-50979,2024-04-22 20:18:00,161.47.42.6,SRV-PROD-06,Germany,Brute Force SSH,Low,Mitigated,50,Alerted
+SEC-INC-50980,2024-12-13 11:40:08,220.208.67.152,SRV-PROD-07,Brazil,Brute Force SSH,Medium,Resolved,143,Allowed
+SEC-INC-50981,2024-04-13 10:33:17,120.78.114.225,SRV-PROD-01,Germany,Malware Infiltration,High,Mitigated,135,Blocked
+SEC-INC-50982,2024-11-02 21:07:16,129.4.70.119,SRV-PROD-01,USA,Phishing Attempt,High,Mitigated,134,Blocked
+SEC-INC-50983,2024-12-16 12:43:11,63.157.197.224,SRV-PROD-06,Brazil,Privilege Escalation,Medium,False Positive,164,Blocked
+SEC-INC-50984,2024-04-03 14:27:49,154.163.169.54,SRV-PROD-03,India,DDoS Attack,Low,Investigating,,Alerted
+SEC-INC-50985,2024-09-11 17:15:49,126.204.44.41,SRV-PROD-06,USA,Phishing Attempt,Medium,Mitigated,94,Blocked
+SEC-INC-50986,2024-02-12 05:09:40,199.35.8.168,SRV-PROD-06,USA,Brute Force SSH,Medium,Resolved,23,Alerted
+SEC-INC-50987,2024-07-29 07:57:01,55.39.152.82,SRV-PROD-06,Netherlands,Brute Force SSH,Medium,Mitigated,176,Blocked
+SEC-INC-50988,2024-03-19 23:30:40,149.45.212.160,SRV-PROD-05,USA,Phishing Attempt,Medium,Resolved,90,Blocked
+SEC-INC-50989,2024-05-12 22:42:03,176.7.166.172,SRV-PROD-06,China,Brute Force SSH,Low,Resolved,62,Blocked
+SEC-INC-50990,2024-10-02 01:28:21,56.70.147.137,SRV-PROD-04,USA,Phishing Attempt,High,Resolved,50,Blocked
+SEC-INC-50991,2024-03-18 03:26:08,89.201.20.96,SRV-PROD-05,China,Privilege Escalation,Low,Investigating,,Alerted
+SEC-INC-50992,2024-10-05 15:11:17,182.128.254.103,SRV-PROD-05,Russia,Phishing Attempt,High,Resolved,140,Blocked
+SEC-INC-50993,2024-06-16 09:32:39,187.138.15.100,SRV-PROD-05,Germany,Brute Force SSH,High,Resolved,15,Blocked
+SEC-INC-50994,2024-07-17 06:28:06,190.238.129.235,SRV-PROD-08,Unknown,Privilege Escalation,Medium,Investigating,,Alerted
+SEC-INC-50995,2024-09-23 11:54:58,144.164.103.73,SRV-PROD-07,Germany,Privilege Escalation,Low,Mitigated,38,Allowed
+SEC-INC-50996,2024-05-31 23:58:31,91.29.157.37,SRV-PROD-07,USA,Brute Force SSH,Low,Investigating,,Allowed
+SEC-INC-50997,2024-06-05 02:19:43,56.73.42.157,SRV-PROD-05,Brazil,Phishing Attempt,Low,Mitigated,135,Blocked
+SEC-INC-50998,2024-12-24 04:04:29,68.121.221.158,SRV-PROD-08,USA,DDoS Attack,Medium,False Positive,152,Blocked
+SEC-INC-50999,2024-09-26 03:30:53,211.42.132.179,SRV-PROD-04,China,Privilege Escalation,Medium,Resolved,61,Alerted
+SEC-INC-51000,2024-08-04 14:55:16,50.189.177.191,SRV-PROD-03,Russia,Phishing Attempt,Low,Investigating,,Blocked
